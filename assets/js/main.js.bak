@@ -64,7 +64,7 @@
 				_self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
 				var data = $(this).serialize();
 				$.ajax({
-					url: 'https://formspree.io/f/xnnvqvrr',
+					url: 'mail.php',
 					type: "post",
 					dataType: 'json',
 					data: data,
