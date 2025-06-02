@@ -74,6 +74,7 @@
 							_self.closest('div').find('[name="' + data.field + '"]');
 							_self.find('.rn-btn').after('<div class="error-msg"><p>*' + data.err + '</p></div>');
 						} else {
+							data.success = "\n Email has been sent successfully.";
 							$('.error-msg').hide();
 							$('.form-group').removeClass('focused');
 							_self.find('.rn-btn').after('<div class="success-msg"><p>' + data.success + '</p></div>');
