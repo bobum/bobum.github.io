@@ -4257,26 +4257,32 @@ const myConfetti = confetti.create(canvas, { resize: true, useWorker: true });
 document.querySelectorAll('.confettiButton').forEach(btn => {
 
     btn.addEventListener('click', function(e) {
-        const rect = e.target.getBoundingClientRect();
-        const x = (rect.left + rect.width / 2) / window.innerWidth;
-        const y = (rect.top + rect.height / 2) / window.innerHeight;
-    
-        myConfetti({
-            particleCount: 50,
-            spread: 80,
-            origin: { x: x, y: y },
-            scalar: 0.8, // makes confetti small
-        });
-        confetti({
-            particleCount: 50,
-            spread: 80,
-            origin: { x: x, y: y },
-            scalar: 0.8
-        });
-    
-        setTimeout(() => {
-            myConfetti.reset(); // clears after ~2s
-        }, 2000);
+
+         const modal = e.target.closest('.modal');
+
+        if (modal) {
+            // Remove the canvas from wherever it currently is
+            if (canvas.parentElement) {
+                canvas.parentElement.removeChild(canvas);
+            }
+            // Append the canvas into the current modal div
+            modal.appendChild(canvas);
+
+            const rect = e.target.getBoundingClientRect();
+            const x = (rect.left + rect.width / 2) / window.innerWidth;
+            const y = (rect.top + rect.height / 2) / window.innerHeight;
+        
+            myConfetti({
+                particleCount: 50,
+                spread: 80,
+                origin: { x: x, y: y },
+                scalar: 0.8, // makes confetti small
+            });
+        
+            setTimeout(() => {
+                myConfetti.reset(); // clears after ~2s
+            }, 2000);
+        }
     });
 });
     
