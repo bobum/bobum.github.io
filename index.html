@@ -4257,16 +4257,15 @@ const myConfetti = confetti.create(canvas, { resize: true, useWorker: true });
 document.querySelectorAll('.confettiButton').forEach(btn => {
 
     btn.addEventListener('click', function(e) {
-        e.preventDefault();
         const rect = e.target.getBoundingClientRect();
         const x = (rect.left + rect.width / 2) / window.innerWidth;
         const y = (rect.top + rect.height / 2) / window.innerHeight;
     
         myConfetti({
-            particleCount: 30,
-            spread: 40,
+            particleCount: 50,
+            spread: 80,
             origin: { x: x, y: y },
-            scalar: 0.5, // makes confetti small
+            scalar: 0.8, // makes confetti small
         });
     
         setTimeout(() => {
@@ -4274,9 +4273,7 @@ document.querySelectorAll('.confettiButton').forEach(btn => {
         }, 2000);
     });
 });
-    document.addEventListener('click', () => {
-    confetti();
-});
+    
 </script>
 </body>
 
