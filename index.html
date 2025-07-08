@@ -4267,6 +4267,12 @@ document.querySelectorAll('.confettiButton').forEach(btn => {
             origin: { x: x, y: y },
             scalar: 0.8, // makes confetti small
         });
+        confetti({
+            particleCount: 50,
+            spread: 80,
+            origin: { x: x, y: y },
+            scalar: 0.8
+        });
     
         setTimeout(() => {
             myConfetti.reset(); // clears after ~2s
