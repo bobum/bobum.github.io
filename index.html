@@ -4277,10 +4277,16 @@ document.querySelectorAll('.confettiButton').forEach(btn => {
             canvas.style.top = `${offsetY}px`;            
         
             myConfetti({
-                particleCount: 50,
-                spread: 40,
+                spread: 80,
+                ticks: 50,
+                gravity: 0.5,
+                decay: 0.84,
+                startVelocity: 15,
+                colors: ['FFE400', 'FFBD00', 'E89400', 'FFCA6C', 'FDFFB8'],
+                particleCount: 10,
                 origin: { x: 0.5, y: 0.5 },
                 scalar: 0.4, // makes confetti small
+                shapes: ['star']
             });
         
             setTimeout(() => {
