@@ -213,7 +213,8 @@
                         <div class="order-1 order-lg-2 col-lg-5">
                             <div class="thumbnail">
                                 <div class="inner">
-                                    <img src="assets/images/slider/banner-01.png" alt="Personal Portfolio Images">
+                                    <img id="photoImg" src="assets/images/slider/banner-01.png" alt="Personal Portfolio Images" style="transition: opacity 1s;">
+                                    <img id="illustrationImg" src="assets/images/slider/illustrated.jpg" alt="Personal Portfolio Images" style="transition: opacity 1s; opacity: 0;">
                                 </div>
                             </div>
                         </div>
@@ -4295,6 +4296,21 @@ document.querySelectorAll('.confettiButton').forEach(btn => {
         }
     });
 });
+
+const photoImg = document.getElementById('photoImg');
+const illustrationImg = document.getElementById('illustrationImg');
+let showingPhoto = true;
+
+setInterval(() => {
+    if (showingPhoto) {
+        photoImg.style.opacity = 0;
+        illustrationImg.style.opacity = 1;
+    } else {
+        photoImg.style.opacity = 1;
+        illustrationImg.style.opacity = 0;
+    }
+    showingPhoto = !showingPhoto;
+}, 5000);    
     
 </script>
 </body>
