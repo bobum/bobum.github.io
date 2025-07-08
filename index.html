@@ -4254,21 +4254,24 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 const myConfetti = confetti.create(canvas, { resize: true, useWorker: true });
 
-document.getElementsByClassName('confettiButton').addEventListener('click', function(e) {
-    const rect = e.target.getBoundingClientRect();
-    const x = (rect.left + rect.width / 2) / window.innerWidth;
-    const y = (rect.top + rect.height / 2) / window.innerHeight;
+document.querySelectorAll('.confettiButton').forEach(btn => {
 
-    myConfetti({
-        particleCount: 30,
-        spread: 40,
-        origin: { x: x, y: y },
-        scalar: 0.5, // makes confetti small
+    btn.addEventListener('click', function(e) {
+        const rect = e.target.getBoundingClientRect();
+        const x = (rect.left + rect.width / 2) / window.innerWidth;
+        const y = (rect.top + rect.height / 2) / window.innerHeight;
+    
+        myConfetti({
+            particleCount: 30,
+            spread: 40,
+            origin: { x: x, y: y },
+            scalar: 0.5, // makes confetti small
+        });
+    
+        setTimeout(() => {
+            myConfetti.reset(); // clears after ~2s
+        }, 2000);
     });
-
-    setTimeout(() => {
-        myConfetti.reset(); // clears after ~2s
-    }, 2000);
 });
 </script>
 </body>
