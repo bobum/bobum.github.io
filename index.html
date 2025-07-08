@@ -4232,7 +4232,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
             </div>
         </div>
     </div>
-    <canvas id="confettiCanvas" style="width:60px; height:60px; position: fixed; top: 0; left: 0; pointer-events: none; z-index: 9999;"></canvas>
+    <canvas id="confettiCanvas" style="width:240px; height:240px; position: fixed; top: 0; left: 0; pointer-events: none; z-index: 9999;"></canvas>
     <!-- End Footer Area -->
     <!-- JS ============================================ -->
     <script src="assets/js/vendor/jquery.js"></script>
@@ -4270,17 +4270,17 @@ document.querySelectorAll('.confettiButton').forEach(btn => {
 
             // Position canvas at mouse click
             // Offset to center the 60x60 box on the click point
-            const offsetX = e.clientX - 30; // 60 / 2
-            const offsetY = e.clientY - 30;
+            const offsetX = e.clientX - 120; // 60 / 2
+            const offsetY = e.clientY - 120;
             
             canvas.style.left = `${offsetX}px`;
             canvas.style.top = `${offsetY}px`;            
         
             myConfetti({
                 particleCount: 50,
-                spread: 80,
+                spread: 40,
                 origin: { x: 0.5, y: 0.5 },
-                scalar: 0.8, // makes confetti small
+                scalar: 0.4, // makes confetti small
             });
         
             setTimeout(() => {
