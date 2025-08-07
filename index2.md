@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Scott Davis || Personal Portfolio"
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
