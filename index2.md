@@ -128,7 +128,7 @@ title: "Scott Davis || Personal Portfolio"
                         <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
                             <div class="content">
                                 <div class="inner">
-                                    <span class="subtitle">Turning Complexity Into Clarity</br>Through Leadership and Engineering</span>
+                                    {% raw %}<span class="subtitle">Turning Complexity Into Clarity</br>Through Leadership and Engineering</span>{% endraw %}
                                     <h1 class="title">Hi, I’m <span>Scott Davis</span><br>
                                         <span class="header-caption" id="page-top">
                                             <!-- type headline start-->
