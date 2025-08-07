@@ -1,5 +1,0 @@
-# _config.yml
-permalink: pretty       # Clean URLs
-collections:
-  categories:
-    output: true        # Generate category pages
