@@ -1,10 +1,13 @@
+---
+title: "Scott Davis || Blog"
+---
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Blog || Inbio - Personal Portfolio Bootstrap-5 Template</title>
+    <title>{{ page.title }}</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,40 +45,7 @@
                 <div class="header-center">
                     <nav class="mainmenu-nav d-none d-xl-block">
                         <ul class="primary-menu">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Experience</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Education</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
-                            <li class="nav-item has-droupdown"><a class="nav-link" href="#">Pages</a>
-                                <ul class="submenu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-white-version.html">Blog White</a></li>
-                                    <li><a href="button.html">Button</a></li>
-                                    <li><a href="button-white-version.html">Button White</a></li>
-                                    <li><a href="brand.html">Brand</a></li>
-                                    <li><a href="brand-white-version.html">Brand White</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="gallery-white-version.html">Gallery White</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="portfolio-white-version.html">Portfolio White</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="pricing-white-version.html">Pricing White</a></li>
-                                    <li><a href="progressbar.html">Progressbar</a></li>
-                                    <li><a href="progressbar-white-version.html">Progressbar White</a></li>
-                                    <li><a href="social-icones.html">Social</a></li>
-                                    <li><a href="social-icones-white-version.html">Social White</a></li>
-                                    <li><a href="tab.html">Tab</a></li>
-                                    <li><a href="tab-white-version.html">Tab White</a></li>
-                                    <li><a href="testimonial.html">Testimonial</a></li>
-                                    <li><a href="testimonial-white-version.html">Testimonial White</a></li>
-                                    <li><a href="video-popup.html">Video Popup</a></li>
-                                    <li><a href="video-popup-white-version.html">Video Popup White</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Footer</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>                           
                         </ul>
                     </nav>
                     <!-- Start Header Right  -->
@@ -118,38 +88,7 @@
             </div>
             <div class="content">
                 <ul class="primary-menu">
-                    <li><a class="nav-link" href="#">Home</a></li>
-                    <li><a class="nav-link" href="#">Experience</a></li>
-                    <li><a class="nav-link" href="#">Education</a></li>
-                    <li><a class="nav-link" href="#">Resume</a></li>
-                    <li class="has-droupdown"><a class="nav-link" href="#">Pages</a>
-                        <ul class="submenu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-white-version.html">Blog White</a></li>
-                            <li><a href="button.html">Button</a></li>
-                            <li><a href="button-white-version.html">Button White</a></li>
-                            <li><a href="brand.html">Brand</a></li>
-                            <li><a href="brand-white-version.html">Brand White</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="gallery-white-version.html">Gallery White</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-white-version.html">Portfolio White</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="pricing-white-version.html">Pricing White</a></li>
-                            <li><a href="progressbar.html">Progressbar</a></li>
-                            <li><a href="progressbar-white-version.html">Progressbar White</a></li>
-                            <li><a href="social-icones.html">Social</a></li>
-                            <li><a href="social-icones-white-version.html">Social White</a></li>
-                            <li><a href="tab.html">Tab</a></li>
-                            <li><a href="tab-white-version.html">Tab White</a></li>
-                            <li><a href="testimonial.html">Testimonial</a></li>
-                            <li><a href="testimonial-white-version.html">Testimonial White</a></li>
-                            <li><a href="video-popup.html">Video Popup</a></li>
-                            <li><a href="video-popup-white-version.html">Video Popup White</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="nav-link" href="#">Blog</a></li>
-                    <li><a class="nav-link" href="#">Footer</a></li>
+                    <li><a class="nav-link" href="/">Home</a></li>                    
                 </ul>
                 <!-- social sharea area -->
                 <div class="social-share-style-1 mt--40">
@@ -212,14 +151,15 @@
         <div class="rn-blog-area rn-section-gap" id="blog">
             <div class="container">
                 <div class="row g-5">
+{% for post in site.posts %}
                     <!-- Start Single blog -->
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
                         <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/blog/blog-01.jpg" alt="Personal Portfolio Images">
+                                    <a href="{{ post.url }}">
+                                        <img src="/{{ post.image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="{{ post.title }}">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -228,152 +168,17 @@
                                             <a href="javascript:void(0)">Canada</a>
                                         </div>
                                         <div class="meta">
-                                            <span><i class="feather-clock"></i> 2 min read</span>
+                                            <span><i class="feather-clock"></i> {{ reading_time }} read</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">T-shirt design is the part of design
+                                    <h4 class="title"><a href="{{ post.url }}">{{ post.title }}
                                             <i class="feather-arrow-up-right"></i></a></h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-once="true"
-                        class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/blog/blog-04.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 2 hour read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
-                                                class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800" data-aos-once="true"
-                        class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/blog/blog-02.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Application</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 5 min read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true"
-                        class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/blog/blog-01.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Canada</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 2 min read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">T-shirt design is the part of design
-                                            <i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-once="true"
-                        class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/blog/blog-02.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 2 hour read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
-                                                class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800" data-aos-once="true"
-                        class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/blog/blog-03.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Application</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 5 min read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
+{% endfor %}
                 </div>
             </div>
         </div>
