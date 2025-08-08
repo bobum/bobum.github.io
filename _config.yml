@@ -27,3 +27,5 @@ defaults:
     values:
       layout: post
       canonical_url: true
+seo:
+  title_template: "Scott Davis | %s"
