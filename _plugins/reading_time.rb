@@ -1,10 +1,12 @@
-module ReadingTimeFilter
-  def reading_time(input)
-    words_per_minute = 180
-    words = input.split.size
-    minutes = (words / words_per_minute).floor
-    "#{minutes} min"
+module Jekyll
+  module ReadingTimeFilter
+    def reading_time(content)
+      return "0 min" if content.nil?
+      words = content.split.size
+      minutes = (words / 180.0).ceil
+      "#{minutes} min read"
+    end
   end
 end
 
-Liquid::Template.register_filter(ReadingTimeFilter)
+Liquid::Template.register_filter(Jekyll::ReadingTimeFilter)
