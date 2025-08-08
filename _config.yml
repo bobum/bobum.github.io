@@ -1,5 +1,5 @@
 # _config.yml
-title: "Scott Davis || Personal Portfolio"       # Required for SEO
+title: "Personal Portfolio"       # Required for SEO
 description: "Scott Davis — Tech leader scaling teams with Copilot/Cursor, while writing AI-aided fiction (Sudowrite/Claude). Essays on engineering leadership *and* generative storytelling." # Helps SEO
 baseurl: ""                   # Critical for GitHub Pages
 # url: "https://yourdomain.com" # Your live URL
