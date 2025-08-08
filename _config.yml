@@ -1,4 +1,5 @@
 # _config.yml
+title: "Scott Davis"
 description: "Scott Davis — Tech leader scaling teams with Copilot/Cursor, while writing AI-aided fiction (Sudowrite/Claude). Essays on engineering leadership *and* generative storytelling." # Helps SEO
 baseurl: ""                   # Critical for GitHub Pages
 # url: "https://yourdomain.com" # Your live URL
@@ -26,5 +27,3 @@ defaults:
     values:
       layout: post
       canonical_url: true
-seo:
-  title_template: "Scott Davis | %s"
