@@ -1,6 +1,24 @@
 # _config.yml
+title: "Scott Davis || Personal Portfolio"       # Required for SEO
+description: "Scott Davis — Technology executive and author. Leadership insights, published works, and essays on innovation, management, and the future of tech." # Helps SEO
+baseurl: ""                   # Critical for GitHub Pages
+# url: "https://yourdomain.com" # Your live URL
+
 permalink: /blog/:title/
 excerpt_separator: "<!--more-->"
+
+# Liquid filter (replaces plugin)
+liquid:
+  filters:
+    reading_time: |
+      def reading_time(input)
+        words = input.to_s.gsub(/<[^>]*>/, '').split.size # Strip HTML tags
+        minutes = (words / 180.0).ceil
+        "#{minutes} min read"
+      end
+
+plugins:
+  - jekyll-seo-tag  # Auto-generates meta tags
 
 defaults:
   - scope:
@@ -9,13 +27,3 @@ defaults:
     values:
       layout: post
       canonical_url: true
-
-plugins:
-  - jekyll-seo-tag  # Auto-generates meta tags
-  - reading_time  # Explicitly list it
-
-  # Allow local plugins
-whitelist:
-  - reading_time
-# Add this to ensure proper loading
-safe: false
