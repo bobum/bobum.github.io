@@ -1300,7 +1300,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                             <a href="javascript:void(0)">Canada</a>
                                         </div>
                                         <div class="meta">
-                                            <span><i class="feather-clock"></i> </span>
+                                            <span><i class="feather-clock" id="readtime-{{ forloop.index }}"></i> </span>
                                         </div>
                                     </div>
                                     <h4 class="title"><a href="javascript:void(0)">{{ post.title }}
@@ -1714,7 +1714,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
 
                     <div class="modal-body">
                         <img src="/assets/images/blog/blog-big-01.jpg" alt="news modal" class="img-fluid modal-feat-img">
-                        <div class="news-details">
+                        <div class="news-details" id="blogpost-{{ forloop.index }}">
                             <span class="date">{{ post.date | date: "%d %B, %Y" }}</span>
                             <h2 class="title">{{ post.title }}</h2>
                             {{ post.content }}
