@@ -240,31 +240,33 @@ setInterval(() => {
 </script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Get all articles and their corresponding meta sections
-  const articles = document.querySelectorAll('.news-details');
-  const metaSections = document.querySelectorAll('.meta');
-  
-  // Ensure we have matching pairs
-  const count = Math.min(articles.length, metaSections.length);
-  
-  for (let i = 0; i < count; i++) {
-    const article = articles[i];
-    const meta = metaSections[i];
+  // Process all blog posts
+  document.querySelectorAll('[id^="blogpost-"]').forEach(post => {
+    // Extract index from ID (e.g., "blogpost-2" → 2)
+    const index = post.id.split('-')[1];
     
-    // Calculate reading time from article content
-    const content = article.querySelector('.title').nextElementSibling;
-    const text = content.textContent.trim();
-    const wordCount = text.split(/\s+/).length;
-    const readingTime = Math.ceil(wordCount / 180);
+    // Calculate reading time (count words in all text nodes and <p> tags after title)
+    let wordCount = 0;
+    let node = post.querySelector('.title').nextSibling;
     
-    // Update the meta section
-    const clockIcon = meta.querySelector('.feather-clock');
-    if (clockIcon) {
-      clockIcon.parentNode.innerHTML = `
-        <i class="feather-clock"></i> ${readingTime} min read
-      `;
+    while(node) {
+      if(node.nodeType === Node.TEXT_NODE) {
+        wordCount += node.textContent.trim().split(/\s+/).length;
+      } 
+      else if(node.nodeType === Node.ELEMENT_NODE && node.tagName === 'P') {
+        wordCount += node.textContent.trim().split(/\s+/).length;
+      }
+      node = node.nextSibling;
     }
-  }
+    
+    const readingTime = Math.ceil(wordCount / 180); // 180 WPM
+    
+    // Update the corresponding readtime element
+    const readTimeElement = document.getElementById(`readtime-${index}`);
+    if(readTimeElement) {
+      readTimeElement.insertAdjacentHTML('afterend', `${readingTime} min read`);
+    }
+  });
 });
 </script>
 </body>
