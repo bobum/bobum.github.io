@@ -238,37 +238,6 @@ setInterval(() => {
 }, 5000);    
     
 </script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Process all blog posts
-  document.querySelectorAll('[id^="blogpost-"]').forEach(post => {
-    // Extract index from ID (e.g., "blogpost-2" → 2)
-    const index = post.id.split('-')[1];
-    
-    // Calculate reading time (count words in all text nodes and <p> tags after title)
-    let wordCount = 0;
-    let node = post.querySelector('.title').nextSibling;
-    
-    while(node) {
-      if(node.nodeType === Node.TEXT_NODE) {
-        wordCount += node.textContent.trim().split(/\s+/).length;
-      } 
-      else if(node.nodeType === Node.ELEMENT_NODE && node.tagName === 'P') {
-        wordCount += node.textContent.trim().split(/\s+/).length;
-      }
-      node = node.nextSibling;
-    }
-    
-    const readingTime = Math.ceil(wordCount / 180); // 180 WPM
-    
-    // Update the corresponding readtime element
-    const readTimeElement = document.getElementById(`readtime-${index}`);
-    if(readTimeElement) {
-      readTimeElement.insertAdjacentHTML('afterend', `${readingTime} min read`);
-    }
-  });
-});
-</script>
 </body>
 
 </html>
