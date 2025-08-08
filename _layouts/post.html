@@ -10,7 +10,7 @@ layout: default  # Inherits your base template
                         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
                             class="image-area">
                             <div class="thumbnail">
-                                <img src="assets/images/about/about-5.jpg" alt="">
+                                <img src="{{ post.image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="{{ page.title }}">
                             </div>
                         </div>
                     </div>
@@ -18,20 +18,10 @@ layout: default  # Inherits your base template
                         class="col-lg-7 mt_sm--30">
                         <div class="contant">
                             <div class="section-title text-left">
-                                <span class="subtitle">Visit my portfolio & Hire me</span>
-                                <h2 class="title">About Me</h2>
+                                <span class="subtitle">{{ page.date | date: "%B %d, %Y" }}</span>
+                                <h2 class="title">{{ page.title }}</h2>
                             </div>
-                            <p class="discription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
-                                cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus
-                                adipisci labore sit veritatis vero tempore sequi at sed facere dolore. Quae obcaecati
-                                eius quasi doloribus illum minus fugit.
-                            </p>
-                            <p class="discription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
-                                cupiditate accusantium voluptatibus quidem nam, reprehenderit,
-                            </p>
-                            <a class="rn-btn" href="#contacts"><span>DOWNLOAD MY CV</span></a>
+                            {{ content }}
                         </div>
                     </div>
                 </div>
