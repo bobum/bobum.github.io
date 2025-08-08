@@ -12,6 +12,7 @@ defaults:
 
 plugins:
   - jekyll-seo-tag  # Auto-generates meta tags
+  - reading_time  # Explicitly list it
 
   # Allow local plugins
 whitelist:
