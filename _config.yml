@@ -17,3 +17,5 @@ plugins:
   # Allow local plugins
 whitelist:
   - reading_time
+# Add this to ensure proper loading
+safe: false
