@@ -1,0 +1,18 @@
+# _config.yml
+permalink: /blog/:title/
+excerpt_separator: "<!--more-->"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      canonical_url: true
+
+plugins:
+  - jekyll-seo-tag  # Auto-generates meta tags
+
+  # Allow local plugins
+whitelist:
+  - reading_time
