@@ -1,10 +1,7 @@
 module Jekyll
   module ReadingTimeFilter
-    def reading_time(content)
-      return "0 min" if content.nil?
-      words = content.split.size
-      minutes = (words / 180.0).ceil
-      "#{minutes} min read"
+    def reading_time(input)
+      input.to_s.split.size.fdiv(180).ceil.to_s + " min read"
     end
   end
 end
