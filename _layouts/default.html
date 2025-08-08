@@ -238,6 +238,35 @@ setInterval(() => {
 }, 5000);    
     
 </script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all articles and their corresponding meta sections
+  const articles = document.querySelectorAll('.news-details');
+  const metaSections = document.querySelectorAll('.meta');
+  
+  // Ensure we have matching pairs
+  const count = Math.min(articles.length, metaSections.length);
+  
+  for (let i = 0; i < count; i++) {
+    const article = articles[i];
+    const meta = metaSections[i];
+    
+    // Calculate reading time from article content
+    const content = article.querySelector('.title').nextElementSibling;
+    const text = content.textContent.trim();
+    const wordCount = text.split(/\s+/).length;
+    const readingTime = Math.ceil(wordCount / 180);
+    
+    // Update the meta section
+    const clockIcon = meta.querySelector('.feather-clock');
+    if (clockIcon) {
+      clockIcon.parentNode.innerHTML = `
+        <i class="feather-clock"></i> ${readingTime} min read
+      `;
+    }
+  }
+});
+</script>
 </body>
 
 </html>
