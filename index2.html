@@ -1345,7 +1345,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                         <div class="rn-blog">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="{{ fiction_item.url }}">
+                                    <a href="{{ book.url }}">
                                         <img src="{{ book.cover_image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="{{ book.title }}">
                                     </a>
                                 </div>
@@ -1358,7 +1358,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                             <span><i class="feather-clock"></i> {{ word_count | divided_by: 180 | ceil | plus: 1 }} min read</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="{{ fiction_item.url }}">{{ book.title }}
+                                    <h4 class="title"><a href="{{ book.url }}">{{ book.title }}
                                             <i class="feather-arrow-up-right"></i></a></h4>
                                 </div>
                             </div>
