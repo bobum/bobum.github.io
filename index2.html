@@ -1352,7 +1352,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">{{ book.status }}</a>
+                                            <a href="{{ book.url }}">{{ book.status }}</a>
                                         </div>
                                         <div class="meta">
                                             <span><i class="feather-clock"></i> {{ word_count | divided_by: 180 | ceil | plus: 1 }} min read</span>
