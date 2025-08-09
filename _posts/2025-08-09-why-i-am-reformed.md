@@ -40,7 +40,7 @@ I dug into Calvin because I didn’t trust him. After all, his writings could on
 
 What I found was stunning to me. I found the writings of many early church fathers contained within Calvin's writings. It was as if Calvin had brought together many previous thoughts into a singular concise framework and released them in a singular document entitled “The Institutes of the Christian Religion”. Now I've never actually read "The Institutes", and I'm not sure that I ever will.  If I've never read him, I can certainly say I'm not actually a Calvinist.  But I have read the Scriptures, and I have come to the same conclusions that he did. So at the end, we're both just Biblicists.
 
-As I looked at who it was that shaped and influenced Calvin's writings in the 1500’s, I found the following listed here in reverse chronological order:
+As I looked at who it was that shaped and influenced Calvin's writings in the 1500s, I found the following listed here in reverse chronological order:
 
 **John Wycliffe (1320s-1384)** - An English theologian and philosopher who criticized the abuses of the Roman Catholic Church and translated the Bible into English, paving the way for the Protestant Reformation. Calvin was influenced by Wycliffe's ideas and theology, particularly Wycliffe's emphasis on the importance of the Bible and the need for it to be translated into vernacular languages so that ordinary people could read and understand it. Calvin also shared Wycliffe's belief in the preeminence of Scripture over the authority of the Church and the need for a return to the teachings of the early Church. *Sola Scriptura*
 
@@ -76,7 +76,7 @@ What I was unable to do was look back on the writings of these titans of theolog
 
 The consistent theological thread I found through their writings was covenantal in nature, not dispensational, and certainly not the prophetic scheme that emerged in the 19th century. None of these men taught anything resembling the modern pre-tribulation rapture doctrine; in their writings, Christ’s return is always a single, visible event at the end of the age, not a secret coming to remove the Church before tribulation—a concept that would not appear until the 19th century with John Nelson Darby.
 
-I was for the first time in my life able to trace a singular consistent coherent framework of thought, understanding and writings from my own contemporary thinking, and trace them all the way back through time to the Apostles and Jesus himself. It was mind bending and life changing information. There was no other system of theology that could make the same claim from scripture alone.
+I was for the first time in my life able to trace a singular, consistent, coherent framework of thought, understanding and writings from my own contemporary thinking, and trace them all the way back through time to the Apostles and Jesus himself. It was mind bending and life changing information. There was no other system of theology that could make the same claim from scripture alone.
 
 Therefore and in conclusion, in the words of Martin Luther:
 
