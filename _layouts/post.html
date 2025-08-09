@@ -19,13 +19,21 @@ title: "Blog Post"
                         class="col-lg-7 mt_sm--30">
                         <div class="contant">
                             <div class="section-title text-left">
-                                <span class="subtitle" style="float:left">{{ page.date | date: "%B %d, %Y" }}</span>
-                                <span class="subtitle" style="text-align:right"><a href="/blog/">Back to Blogs</a></span>
+                                <span class="subtitle">{{ page.date | date: "%B %d, %Y" }}</span>                                
                                 <h2 class="title">{{ page.title }}</h2>
+                                <span class="subtitle" style="padding:10px 0;">
+                                        <a style="color: var(--color-subtitle); text-decoration: none;" 
+                                           onmouseover="this.style.color='var(--color-heading)';" 
+                                           onmouseout="this.style.color='var(--color-subtitle)';" 
+                                               href="/blog/">Back to Blogs</a>
+                                </span>
                             </div>
                             {{ content }}
                             <div class="section-title text-center">
-                                <span class="subtitle"><a href="/blog">Back to Blogs</a></span>
+                                <span class="subtitle"><a style="color: var(--color-subtitle); text-decoration: none;" 
+                                           onmouseover="this.style.color='var(--color-heading)';" 
+                                           onmouseout="this.style.color='var(--color-subtitle)';" 
+                                               href="/blog">Back to Blogs</a></span>
                             </div>
                         </div>
                     </div>
