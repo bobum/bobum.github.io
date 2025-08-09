@@ -1723,7 +1723,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                     <!-- End of .modal-header -->
 
                     <div class="modal-body">
-                        <img src="{{ post.image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="news modal" class="img-fluid modal-feat-img">
+                        <img src="{{ post.image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="{{ post.title }}" class="img-fluid modal-feat-img">
                         <div class="news-details" id="blogpost-{{ forloop.index }}">
                             <span class="date">{{ post.date | date: "%d %B, %Y" }}</span>
                             <h2 class="title">{{ post.title }}</h2>
