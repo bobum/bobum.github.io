@@ -1,10 +1,10 @@
 ---
 layout: post          # Uses _layouts/post.html
 title: "Don't Let Your Meetings Multiply"
-date: 2020-07-17
+date: 2025-07-17
 categories: business
 image: /assets/images/blog/8631811c-8bc8-4c4b-b4b4-7ace374339db.png
-excerpt: "Sed ut perspiciatis unde omnis iste natus error..."
+excerpt: "Stop the Meeting Madness: Software Engineers Need Focus, Not Redundant Reviews"
 modal_id: stop-the-meeting-madness  # For modal targeting
 ---
 Stop the Meeting Madness: Software Engineers Need Focus, Not Redundant Reviews
