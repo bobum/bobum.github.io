@@ -76,7 +76,7 @@ What I was unable to do was look back on the writings of these titans of theolog
 
 The consistent theological thread I found through their writings was covenantal in nature, not dispensational, and certainly not the prophetic scheme that emerged in the 19th century. None of these men taught anything resembling the modern pre-tribulation rapture doctrine; in their writings, Christ’s return is always a single, visible event at the end of the age, not a secret coming to remove the Church before tribulation—a concept that would not appear until the 19th century with John Nelson Darby.
 
-I was for the first time in my life able to trace a singular, consistent, coherent framework of thought, understanding, and writings from my own contemporary thinking, and trace them all the way back through time to the Apostles and Jesus himself. It was mind bending and life changing information. There was no other system of theology that could make the same claim from Scripture alone.
+I was for the first time in my life able to trace a singular, consistent, coherent framework of thought, understanding, and writings from my own contemporary thinking, and connect them all the way back through time to the Apostles and Jesus himself. It was mind bending and life changing information. There was no other system of theology that could make the same claim from Scripture alone.
 
 Therefore, and in conclusion, in the words of Martin Luther:
 
