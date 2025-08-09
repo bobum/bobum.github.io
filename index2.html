@@ -1325,6 +1325,61 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
             </div>
         </div>
         <!-- End Blog Area -->
+        <!-- Start Fiction Area -->
+        <div class="rn-blog-area rn-section-gap section-separator" id="fiction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                            class="section-title text-center">
+                            <h2 class="title">My Latest Fiction</h2>
+                            <span class="subtitle">See all my books <a href="/fiction/index.html">here</a>.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
+{% for post in site.posts limit:3 %}
+{% assign word_count = post.content | strip_html | strip_newlines | split: " " | size %}
+{% assign raw_time = word_count | divided_by: 180.0 | ceil %}
+                    <!-- Start Single book -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
+                        <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#post-{{ forloop.index }}">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="{{ post.image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="{{ post.title }}">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">{{ post.categories }}</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><i class="feather-clock"></i> {{ word_count | divided_by: 180 | ceil | plus: 1 }} min read</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">{{ post.title }}
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single book -->
+  {% endfor %}                   
+                </div>
+                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
+                    <div class="col-lg-12">
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                            class="section-title text-center">
+                            <span class="subtitle">Fantastic Worlds and Compelling Characters</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Fiction Area -->
         <!-- Start Contact section -->
         <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
             <div class="container">
