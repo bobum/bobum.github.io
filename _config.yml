@@ -3,7 +3,13 @@ title: "Scott Davis"
 tagline: "Essays on Engineering Leadership and Generative Storytelling"
 description: "Scott Davis — Tech leader scaling teams with Copilot/Cursor, while writing AI-aided fiction (Sudowrite/Claude). Essays on engineering leadership *and* generative storytelling." # Helps SEO
 baseurl: ""                   # Critical for GitHub Pages
-# url: "https://yourdomain.com" # Your live URL
+url: "https://davisplanet.com" # Your live URL
+
+collections:
+  # This defines your fiction collection
+  fiction:
+    output: true # This is CRITICAL. It tells Jekyll to create a separate page for each item.
+    permalink: /fiction/:title/ # This sets the beautiful, SEO-friendly URL structure.
 
 permalink: /blog/:title/
 excerpt_separator: "<!--more-->"
@@ -27,4 +33,3 @@ defaults:
       type: posts
     values:
       layout: post
-      canonical_url: true
