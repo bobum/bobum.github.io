@@ -44,17 +44,18 @@ layout: fiction_landing
         </div>
         <!-- End Slider Area -->
 
+{% assign sorted_works = site.works | sort: 'order' %}
+{% for work in sorted_works %}
 
-
-        <!-- Start Unveiled Area -->
-        <div id="unveiled" class="rn-about-area rn-section-gap">
+        <!-- Start Work Area -->
+        <div id="{{ work.slug }}" class="rn-about-area rn-section-gap">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
                         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
                             class="image-area">
                             <div class="thumbnail">
-                                <img src="/assets/images/about/about-1.jpg" alt="Personal Portfolio Image">
+                                <img src="{{ work.cover_image }}" alt="{{ work.title }}">
                             </div>
                         </div>
                     </div>
@@ -62,161 +63,17 @@ layout: fiction_landing
                         class="col-lg-7 mt_sm--30">
                         <div class="contant">
                             <div class="section-title text-left">
-                                <span class="subtitle">Visit my portfolio & Hire me</span>
-                                <h2 class="title">About Me</h2>
+                                <span class="subtitle">{{ work.tagline }}</span>
+                                <h2 class="title">{{ work.title }}</h2>
                             </div>
-                            <p class="discription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
-                                cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus
-                                adipisci labore sit veritatis vero tempore sequi at sed facere dolore. Quae obcaecati
-                                eius quasi doloribus illum minus fugit.
-                            </p>
-                            <p class="discription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
-                                cupiditate accusantium voluptatibus quidem nam, reprehenderit,
-                            </p>
-                            <a class="rn-btn" href="#contacts"><span>DOWNLOAD MY CV</span></a>
+                            {{ work.description }}
+                            <a class="rn-btn" href="{{ site.baseurl }}{{ work.url }}"><span>SEE MORE</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Unveiled Area -->  
-        <!-- Start Of Salt & Starlight Area -->
-        <div id="of-salt-and-starlight" class="rn-about-area rn-section-gap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
-                            class="image-area">
-                            <div class="thumbnail">
-                                <img src="/assets/images/about/about-1.jpg" alt="Personal Portfolio Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-7 mt_sm--30">
-                        <div class="contant">
-                            <div class="section-title text-left">
-                                <span class="subtitle">Visit my portfolio & Hire me</span>
-                                <h2 class="title">About Me</h2>
-                            </div>
-                            <p class="discription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
-                                cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus
-                                adipisci labore sit veritatis vero tempore sequi at sed facere dolore. Quae obcaecati
-                                eius quasi doloribus illum minus fugit.
-                            </p>
-                            <p class="discription">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa
-                                cupiditate accusantium voluptatibus quidem nam, reprehenderit,
-                            </p>
-                            <a class="rn-btn" href="#contacts"><span>DOWNLOAD MY CV</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Featured Area -->  
-
-        <!-- Start Where to Buy area -->
-        <div id="buy" class="rn-pricing-area pricing-style-2 rn-section-gap section-separator">
-            <div class="container">
-                <div class="row">
-
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-4 col-sm-12">
-                        <div class="title-area-wrapper mb_md--20 mb_sm--20">
-                            <div class="section-title text-left">
-                                <span class="subtitle">Pricing</span>
-                                <h2 class="title">Our Pricing</h2>
-                            </div>
-                            <p class="title-disc">
-                                Use the free templates with your whole team or choose a premium. ith your whole team or
-                                choose a premium.
-                            </p>
-                            <p class="title-disc-2">
-                                Get the bundle and get lifetime support and one year updates.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true"
-                        class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="pricing-wrapper">
-                            <div class="ts-header">
-                                <h6>STARTER</h6>
-                                <span>Try and decide.</span>
-                            </div>
-                            <h3 class="price">$0</h3>
-                            <div class="pricing-body">
-                                <div class="feature">
-                                    <i data-feather="check"></i>
-                                    <span class="name">2 demo templates.</span>
-                                </div>
-                                <div class="feature">
-                                    <i data-feather="check"></i>
-                                    <span class="name">Fully responsive.</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="off" data-feather="x"></i>
-                                    <span class="name off">Figma</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="off" data-feather="x"></i>
-                                    <span class="name off">Spacial offer</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="off" data-feather="x"></i>
-                                    <span class="name off">All Demoes</span>
-                                </div>
-                            </div>
-                            <div class="pricing-footer">
-                                <a class="rn-btn" href="#contacts"><span>BUY NOW</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
-                        class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="pricing-wrapper-pro">
-                            <div class="ts-header">
-                                <h6>BUNDLE</h6>
-                                <span>Try and decide.</span>
-                            </div>
-                            <h3 class="price">$60</h3>
-                            <div class="pricing-body">
-                                <div class="feature">
-                                    <i data-feather="check"></i>
-                                    <span class="name">2 demo templates.</span>
-                                </div>
-                                <div class="feature">
-                                    <i data-feather="check"></i>
-                                    <span class="name">Fully responsive.</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="" data-feather="check"></i>
-                                    <span class="name">Figma</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="of" data-feather="check"></i>
-                                    <span class="name">Spacial offer</span>
-                                </div>
-                                <div class="feature">
-                                    <i class="" data-feather="check"></i>
-                                    <span class="name">All Demoes</span>
-                                </div>
-                            </div>
-                            <div class="pricing-footer">
-                                <a class="rn-btn" href="#contacts"><span>BUY NOW</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Where to Buy Area -->
-        
+        <!-- End Work Area -->
         <!-- Back to  top Start -->
         <div class="backto-top">
             <div>
