@@ -1,0 +1,43 @@
+---
+layout: default  # Inherits your base template
+title: "Blog Post"
+---
+
+<!-- Start about Area -->
+        <div id="about" class="rn-about-area rn-section-gap section-separator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
+                            class="image-area">
+                            <div class="thumbnail">
+                                <img src="{{ page.image | default: '/assets/images/portfolio/portfolio-01.jpg' }}" alt="{{ page.title }}">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
+                        class="col-lg-7 mt_sm--30">
+                        <div class="contant">
+                            <div class="section-title text-left">
+                                <span class="subtitle">{{ page.date | date: "%B %d, %Y" }}</span>                                
+                                <h2 class="title">{{ page.title }}</h2>
+                                <span class="subtitle" style="padding:10px 0;">
+                                        <a style="color: var(--color-subtitle); text-decoration: none;" 
+                                           onmouseover="this.style.color='var(--color-heading)';" 
+                                           onmouseout="this.style.color='var(--color-subtitle)';" 
+                                               href="/blog/">Back to Blogs</a>
+                                </span>
+                            </div>
+                            {{ content }}
+                            <div class="section-title text-center">
+                                <span class="subtitle"><a style="color: var(--color-subtitle); text-decoration: none;" 
+                                           onmouseover="this.style.color='var(--color-heading)';" 
+                                           onmouseout="this.style.color='var(--color-subtitle)';" 
+                                               href="/blog">Back to Blogs</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End about Area -->

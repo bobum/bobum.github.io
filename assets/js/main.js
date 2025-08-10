@@ -29,7 +29,7 @@
             imJs.awsActivation();
             imJs.demoActive();
             imJs.activePopupDemo();
-            imJs.onePageNav();
+            //imJs.onePageNav();
         },
 
         
@@ -434,6 +434,12 @@
         },
 
     }
+
+	// Use $(window).on('load', ...) to delay the onePageNav script until all images are loaded
+    $(window).on('load', function () {
+        imJs.onePageNav();
+    });
+	
     imJs.m();
 
 
