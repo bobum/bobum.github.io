@@ -184,6 +184,64 @@
     <script src="/assets/js/vendor/jquery-one-page-nav.js"></script>
     <!-- main JS -->
     <script src="/assets/js/main.js"></script>
+    <script>
+    // This makes sure the entire HTML document is ready before the script runs
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // --- 1. CONFIGURATION ---
+        const images = [
+            '/assets/images/fiction/UnveiledTrilogy.png',
+            '/assets/images/fiction/UnveiledTrilogy2.png',
+            '/assets/images/fiction/AnotherBookCover.jpg'
+            // Add as many image paths as you want in this list
+        ];
+        // Set the timing (8000ms = 8 seconds from the start of one fade to the start of the next)
+        const fadeInterval = 8000;
+
+
+        // --- 2. SETUP ---
+        const faderElement = document.getElementById('fiction-background-fader');
+        
+        // Safety check: only run the script if the fader element actually exists on this page
+        if (faderElement) {
+            let currentImageIndex = 0;
+
+            // Preload images for smoother transitions (highly recommended)
+            images.forEach(src => {
+                const img = new Image();
+                img.src = src;
+            });
+
+            // Set the initial two images on the pseudo-layers
+            faderElement.style.setProperty('--bg-image-before', `url(${images[0]})`);
+            faderElement.style.setProperty('--bg-image-after', `url(${images[1] || images[0]})`); // Use first image if there's only one
+
+
+            // --- 3. THE FADING LOGIC ---
+            setInterval(() => {
+                // Increment the index, looping back to the start if necessary
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+
+                // Calculate the index of the *next* image in the sequence for the upcoming layer
+                const nextImageIndex = (currentImageIndex + 1) % images.length;
+
+                // Check if the top layer (::after) is currently visible
+                if (faderElement.classList.contains('fade-in-after')) {
+                    // If it is, we need to update the bottom layer (::before) with the next image
+                    faderElement.style.setProperty('--bg-image-before', `url(${images[nextImageIndex]})`);
+                    // Then, we fade out the top layer to reveal the new bottom layer
+                    faderElement.classList.remove('fade-in-after');
+                } else {
+                    // If the bottom layer is visible, we update the top layer (::after) with the next image
+                    faderElement.style.setProperty('--bg-image-after', `url(${images[nextImageIndex]})`);
+                    // Then, we fade in the top layer
+                    faderElement.classList.add('fade-in-after');
+                }
+
+            }, fadeInterval);
+        }
+    });
+</script>
 </body>
 
 </html>
