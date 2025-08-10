@@ -19705,45 +19705,46 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+/* --- The main container --- */
 #fiction-background-fader {
-  /* This ensures the pseudo-elements are positioned relative to this div */
+  /* This is REQUIRED for z-index to work on the child elements */
   position: relative;
-  /* A fallback color in case images don't load */
+  /* Fallback color if images fail to load */
   background-color: #1a1a1a;
 }
 
-/* --- The pseudo-element layers that will hold the images --- */
+/* --- The BACKGROUND layers --- */
 #fiction-background-fader::before,
 #fiction-background-fader::after {
-  content: ''; /* Required for pseudo-elements to appear */
+  content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0; /* Positioned just behind the div's main content */
+  top: 0; left: 0; width: 100%; height: 100%;
 
-  /* Standard background styling */
+  /* CRITICAL FIX: Push these layers BEHIND the parent's content */
+  z-index: -1;
+
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-
-  /* This is the key: it enables the 5-second fade on opacity changes */
   transition: opacity 5s ease-in-out;
 }
 
-/* Use CSS variables which our JavaScript will set */
+/* --- The CONTENT layer --- */
+.fader-content-wrapper {
+  /* CRITICAL FIX: Lift the content ON TOP of the background */
+  position: relative;
+  z-index: 1;
+}
+
+/* --- The CSS variables for the fader logic (this part remains the same) --- */
 #fiction-background-fader::before {
   background-image: var(--bg-image-before);
 }
-
 #fiction-background-fader::after {
   background-image: var(--bg-image-after);
-  /* The top layer starts completely transparent */
   opacity: 0;
 }
-
-/* This class, when added by JS, will trigger the fade-in */
 #fiction-background-fader.fade-in-after::after {
   opacity: 1;
 }
