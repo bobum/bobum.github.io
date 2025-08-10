@@ -19712,6 +19712,7 @@ body.white-version .rn-btn-ulderline {
   position: relative;
   /* Fallback color if images fail to load */
   background-color: #1a1a1a;
+	z-index: 0;
 }
 
 /* --- The BACKGROUND layers --- */
