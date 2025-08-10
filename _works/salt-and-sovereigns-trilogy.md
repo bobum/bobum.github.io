@@ -9,8 +9,8 @@ tagline: "The second trilogy in the Of Salt and Starlight saga..."
 cover_image: "/assets/images/fiction/OfSaltAndStarlight.png"
 order: 3
 description: |
-  The ancient pacts have been broken, and the very fabric of magic is unraveling across the land of Aerthos. A disgraced knight and a runaway sorceress must forge an unlikely alliance to uncover a conspiracy that threatens to consume the last vestiges of light.
+  When the skies turn hostile and empires retreat to the sea, outlaw captains and corporate fleets fight to rule the trade winds. Salt & Sovereigns charts the rise of a reluctant pirate hero who raids AetherCorp’s lifeblood, topples the dream of a reborn Panama Canal, and forges a code that could unite—or doom—the free seas.
 
-  This epic fantasy trilogy explores the cost of power and the true meaning of sacrifice in a world where every spell casts a shadow.
+  In a world rebuilt on sails and scarcity, freedom has a price and power rides the tide. Across three sweeping adventures, Salt & Sovereigns follows daring raids, knife-edge diplomacy, and the birth of a confederation that dares to stand against a ruthless corporate empire.
 ---
 ...
