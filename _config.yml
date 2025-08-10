@@ -6,10 +6,17 @@ baseurl: ""                   # Critical for GitHub Pages
 url: "https://davisplanet.com" # Your live URL
 
 collections:
-  # This defines your fiction collection
-  fiction:
-    output: true # This is CRITICAL. It tells Jekyll to create a separate page for each item.
-    permalink: /fiction/:title/ # This sets the beautiful, SEO-friendly URL structure.
+  # This is your primary collection. It contains all top-level projects
+  # (series and standalone novels) that will be displayed on your main fiction landing page.
+  works:
+    output: true                      # Creates a page for each item (e.g., a series landing page)
+    permalink: /fiction/:slug/        # URL structure: /fiction/unveiled-trilogy/
+
+  # This collection holds the individual books that belong inside a series.
+  # These are linked to a "work" via the 'series_id' in their front matter.
+  books:
+    output: true                      # Creates a page for each individual book
+    permalink: /fiction/:series_id/:slug/ # Nested URL: /fiction/unveiled-trilogy/the-first-flame/
 
 permalink: /blog/:title/
 excerpt_separator: "<!--more-->"
