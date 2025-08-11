@@ -5,7 +5,7 @@ title: "The Long Fall"
 slug: the-long-fall-trilogy
 saga_id: of-salt-and-starlight  # <-- THE NEW LINK
 saga_order: 1 # Order of this trilogy within the saga
-tagline: "The first trilogy in the Of Salt and Starlight saga..."
+tagline: When the skies burn, the sea crowns its own kings.
 cover_image: "/assets/images/fiction/Skyfire.png"
 order: 2
 description: |
