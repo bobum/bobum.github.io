@@ -10,7 +10,7 @@ collections:
   # (series and standalone novels) that will be displayed on your main fiction landing page.
   works:
     output: true                      # Creates a page for each item (e.g., a series landing page)
-    permalink: /fiction/:slug/        # URL structure: /fiction/unveiled-trilogy/
+    permalink: /fiction/:path/        # URL structure: /fiction/unveiled-trilogy/
 
   # This collection holds the individual books that belong inside a series.
   # These are linked to a "work" via the 'series_id' in their front matter.
