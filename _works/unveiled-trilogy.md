@@ -7,9 +7,8 @@ tagline: "A dark fantasy epic where magic is a corrupting force."
 cover_image: "/assets/images/fiction/UnveiledTrilogy.png"
 order: 1
 description: |
-  In a land where faith is forbidden and truth is buried under fear, one woman risks everything to smuggle the Word into the shadows. From the war-scarred streets of the Middle East to the hidden sanctuaries of the faithful, The Unveiled Trilogy is a sweeping tale of love, betrayal, and the relentless pursuit of redemption.
-
-  When loyalty demands silence and conscience demands defiance, the cost of truth can be everything. The Unveiled Trilogy weaves political intrigue, forbidden romance, and unshakable faith into a high-stakes journey that will leave hearts racing and convictions tested.
+  An alien pilgrimage touches down on a battlefield already crowded by smugglers, martyrs, and kings of narrative. From a murdered fisherman’s Bible to a Jerusalem power struggle, three lives decide who gets to name the truth.
 ---
+From the back alleys of Tehran to the contested streets of Jerusalem, three lives are bound by a murdered fisherman’s Bible and the dangerous truths it carries. Maryam Amiri’s smuggling network, Reza ibn Mahmud’s covert alliances, and Levi Bar-Nathan’s bid for control collide when an alien vessel lands in Iran’s desert, drawing spies, militias, and prophets into a single storm. As faith is weaponized and loyalty tested, each must decide whether their cause is worth the cost it demands.
 
-The main description for the Unveiled Trilogy...
+The Unveiled Trilogy is a historic, geopolitical thriller steeped in theological tension, where smuggled Bibles ignite revolutions, an alien pilgrim challenges centuries of prophecy, and Jerusalem becomes the chessboard for a final bid for power. From the hidden print shops of the Spider’s Web to the windswept salt flats beneath an unearthly vessel, and into war rooms where faith and ambition are indistinguishable, the trilogy traces how a single encounter can reshape nations. Each choice, from whispered prayers to acts of war, forces the question: whose truth will survive?
