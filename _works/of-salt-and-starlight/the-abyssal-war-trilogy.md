@@ -5,7 +5,7 @@ title: "Abyssal War"
 slug: the-abyssal-war-trilogy
 saga_id: of-salt-and-starlight  # <-- THE SAME LINK
 saga_order: 3
-tagline: "The third trilogy in the Of Salt and Starlight saga..."
+tagline: In the ocean’s dark, every signal could summon rescue—or ruin
 cover_image: "/assets/images/fiction/TheAbyssalWar.png"
 order: 4
 description: |
