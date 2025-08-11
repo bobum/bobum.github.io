@@ -1,7 +1,7 @@
 ---
 layout: book_page # It can reuse the simple book_page layout
 type: standalone # <-- ADD THIS LINE
-title: "The Lone Wanderer"
+title: "Lone Wanderer"
 slug: the-lone-wanderer
 tagline: "A standalone story of survival in a desolate wasteland."
 cover_image: "/assets/images/fiction/lone-wanderer-cover.jpg"
