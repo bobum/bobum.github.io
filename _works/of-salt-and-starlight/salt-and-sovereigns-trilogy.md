@@ -6,7 +6,7 @@ slug: salt-and-sovereigns-trilogy
 saga_id: of-salt-and-starlight  # <-- THE SAME LINK
 saga_order: 2
 tagline: High-tech sails and shifting alliances can topple any throne
-cover_image: "/assets/images/fiction/OfSaltAndStarlight.png"
+cover_image: "/assets/images/fiction/SaltAndSovereigns.jpg"
 order: 3
 description: |
   On seas where salt buys crowns, every voyage is a bid for a kingdom. The wind will decide who wears it.
