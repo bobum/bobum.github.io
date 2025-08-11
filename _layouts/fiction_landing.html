@@ -51,8 +51,7 @@
                                 {% assign sorted_works = site.works | sort: 'order' %}
                                 {% for work in sorted_works %}
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#{{ work.slug }}">{{ work.title }}</a></li>
-                                {% endfor %}                                
-                                <li class="nav-item"><a class="nav-link smoth-animation" href="#buy">Where to Buy</a></li>
+                                {% endfor %}
                             </ul>
                             <!-- End Mainmanu Nav -->
                         </nav>
@@ -96,7 +95,6 @@
                         {% for work in sorted_works %}
                         <li class="nav-item"><a class="nav-link smoth-animation" href="#{{ work.slug }}">{{ work.title }}</a></li>
                         {% endfor %}
-                        <li class="nav-item"><a class="nav-link smoth-animation" href="#buy">Where to Buy</a></li>
                     </ul>
                     <!-- social sharea area -->
                     <div class="social-share-style-1 mt--40">
