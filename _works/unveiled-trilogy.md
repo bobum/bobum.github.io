@@ -1,7 +1,7 @@
 ---
 layout: series_page
 type: series 
-title: "The Unveiled Trilogy"
+title: "Unveiled"
 slug: unveiled-trilogy
 tagline: "A dark fantasy epic where magic is a corrupting force."
 cover_image: "/assets/images/fiction/unveiledtrilogy.png"
