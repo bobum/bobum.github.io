@@ -16,7 +16,7 @@ collections:
   # These are linked to a "work" via the 'series_id' in their front matter.
   books:
     output: true                      # Creates a page for each individual book
-    permalink: /fiction/:series_id/:slug/ # Nested URL: /fiction/unveiled-trilogy/the-first-flame/
+    permalink: /fiction/:path/ # Nested URL: /fiction/unveiled-trilogy/the-first-flame/
 
 permalink: /blog/:title/
 excerpt_separator: "<!--more-->"
