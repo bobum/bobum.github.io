@@ -3,7 +3,7 @@ layout: series_page
 type: series 
 title: "Unveiled"
 slug: unveiled-trilogy
-tagline: "Faith, power, and an alien arrival ignite a battle for truth."
+tagline: Faith, power, and an alien arrival ignite a battle for truth
 cover_image: "/assets/images/fiction/UnveiledTrilogy.png"
 order: 1
 description: |
