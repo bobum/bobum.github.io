@@ -4,7 +4,7 @@ type: series
 title: "Unveiled"
 slug: unveiled-trilogy
 tagline: Faith, power, and an alien arrival ignite a battle for truth
-cover_image: "/assets/images/fiction/UnveiledTrilogy.png"
+cover_image: "/assets/images/fiction/UnveiledTrilogy3.png"
 order: 1
 description: |
   An alien pilgrimage touches down on a battlefield already crowded by smugglers, martyrs, and kings of narrative. From a murdered fisherman’s Bible to a Jerusalem power struggle, three lives decide who gets to name the truth.
