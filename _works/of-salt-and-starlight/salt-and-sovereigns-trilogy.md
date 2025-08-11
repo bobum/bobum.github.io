@@ -9,8 +9,8 @@ tagline: "The second trilogy in the Of Salt and Starlight saga..."
 cover_image: "/assets/images/fiction/OfSaltAndStarlight.png"
 order: 3
 description: |
-  When the skies turn hostile and empires retreat to the sea, outlaw captains and corporate fleets fight to rule the trade winds. Salt & Sovereigns charts the rise of a reluctant pirate hero who raids AetherCorp’s lifeblood, topples the dream of a reborn Panama Canal, and forges a code that could unite—or doom—the free seas.
-
-  In a world rebuilt on sails and scarcity, freedom has a price and power rides the tide. Across three sweeping adventures, Salt & Sovereigns follows daring raids, knife-edge diplomacy, and the birth of a confederation that dares to stand against a ruthless corporate empire.
+  On seas where salt buys crowns, every voyage is a bid for a kingdom. The wind will decide who wears it.
 ---
-...
+With the old powers drowned or dethroned, the high seas have become the true throne rooms of the age. In the shadow of a ruthless corporate cartel that owns the Panama Canal, captains race for dominance over the salt lanes—ancient galleon silhouettes reborn with cutting-edge sail technology. Alliances form and fracture as every crossing becomes a wager for sovereignty, and the tides carry rumors of a vessel built to outrun death itself.
+
+This is a world where the map is redrawn by wind and keel, and the right to rule is earned one broadside at a time. From smuggler strongholds in the Caribbean to fortified trade citadels on distant coasts, the trilogy charts a war for control over the arteries of the world’s commerce. Every sail on the horizon could mean profit, plunder, or the spark that ignites an empire’s fall.
