@@ -7,6 +7,7 @@ saga_id: of-salt-and-starlight  # <-- THE SAME LINK
 saga_order: 3
 tagline: "The third trilogy in the Of Salt and Starlight saga..."
 cover_image: "/assets/images/fiction/TheAbyssalWar.png"
+order: 3
 description: |
   In the deep, no flag flies for long. Victory belongs to whoever surfaces last.
 ---
