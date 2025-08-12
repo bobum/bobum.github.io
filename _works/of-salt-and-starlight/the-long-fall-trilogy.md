@@ -7,6 +7,7 @@ saga_id: of-salt-and-starlight  # <-- THE NEW LINK
 saga_order: 1 # Order of this trilogy within the saga
 tagline: When the skies burn, the sea crowns its own kings
 cover_image: "/assets/images/fiction/TheLongFall.jpg"
+back_cover_image: "/assets/images/fiction/TheLongFall2.jpg"
 order: 2
 description: |
   In the wake of the storm that shattered the skies, the sea chooses its own kings. Survival will belong to those who can take it—and keep it.
