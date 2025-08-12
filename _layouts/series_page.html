@@ -87,13 +87,9 @@
                 <div class="content">
                     <ul class="primary-menu nav nav-pills onepagenav">
                         <li class="nav-item current"><a class="nav-link smoth-animation" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link smoth-animation" href="#about">About</a></li>
-
-                        <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">portfolio</a></li>
-
-                        <li class="nav-item"><a class="nav-link smoth-animation" href="#client">Award</a></li>
-
-                        <li class="nav-item"><a class="nav-link smoth-animation" href="/#contacts">contact</a></li>
+                        {% for book in books_in_series %}
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#{{book.slug}}">{{book.title}}</a></li>
+                        {% endfor %}
                     </ul>
                     <!-- social sharea area -->
                     <div class="social-share-style-1 mt--40">
@@ -138,7 +134,7 @@
         <!-- Start Slider Area -->
         <div id="home" class="rn-slider-area">
             <!-- Start Single Slide -->
-            <div class="slide slider-style-4 bg_image bg_image--12">
+            <div class="slide slider-style-4 bg_image--12" style="background-image: url({{ page.splash_image }});">
                 <div class="container">
                     <div class="row justify-content-center text-center">
                         <div class="order-2 order-lg-1 col-lg-9 col-xl-7">
