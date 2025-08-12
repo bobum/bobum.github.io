@@ -76,13 +76,13 @@
                 <div class="menu-top">
                     <div class="menu-header">
                         <a class="logo" href="index.html">
-                            <img src="/assets/images/logo/logo.png" alt="Personal Portfolio">
+                            <img src="/assets/images/logo/dp1_inverted.png" alt="Davisplanet">
                         </a>
                         <div class="close-button">
                             <button class="close-menu-activation close"><i data-feather="x"></i></button>
                         </div>
                     </div>
-                    <p class="discription">Lorem ipsum dolor sit amet consect adipisicing elit repellendus.</p>
+                    <p class="discription">{{ page.title }} | {{ site.title }}</p>
                 </div>
                 <div class="content">
                     <ul class="primary-menu nav nav-pills onepagenav">
@@ -141,8 +141,8 @@
                             <div class="content">
                                 <div
                                     class="inner fashion-designer-inner model mb--0 mt--180 mt_lg--5 mt_md--5 mt_sm--5 text-center">
-                                    <h1 class="title">KRISTINA SOMOLYER</h1>
-                                    <p class="disc fd-lorem">American Supermodel & Entrepreneur</p>
+                                    <h1 class="title">{{ page.title | upcase }}</h1>
+                                    <p class="disc fd-lorem">{{ page.tagline }}</p>
                                 </div>
                             </div>
                         </div>
