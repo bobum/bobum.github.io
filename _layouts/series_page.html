@@ -22,7 +22,7 @@
 <!-- home-classic -->
 
 <body class="white-version home-classic spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
-
+{% assign books_in_series = site.books | where:"series_id", page.slug | sort:"book_number" %}
     <!-- Start Main Page Wrapper -->
     <main class="main-page-wrapper spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
         <!-- Start Header -->
@@ -46,10 +46,9 @@
                             <!-- Start Mainmanu Nav -->
                             <ul class="primary-menu nav nav-pills">
                                 <li class="nav-item current"><a class="nav-link smoth-animation" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Services</a></li>
-                                <li class="nav-item"><a class="nav-link smoth-animation" href="#about">About</a></li>
-                                <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link smoth-animation" href="#client">Award</a></li>
+                                {% for book in books_in_series %}
+                                <li class="nav-item"><a class="nav-link smoth-animation" href="#{{book.slug}}">{{book.title}}</a></li>
+                                 {% endfor %}
                             </ul>
                             <!-- End Mainmanu Nav -->
                         </nav>
