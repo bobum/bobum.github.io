@@ -7,6 +7,7 @@ saga_id: of-salt-and-starlight  # <-- THE SAME LINK
 saga_order: 3
 tagline: In the ocean’s dark, every signal could summon rescue—or ruin
 cover_image: "/assets/images/fiction/TheAbyssalWar2.jpg"
+back_cover_image: "/assets/images/fiction/TheAbyssalWar3.jpg"
 order: 4
 description: |
   In the deep, no flag flies for long. Victory belongs to whoever surfaces last.
