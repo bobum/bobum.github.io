@@ -337,15 +337,27 @@
 
         },
 
-        stickyHeader: function (e) {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 250) {
-                    $('.header--sticky').addClass('sticky')
-                } else {
-                    $('.header--sticky').removeClass('sticky')
-                }
-            })
-        },
+		stickyHeader: function (e) {
+		
+		    function swapLogo() {
+		        var $logo = $('.logo a img[data-sticky-src]');
+		        if ($logo.length) {
+		            var cur  = $logo.attr('src');
+		            var swap = $logo.data('sticky-src');
+		            $logo.attr('src', swap).data('sticky-src', cur);
+		        }
+		    }
+		
+		    $(window).scroll(function () {
+		        if ($(this).scrollTop() > 250) {
+		            $('.header--sticky').addClass('sticky');
+		            swapLogo();
+		        } else {
+		            $('.header--sticky').removeClass('sticky');
+		            swapLogo();
+		        }
+		    });
+		},
 
         vedioActivation: function (e) {
             $('#play-video, .play-video').on('click', function (e) {
