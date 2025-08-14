@@ -6,7 +6,7 @@ series_id: unveiled-trilogy # The SAME ID, linking it to the same series
 book_number: 3
 cover_image: "/assets/images/fiction/TheGardenersWar.jpg"
 tagline: "The war for the soul will not be won with armies, but with a single, selfless sacrifice."
-tagline_alt: "When faith becomes power, one act can unravel a universe.
+tagline_alt: "When faith becomes power, one act can unravel a universe."
 quick_description: |
   Years after the Vatican's collapse, the new Testament faith is a global power, forcing a ruthless intelligence director to launch a covert war to destroy what he sees as a cultural virus. Caught between this secular crusade and a militant pilgrim faction aiming to impose faith by force, the movement's leaders must face a final, sacrificial confrontation in Jerusalem to determine the future of belief itself.
 ---
