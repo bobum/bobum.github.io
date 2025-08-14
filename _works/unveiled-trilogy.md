@@ -4,6 +4,7 @@ type: series
 title: "Unveiled"
 slug: unveiled-trilogy
 tagline: Faith, power, and an alien arrival ignite a battle for truth
+tagline_alt: Empires are built on power. The Kingdom is built on sacrifice.
 cover_image: "/assets/images/fiction/UnveiledTrilogy3.jpg"
 back_cover_image: "/assets/images/fiction/UnveiledTrilogy2.jpg"
 splash_image: "/assets/images/fiction/UnveiledTrilogy.jpg"
