@@ -6,6 +6,8 @@ series_id: unveiled-trilogy # This is the CRITICAL LINK to the series file
 book_number: 1
 cover_image: "/assets/images/fiction/WebOfFaith.jpg"
 tagline: "They wanted a pawn. They created the queen of a shadow empire."
+quick_description: |
+  After her father's murder, a young woman is forged into a brilliant operative for a clandestine smuggling ring known as the "Spider's Web." A devastating betrayal transforms her from a loyal agent into the feared "Spider of Jerusalem," a legend born from a quest for vengeance.
 ---
 The story of the Unveiled Trilogy begins in the treacherous back alleys of 1950s Tehran, where a single act of violence sets in motion a decades-spanning saga of espionage and revenge. When her father, a key smuggler for a clandestine Christian network known as the "Spider's Web," is publicly executed, a traumatized fifteen-year-old Maryam Amiri is taken in by the group's matriarch, Zahra Javadpour. Under Zahra's guidance, Maryam is forged into a brilliant operative, mastering the secret routes and codes of a world where faith is contraband. She is sharp, disciplined, and devoted, a rising star in the hidden war for belief.
 
