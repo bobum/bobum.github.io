@@ -152,7 +152,46 @@
             <!-- End Single Slide -->
         </div>
         <!-- End Slider Area -->
-
+        
+        
+        <!-- Start about Area -->
+        <div id="about" class="rn-about-area rn-section-gap section-separator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <span class="subtitle">{{ page.tagline }}</span>
+                            <h2 class="title">Books In The Series</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
+                            class="image-area">
+                            <div class="thumbnail">
+                                <img src="{{ page.cover_image }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
+                        class="col-lg-7 mt_sm--30">
+                        <div class="contant">
+                            <div class="section-title text-left">
+                                <span class="subtitle">{{ page.tagline }}</span>
+                                <h2 class="title">{{ page.title }}</h2>
+                            </div>
+                            {{ page.content }}
+                            <!-- <a class="rn-btn" href="#contacts"><span>DOWNLOAD MY CV</span></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End about Area -->
+        
+        <div class="bg-image-area-fitness attachment bg_image" style="background-image: url({{ page.cover_image }});"></div>
+        
         <!-- Start Experience area -->
         <div id="experiences" class="rn-experience-area section-separator rn-section-gap">
             <div class="container">
@@ -198,76 +237,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Experience area -->
-
-        
-        
-        <!-- Start about Area -->
-        <div id="about" class="rn-about-area rn-section-gap section-separator">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <span class="subtitle">Visit all the books in the {{ page.title }} Series</span>
-                            <h2 class="title">Books In The Series</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
-                            class="image-area">
-                            <div class="thumbnail">
-                                <img src="{{ page.cover_image }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-7 mt_sm--30">
-                        <div class="contant">
-                            <div class="section-title text-left">
-                                <span class="subtitle">{{ page.tagline }}</span>
-                                <h2 class="title">{{ page.title }}</h2>
-                            </div>
-                            {{ page.content }}
-                            <!-- <a class="rn-btn" href="#contacts"><span>DOWNLOAD MY CV</span></a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End about Area -->
-
-        <div class="bg-image-area-fitness attachment bg_image" style="background-image: url({{ page.cover_image }});"></div>
-        
-         <!-- Start Service Area -->
-        <div class="rn-service-area rn-section-gap" id="features">
-            <div class="container">
-                <div class="row row--25 mt_md--10 mt_sm--10">
-{% for book in books_in_series %}
-                    <!-- Start Single Service -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-service">
-                            <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="book-open"></i>
-                                </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="{{ site.baseurl }}{{ book.url }}">{{ book.title }}</a></h4>
-                                    <p class="description">{{ book.tagline }}</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <a class="over-link" href="{{ site.baseurl }}{{ book.url }}"></a>
-                        </div>
-                    </div>
-                    <!-- End SIngle Service -->
-{% endfor %}
-                </div>
-            </div>
-        </div>
-        <!-- End Service Area  -->
+        <!-- End Experience area -->        
         
         <div class="bg-image-area-fitness attachment bg_image"  style="background-image: url({{ page.back_cover_image }});"></div>
         
@@ -278,8 +248,8 @@
                     <div class="col-lg-12">
                         <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
                             class="section-title text-center">
-                            <span class="subtitle">Visit my Award</span>
-                            <h2 class="title">Award I Have Achive</h2>
+                            <span class="subtitle">Meet the Cast</span>
+                            <h2 class="title">Cast of Characters</h2>
                         </div>
                         <div class="skill-style-1">
                             <div class="client-card">
