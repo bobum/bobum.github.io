@@ -6,6 +6,7 @@ series_id: unveiled-trilogy # This is the CRITICAL LINK to the series file
 book_number: 1
 cover_image: "/assets/images/fiction/WebOfFaith.jpg"
 tagline: "They wanted a pawn. They created the queen of a shadow empire."
+tagline_alt: "The most dangerous truths are smuggled in whispers."
 quick_description: |
   After her father's murder, a young woman is forged into a brilliant operative for a clandestine smuggling ring known as the "Spider's Web." A devastating betrayal transforms her from a loyal agent into the feared "Spider of Jerusalem," a legend born from a quest for vengeance.
 ---
