@@ -3,6 +3,7 @@
 name: "Farid Nassiri"
 slug: farid-nassiri
 portrait: "/assets/images/fiction/characters/FaridNassiri.jpg"
+thumbnail: "/assets/images/fiction/characters/FaridNassiri_thumb.jpg"
 tagline: "The wolf in pious clothing."
 
 # --- Relational Info ---
