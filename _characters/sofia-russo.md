@@ -3,6 +3,7 @@
 name: "Sofia Russo"
 slug: sofia-russo
 portrait: "/assets/images/fiction/characters/SofiaRusso.jpg"
+thumbnail: "/assets/images/fiction/characters/SofiaRusso_thumb.jpg"
 tagline: "The scholar who became the strategist."
 
 # --- Relational Info ---
