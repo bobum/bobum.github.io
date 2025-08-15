@@ -18,6 +18,10 @@ collections:
     output: true                      # Creates a page for each individual book
     permalink: /fiction/:path/ # Nested URL: /fiction/unveiled-trilogy/the-first-flame/
 
+  characters:
+    output: false  
+  
+
 permalink: /blog/:title/
 excerpt_separator: "<!--more-->"
 
