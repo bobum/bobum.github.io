@@ -3,6 +3,7 @@
 name: "Zephyr"
 slug: zephyr
 portrait: "/assets/images/fiction/characters/Zephyr.jpg"
+thumbnail: "/assets/images/fiction/characters/Zephyr_thumb.jpg"
 tagline: "The silent witness."
 
 # --- Relational Info ---
