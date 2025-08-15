@@ -3,6 +3,7 @@
 name: "Zahra Javadpour"
 slug: zahra-javadpour
 portrait: "/assets/images/fiction/characters/ZahraJavadpour.jpg"
+thumbnail: "/assets/images/fiction/characters/ZahraJavadpour_thumb.jpg"
 tagline: "The quiet faith that sparked a revolution."
 
 # --- Relational Info ---
