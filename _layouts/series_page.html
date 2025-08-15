@@ -245,9 +245,8 @@
                         </div>
                         <div class="skill-style-1">
                             <div class="client-card">
-{% assign main_cast = site.characters | where:"series_id", page.slug %}
-
-{% for character in main_cast %}
+{% for character in site.characters %}
+{% if character.in_series contains page.slug %}
                                 <!-- Start Single Brand  -->
                                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"
                                     data-aos-once="true" class="main-content">
@@ -262,6 +261,7 @@
                                     </div>
                                 </div>
                                 <!-- End Single Brand  -->
+{% endif %}
 {% endfor %}                                
                             </div>
                         </div>
