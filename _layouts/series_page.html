@@ -349,7 +349,7 @@
                                     <h3>
                                         <span>Books Where You Can Find Me</span>
                                     </h3>
-                                    {% for book_slug in character.appears_in %}
+                                    {% for book_slug in character.in_books %}
                                     <div class="button-group mt--20">                                        
                                         <a href="{{ site.baseurl }}/fiction/{{ character.series_id }}/{{ book_slug }}/" class="rn-btn">
                                             <span>{{ book_slug | replace: '-', ' ' | capitalize }}</span>
