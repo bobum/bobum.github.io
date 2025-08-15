@@ -3,6 +3,7 @@
 name: "Maryam Amiri"
 slug: maryam-amiri
 portrait: "/assets/images/fiction/characters/MaryamAmiri.jpg"
+thumbnail: "/assets/images/fiction/characters/MaryamAmiri_thumb.jpg"
 tagline: "Vengeance forged the weapon. Grace aimed it."
 
 # --- Relational Info ---
