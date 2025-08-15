@@ -248,12 +248,12 @@
 {% for character in site.characters %}
 {% if character.in_series contains page.slug %}
                                 <!-- Start Single Brand  -->
-                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
+                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-bs-toggle="modal" data-bs-target="#{{ character.slug}}"
                                     data-aos-once="true" class="main-content" style="cursor: pointer;">
                                     <div class="inner text-center">
                                         <div class="thumbnail">
                                             <a href="javascript:void(0)"><img src="{{ site.baseurl }}{{ character.thumbnail }}"
-                                                    alt="{{ character.name }}"></a>
+                                                    alt="{{ character.name }}" style="border-radius: 8px;"></a>
                                         </div>
                                         <div class="seperator"></div>
                                         <div class="client-name"><span><a href="#client">{{ character.name }}</a></span>
@@ -312,158 +312,14 @@
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
-
-                    <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
-                        class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/portfolio/portfolio-11.jpg"
-                                            alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Application</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                                750</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
-
-                    <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/portfolio/portfolio-12.jpg"
-                                            alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Photoshop</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                                630</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Logo design creativity & Application
-                                            <i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
-
-                    <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
-                        class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/portfolio/portfolio-14.jpg"
-                                            alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Figma</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                                360</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design &
-                                            Services<i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
-
-                    <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/portfolio/portfolio-13.jpg"
-                                            alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Web Design</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                                280</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Design for tecnology & services<i
-                                                class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
-
-                    <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
-                        class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/portfolio/portfolio-15.jpg"
-                                            alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Web Design</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                                690</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">App for tecnology & services<i
-                                                class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
                 </div>
             </div>
         </div>
         <!-- End Lore Area -->
-        
+{% for character in site.characters %}
+{% if character.in_series contains page.slug %}        
         <!-- Modal Lore Body area Start -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="{{ character.slug}}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -476,8 +332,8 @@
 
                             <div class="col-lg-6">
                                 <div class="portfolio-popup-thumbnail">
-                                    <div class="image">
-                                        <img class="w-100" src="/assets/images/portfolio/portfolio-04.jpg" alt="slide">
+                                    <div class="image" style="max-height: 345px;overflow: hidden;border-radius: 10px;">
+                                        <img class="w-100" src="{{ site.baseurl }}{{ character.portrait }}" alt="{{ character.name }}">
                                     </div>
                                 </div>
                             </div>
@@ -485,23 +341,22 @@
                             <div class="col-lg-6">
                                 <div class="text-content">
                                     <h3>
-                                        <span>Featured - Design</span> App Design Development.
+                                        {{ character.name }}
                                     </h3>
-                                    <p class="mb--30">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-                                    <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias
-                                        suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
-                                    <div class="button-group mt--20">
-                                        <a href="#" class="rn-btn thumbs-icon">
-                                            <span>LIKE THIS</span>
-                                            <i data-feather="thumbs-up"></i>
-                                        </a>
-                                        <a href="#" class="rn-btn">
-                                            <span>VIEW PROJECT</span>
+                                    <div class="mb--30">
+                                        {{ character.quick_description }}
+                                    </div>
+                                    <h3>
+                                        <span>Books Where You Can Find Me</span>
+                                    </h3>
+                                    {% for book_slug in character.appears_in %}
+                                    <div class="button-group mt--20">                                        
+                                        <a href="{{ site.baseurl }}/fiction/{{ character.series_id }}/{{ book_slug }}/" class="rn-btn">
+                                            <span>{{ book_slug | replace: '-', ' ' | capitalize }}</span>
                                             <i data-feather="chevron-right"></i>
                                         </a>
                                     </div>
-
+                                    {% endfor %}
                                 </div>
                                 <!-- End of .text-content -->
                             </div>
@@ -512,7 +367,8 @@
             </div>
         </div>
         <!-- End Modal Lore area -->        
-        
+{% endif %}
+{% endfor %}      
         <!-- Back to  top Start -->
         <div class="backto-top">
             <div>
