@@ -3,6 +3,7 @@
 name: "Abel"
 slug: abel
 portrait: "/assets/images/fiction/characters/Abel.jpg"
+thumbnail: "/assets/images/fiction/characters/Abel_thumb.jpg"
 tagline: "The pilgrim whose sacrifice defined the Kingdom."
 
 # --- Relational Info ---
