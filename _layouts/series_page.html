@@ -350,9 +350,10 @@
                                         <span>Books Where You Can Find Me</span>
                                     </h3>
                                     {% for book_slug in character.in_books %}
+                                    {% assign book = site.books | where:"slug", book_slug | first %}
                                     <div class="button-group mt--20">                                        
-                                        <a href="{{ site.baseurl }}/fiction/{{ character.series_id }}/{{ book_slug }}/" class="rn-btn">
-                                            <span>{{ book_slug | replace: '-', ' ' | capitalize }}</span>
+                                        <a href="{{ site.baseurl }}{{ book.url }}" class="rn-btn">
+                                            <span>{{ book.title }}</span>
                                             <i data-feather="chevron-right"></i>
                                         </a>
                                     </div>
