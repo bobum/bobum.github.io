@@ -3,6 +3,7 @@
 name: "Kael"
 slug: kael
 portrait: "/assets/images/fiction/characters/Kael.jpg"
+thumbnail: "/assets/images/fiction/characters/Kael_thumb.jpg"
 tagline: "From sword to shepherd."
 
 # --- Relational Info ---
