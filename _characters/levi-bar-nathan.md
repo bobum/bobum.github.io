@@ -3,6 +3,7 @@
 name: "Levi Bar-Nathan"
 slug: levi-bar-nathan
 portrait: "/assets/images/fiction/characters/LeviBarNathan.jpg"
+thumbnail: "/assets/images/fiction/characters/LeviBarNathan_thumb.jpg"
 tagline: "Protecting the future by destroying the past."
 
 # --- Relational Info ---
