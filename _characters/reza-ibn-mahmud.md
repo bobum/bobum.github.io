@@ -3,6 +3,7 @@
 name: "Reza ibn Mahmud"
 slug: reza-ibn-mahmud
 portrait: "/assets/images/fiction/characters/RezaIbnMahmud.jpg"
+thumbnail: "/assets/images/fiction/characters/RezaIbnMahmud_thumb.jpg"
 tagline: "The Doubter who became the Witness."
 
 # --- Relational Info ---
