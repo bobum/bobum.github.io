@@ -248,11 +248,11 @@
 {% for character in site.characters %}
 {% if character.in_series contains page.slug %}
                                 <!-- Start Single Brand  -->
-                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"
+                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
                                     data-aos-once="true" class="main-content">
                                     <div class="inner text-center">
                                         <div class="thumbnail">
-                                            <a href="#"><img src="{{ site.baseurl }}{{ character.portrait }}"
+                                            <a href="javascript:void(0)"><img src="{{ site.baseurl }}{{ character.portrait }}"
                                                     alt="{{ character.name }}"></a>
                                         </div>
                                         <div class="seperator"></div>
