@@ -9,6 +9,7 @@ tagline: "When a miracle arrives from the stars, , the war for Earth's soul begi
 tagline_alt: "They came from the stars seeking a divine prophecy, only to find the truth buried in blood."
 quick_description: |
   A haunted theologian is tasked with interrogating otherworldly pilgrims who land in the Iranian desert, their arrival sparking a global crisis. His desperate attempt to save them leads to a shocking discovery that their entire history is a misunderstanding, a truth that uncovers a conspiracy powerful enough to shatter the foundations of Western religion.
+genre:  Sci-Fi Thriller, Theological & Political Conspiracy
 ---
 The world changes forever in the desolate salt flats of Iran when a smuggler witnesses the silent descent of an otherworldly craft. Eleven humanoid pilgrims emerge, speaking of prophecy and a desperate need to reach "Yaru-salaam"—Jerusalem. To the Iranian regime, they are a threat; to Reza ibn Mahmud, the haunted theologian tasked with their interrogation, they are a terrifying challenge to his deepest beliefs. As he pieces together their ancient theology, a pidgin of Farsi, Hebrew, and scripture, he discovers their story is not a political plot, but a sacred pilgrimage to witness the fulfillment of a prophecy that began at the dawn of time.
 
