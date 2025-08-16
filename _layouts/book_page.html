@@ -138,7 +138,7 @@
         <!-- Start Slider Area -->
         <div id="home" class="rn-slider-area">
             <!-- Start Single Slide -->
-            <div class="slide slider-style-4 bg_image--12" style="background-image: url({{ page.splash_image }});">
+            <div class="slide slider-style-4 bg_image--12" style="background-image: url({{ page.cover_image }});">
                 <div class="container">
                     <div class="row justify-content-center text-center">
                         <div class="order-2 order-lg-1 col-lg-9 col-xl-7">
@@ -206,25 +206,25 @@
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#{{ character.slug }}">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-10.jpg"
-                                            alt="Personal Portfolio Images">
+                                        <img src="{{ character.portrait }}"
+                                            alt="{{ character.name }}">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
+                                            <a href="javascript:void(0)">{{ character.tagline }}</a>
                                         </div>
                                         <div class="meta">
                                             <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
                                                 600</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
+                                    <h4 class="title"><a href="javascript:void(0)">{{ character.name }} <i
                                                 class="feather-arrow-up-right"></i></a></h4>
                                 </div>
                             </div>
@@ -240,45 +240,9 @@
         
         <div class="bg-image-area-fitness attachment bg_image"  style="background-image: url({{ page.back_cover_image }});"></div>
         
-        <!-- Start Cast of Characters Area -->
-        <div id="cast-of-characters" class="rn-client-area rn-client-style-2 rn-section-gap section-separator">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
-                            class="section-title text-center">
-                            <span class="subtitle">Meet the Cast</span>
-                            <h2 class="title">Cast of Characters</h2>
-                        </div>
-                        <div class="skill-style-1">
-                            <div class="client-card">
-{% for character in site.characters %}
-{% if character.in_books contains page.slug %}
-                                <!-- Start Single Brand  -->
-                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-bs-toggle="modal" data-bs-target="#{{ character.slug}}"
-                                    data-aos-once="true" class="main-content" style="cursor: pointer;">
-                                    <div class="inner text-center">
-                                        <div class="thumbnail">
-                                            <a href="javascript:void(0)"><img src="{{ site.baseurl }}{{ character.thumbnail }}"
-                                                    alt="{{ character.name }}" style="border-radius: 8px;"></a>
-                                        </div>
-                                        <div class="seperator"></div>
-                                        <div class="client-name"><span><a href="#client">{{ character.name }}</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Brand  -->
-{% endif %}
-{% endfor %}                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end Cast of Characters Area --> 
 
-        <!-- Start portfolio Area -->
+
+        <!-- Start Lore Area -->
         <div id="portfolio" class="rn-project-area portfolio-style-two rn-section-gap">
             <div class="container">
                 <div class="row">
@@ -347,110 +311,7 @@
                             </div>
                         </div>
                         <!-- End Single Item  -->
-
-                        <!-- Start Single Item  -->
-                        <div class="carousel-item">
-                            <div class="portfolio-single">
-                                <div class="row direction">
-                                    <div class="col-lg-5">
-                                        <div class="inner">
-                                            <h5 class="title">
-                                                The services provice for Development
-                                            </h5>
-                                            <p class="discription">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quidem
-                                                dignissimos.
-                                                Perspiciatis fuga soluta officiis eligendi labore, omnis ut velit vitae
-                                                suscipit
-                                                alias cumque temporibus.
-                                            </p>
-                                            <div class="ft-area">
-                                                <div class="feature-wrapper">
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Divice maintain</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Theme builder</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Certification</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Stats & reports</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Retina ready</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7 col-xl-7">
-                                        <div class="thumbnail">
-                                            <img src="assets/images/portfolio/portfolio-08.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item  -->
-
-                        <!-- Start Single Item  -->
-                        <div class="carousel-item">
-                            <div class="portfolio-single">
-                                <div class="row direction">
-                                    <div class="col-lg-5">
-                                        <div class="inner">
-                                            <h5 class="title">
-                                                The services provice for Android user
-                                            </h5>
-                                            <p class="discription">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quidem
-                                                dignissimos.
-                                                Perspiciatis fuga soluta officiis eligendi labore, omnis ut velit vitae
-                                                suscipit
-                                                alias cumque temporibus.
-                                            </p>
-                                            <div class="ft-area">
-                                                <div class="feature-wrapper">
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Customer satisfaction</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Quiz builder</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Certification</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Stats & reports</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Football & reports</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7 col-xl-7">
-                                        <div class="thumbnail">
-                                            <img src="assets/images/portfolio/portfolio-09.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item  -->
+                        
                     </div>
                     <button class="carousel-control-prev" role="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="prev">
@@ -464,52 +325,6 @@
             </div>
         </div>
         <!-- End portfolio Area -->
-        
-        <!-- Start Lore Area -->
-        <div class="rn-portfolio-area rn-section-gap" id="lore">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <span class="subtitle">Visit my portfolio and keep your feedback</span>
-                            <h2 class="title">My Portfolio</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt--10 mt_md--10 mt_sm--10">
-                    <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
-                        class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="/assets/images/portfolio/portfolio-10.jpg"
-                                            alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                                600</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
-                                                class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Portfolio -->
-                </div>
-            </div>
-        </div>
-        <!-- End Lore Area -->
        
         <!-- Modal Lore Body area Start -->
         <div class="modal fade" id="" tabindex="-1" role="dialog" aria-hidden="true">
@@ -553,7 +368,7 @@
 {% for character in site.characters %}
 {% if character.in_books contains page.slug %} 
         <!-- Modal Cast Body area Start -->
-        <div class="modal fade" id="exampleModalCenters" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="{{ character.slug }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-news" role="document">
                 <div class="modal-content">
 
