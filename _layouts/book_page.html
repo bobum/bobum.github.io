@@ -342,7 +342,7 @@
                         <div class="news-details">
                             <span class="date">{{ character.tagline }}</span>
                             <h2 class="title">{{ character.name }}</h2>
-                            {{ character.content }}
+                            {{ character.content | markdownify }}
                         </div>
                     </div>
                     <!-- End of .modal-body -->
