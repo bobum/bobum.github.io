@@ -49,6 +49,8 @@
                                 {% for book in books_in_series %}
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#{{book.slug}}">{{book.title}}</a></li>
                                  {% endfor %}
+                                <li class="nav-item"><a class="nav-link smoth-animation" href="#cast-of-characters">Cast</a></li>
+                                <li class="nav-item"><a class="nav-link smoth-animation" href="#lore">Lore</a></li>
                             </ul>
                             <!-- End Mainmanu Nav -->
                         </nav>
@@ -90,6 +92,8 @@
                         {% for book in books_in_series %}
                         <li class="nav-item"><a class="nav-link smoth-animation" href="#{{book.slug}}">{{book.title}}</a></li>
                         {% endfor %}
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#cast-of-characters">Cast</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#lore">Lore</a></li>
                     </ul>
                     <!-- social sharea area -->
                     <div class="social-share-style-1 mt--40">
@@ -200,11 +204,11 @@
                     <div class="col-12 mt_experience">
 {% for book in books_in_series %}
                         <!-- single skills -->
-                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
+                        <div data-aos="fade-up" id="{{ book.slug }} data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
                             class="experience-style-two">
                             <div class="experience-left">
                                 <div class="experience-image">
-                                    <img src="{{ book.cover_image }}" alt="Personal Portfolio">
+                                    <img src="{{ book.cover_image }}" alt="{{ book.title }}">
                                 </div>
                                 <div class="experience-center" style="flex: 1;">
                                     <span class="date">2015-Present</span>
@@ -234,7 +238,7 @@
         <div class="bg-image-area-fitness attachment bg_image"  style="background-image: url({{ page.back_cover_image }});"></div>
         
         <!-- Start Cast of Characters Area -->
-        <div id="client" class="rn-client-area rn-client-style-2 rn-section-gap section-separator">
+        <div id="cast-of-characters" class="rn-client-area rn-client-style-2 rn-section-gap section-separator">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -272,7 +276,7 @@
         <!-- end Cast of Characters Area -->        
         
         <!-- Start Lore Area -->
-        <div class="rn-portfolio-area rn-section-gap" id="portfolio">
+        <div class="rn-portfolio-area rn-section-gap" id="lore">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -332,7 +336,7 @@
 
                             <div class="col-lg-6">
                                 <div class="portfolio-popup-thumbnail">
-                                    <div class="image" style="max-height: 345px;overflow: hidden;border-radius: 10px;">
+                                    <div class="image" style="max-height: 690px;overflow: hidden;border-radius: 10px;">
                                         <img class="w-100" src="{{ site.baseurl }}{{ character.portrait }}" alt="{{ character.name }}">
                                     </div>
                                 </div>
