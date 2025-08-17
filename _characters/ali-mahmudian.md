@@ -2,6 +2,7 @@
 name: "Ali Mahmudian"
 slug: ali-mahmudian
 portrait: "/assets/images/fiction/characters/AliMahmudian.jpg"
+thumbnail: "/assets/images/fiction/characters/AliMahmudian_thumb.jpg"
 tagline: "A fist wrapped in a business contract."
 
 # --- Relational Info ---
