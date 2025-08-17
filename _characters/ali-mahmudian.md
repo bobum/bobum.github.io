@@ -1,3 +1,4 @@
+---
 # --- Core Info ---
 name: "Ali Mahmudian"
 slug: ali-mahmudian
