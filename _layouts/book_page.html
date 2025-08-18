@@ -212,7 +212,7 @@
 
                     {% comment %}
                     --- THE CRITICAL FIX IS HERE ---
-                    We must use '{% assign %}' for every modification.
+                    We must use assign for every modification.
                     We are building a new, clean data object step-by-step.
                     {% endcomment %}
                     {% assign char_display_data = '{}' | parse_json %}
