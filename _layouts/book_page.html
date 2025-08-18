@@ -197,37 +197,60 @@
                         </div>
                     </div>
                 </div>
-{% assign main_characters_with_order = "" | split: "" %}
-{% assign supporting_characters_with_order = "" | split: "" %}
+        {% comment %}
+        --- STEP 1: INITIALIZATION ---
+        Create two empty lists. We will populate these with clean, simple data
+        objects to ensure the 'sort' filter works correctly.
+        {% endcomment %}
+        {% assign main_characters_data = "" | split: "" %}
+        {% assign supporting_characters_data = "" | split: "" %}
 
-{% for character in site.characters %}
-  {% for appearance in character.in_books %}
-    {% if appearance.book == page.slug %}
-      {% comment %}
-        Create a new temporary object that merges the character's data
-        with the appearance's data for this specific book.
-      {% endcomment %}
-      {% assign appearance_data = appearance %}
-      {% assign char_data_with_appearance = character | merge: appearance_data %}
+        {% comment %}
+        --- STEP 2: DATA GATHERING AND CLEANING ---
+        Loop through every character and appearance to find the cast for THIS book.
+        {% endcomment %}
+        {% for character in site.characters %}
+            {% for appearance in character.in_books %}
+                {% if appearance.book == page.slug %}
 
-      {% if appearance.role == 'main' %}
-        {% assign main_characters_with_order = main_characters_with_order | push: char_data_with_appearance %}
-      {% elsif appearance.role == 'supporting' %}
-        {% assign supporting_characters_with_order = supporting_characters_with_order | push: char_data_with_appearance %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+                    {% comment %}
+                    --- THE CRITICAL FIX IS HERE ---
+                    Instead of merging the complex 'character' object, we create a NEW,
+                    clean data hash. We manually copy only the properties we need.
+                    This prevents the 'sort' filter from getting confused.
+                    {% endcomment %}
+                    {% assign char_display_data = '{}' | parse_json %}
+                    {% assign char_display_data = char_display_data | merge: {"name": character.name} %}
+                    {% assign char_display_data = char_display_data | merge: {"tagline": character.tagline} %}
+                    {% assign char_display_data = char_display_data | merge: {"portrait": character.portrait} %}
+                    {% assign char_display_data = char_display_data | merge: {"thumbnail": character.thumbnail} %}
+                    {% assign char_display_data = char_display_data | merge: {"quick_description": character.quick_description} %}
+                    {% assign char_display_data = char_display_data | merge: {"full_bio": character.content} %}
+                    {% assign char_display_data = char_display_data | merge: {"role": appearance.role} %}
+                    {% assign char_display_data = char_display_data | merge: {"order": appearance.order} %}
 
-{% assign sorted_main = main_characters_with_order | sort: "order" %}
-{% assign sorted_supporting = supporting_characters_with_order | sort: "order" %}
+                    {% comment %}
+                    Now, add this clean data object to the appropriate list.
+                    {% endcomment %}
+                    {% if appearance.role == 'main' %}
+                        {% assign main_characters_data = main_characters_data | push: char_display_data %}
+                    {% elsif appearance.role == 'supporting' %}
+                        {% assign supporting_characters_data = supporting_characters_data | push: char_display_data %}
+                    {% endif %}
 
-<pre><code>
-  {{ sorted_main | json }}
-</code></pre>
-<pre><code>
-  {{ sorted_supporting | json }}
-</code></pre>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        {% comment %}
+        --- STEP 3: SORTING ---
+        Now that we have simple lists of clean data, the 'sort' filter will
+        perform a correct NUMERICAL sort on the 'order' property.
+        {% endcomment %}
+        {% assign sorted_main = main_characters_data | sort: "order" %}
+        {% assign sorted_supporting = supporting_characters_data | sort: "order" %}
+        {% assign combined_cast = sorted_main | concat: sorted_supporting %}
+                
                 
                 <div class="row mt--10 mt_md--10 mt_sm--10">
                     {% for character in sorted_main %}
@@ -440,8 +463,7 @@
         </div>
         <!-- End Resume Area -->
 
-{% for character in site.characters %}
-{% if character.in_books contains page.slug %} 
+{% for character in combined_cast %}
         <!-- Modal Cast Body area Start -->
         <div class="modal fade" id="{{ character.slug }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-news" role="document">
