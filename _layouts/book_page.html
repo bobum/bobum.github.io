@@ -197,29 +197,27 @@
                         </div>
                     </div>
                 </div>
-        {% comment %}
-        --- Step 1: Gather all 'appearances' for THIS specific book ---
-        We create a simple list of appearance objects.
-        {% endcomment %}
         {% assign appearances_in_this_book = "" | split: "" %}
 
         {% for character in site.characters %}
             {% for appearance in character.in_books %}
                 {% if appearance.book == page.slug %}
+
                     {% comment %}
-                    Add the character's slug to the appearance object. This is our 'key' to find
-                    the full character data later. We use 'merge' to create this temporary object.
+                    --- THE CRITICAL FIX IS HERE ---
+                    We create the hash to be merged as a string first, then parse it.
+                    This avoids the inline '{' syntax error.
                     {% endcomment %}
-                    {% assign appearance_with_character_slug = appearance | merge: {"character_slug": character.slug} %}
+                    {% capture data_to_merge_string %}{"character_slug": "{{ character.slug }}"}{% endcapture %}
+                    {% assign data_to_merge = data_to_merge_string | parse_json %}
+                    
+                    {% assign appearance_with_character_slug = appearance | merge: data_to_merge %}
                     {% assign appearances_in_this_book = appearances_in_this_book | push: appearance_with_character_slug %}
+
                 {% endif %}
             {% endfor %}
         {% endfor %}
         
-        {% comment %}
-        --- Step 2: Sort the simple list of appearances by their 'order' property ---
-        This works because we are sorting a simple list of objects.
-        {% endcomment %}
         {% assign sorted_appearances = appearances_in_this_book | sort: "order" %}
                 
                 
