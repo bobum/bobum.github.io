@@ -12,9 +12,12 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - unveiled
-  - the-gardeners-war
-
+  - book: unveiled
+    role: main
+    order: 3
+  - book: the-gardeners-war
+    role: main
+    order: 5
 quick_description: |
   A passionate and idealistic pilgrim who forms a deep bond with Reza. His theological duels, unwavering faith, and ultimate, selfless sacrifice in Jerusalem serve as the moral and spiritual climax of the entire trilogy.
 ---
