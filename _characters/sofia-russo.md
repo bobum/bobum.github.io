@@ -12,8 +12,9 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - the-gardeners-war
-
+  - book: the-gardeners-war
+    role: main
+    order: 2
 quick_description: |
   A brilliant archaeologist who becomes Reza's intellectual partner and, after Maryam's death, her chosen successor. A master strategist, she rebuilds the Web for a new era, shifting the fight from back alleys to the battleground of global information.
 ---
