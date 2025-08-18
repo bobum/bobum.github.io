@@ -23,6 +23,7 @@
 
 <body class="white-version home-classic spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
 {% assign books_in_series = site.books | where:"series_id", page.slug | sort:"book_number" %}
+{% assign series = site.works | where:"slug", page.series_id | first %}
     <!-- Start Main Page Wrapper -->
     <main class="main-page-wrapper spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
         <!-- Start Header -->
@@ -50,6 +51,7 @@
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#cast-of-characters">Cast</a></li>
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#lore">Lore</a></li>
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#timeline">Timeline</a></li>
+                                <li class="nav-item"><a class="nav-link smoth-animation" href="{{ site.baseurl }}{{ series.url }}">{{ series.title }}</a></li>
                             </ul>
                             <!-- End Mainmanu Nav -->
                         </nav>
