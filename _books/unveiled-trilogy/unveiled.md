@@ -5,6 +5,8 @@ slug: unveiled
 series_id: unveiled-trilogy # The SAME ID, linking it to the same series
 book_number: 2
 cover_image: "/assets/images/fiction/Unveiled.jpg"
+back_cover_image: "/assets/images/fiction/UnveiledTrilogy2.jpg"
+splash_image: "/assets/images/fiction/UnveiledTrilogy.jpg"
 tagline: "When a miracle arrives from the stars, , the war for Earth's soul begins."
 tagline_alt: "They came from the stars seeking a divine prophecy, only to find the truth buried in blood."
 quick_description: |
