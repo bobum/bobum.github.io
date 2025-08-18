@@ -12,9 +12,12 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - unveiled
-  - the-gardeners-war
-
+  - book: unveiled
+    role: supporting
+    order: 4
+  - book: the-gardeners-war
+    role: main
+    order: 3
 quick_description: |
   A powerful and cunning Israeli intelligence director. Traumatized by his past, he views the Testament faith as an existential threat to his people. His "baptism" in the desert hardens into a ruthless crusade, making him the primary antagonist of the final book.
 ---
