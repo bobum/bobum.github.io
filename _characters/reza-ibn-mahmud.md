@@ -12,9 +12,12 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - unveiled
-  - the-gardeners-war
-
+  - book: unveiled
+    role: main
+    order: 1
+  - book: the-gardeners-war
+    role: main
+    order: 1
 quick_description: |
   A haunted theologian and linguist tasked by the Iranian regime to interrogate the pilgrims. His journey from a man of doubt to the "Witness" and intellectual leader of the Testament faith is the spiritual core of the second and third books.
 ---
