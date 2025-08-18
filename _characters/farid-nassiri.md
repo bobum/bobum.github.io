@@ -12,8 +12,9 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - web-of-faith
-
+  - book: web-of-faith
+    role: main
+    order: 2
 quick_description: |
   A charismatic and ruthless criminal mastermind who marries into Zahra's family to co-opt her smuggling network. His cruel betrayal of Maryam is the catalyst that creates "The Spider of Jerusalem."
 ---
