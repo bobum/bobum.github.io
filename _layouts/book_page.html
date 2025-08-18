@@ -197,38 +197,40 @@
                         </div>
                     </div>
                 </div>
+        {% comment %}
+        --- STEP 1: CREATE THE MAP ---
+        Create a simple list of objects containing ONLY the sort key and the lookup key.
+        {% endcomment %}
+        {% assign character_map = "" | split: "" %}
+
         {% for character in site.characters %}
             {% for appearance in character.in_books %}
                 {% if appearance.book == page.slug %}
-                    {% comment %}
-                    --- THE DEFINITIVE FIX IS HERE ---
-                    This is the workaround for the '{' syntax error.
-                    1. We 'capture' the hash we want to create as a plain string.
-                    2. We use 'parse_json' to convert that string into a real data object.
-                    3. We then 'merge' that valid data object. This is valid syntax.
-                    {% endcomment %}
-                    {% capture slug_hash_string %}{"character_slug": "{{ character.slug }}"}{% endcapture %}
-                    {% assign slug_hash = slug_hash_string | parse_json %}
-                    
-                    {% assign final_appearance_object = appearance | merge: slug_hash %}
-                    {% assign appearances_in_this_book = appearances_in_this_book | push: final_appearance_object %}
+                    {% capture map_item_string %}{"order": {{ appearance.order }}, "char_slug": "{{ character.slug }}"}{% endcapture %}
+                    {% assign map_item = map_item_string | parse_json %}
+                    {% assign character_map = character_map | push: map_item %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
-        
+
         {% comment %}
-        --- Step 2: Sort the simple list of appearances by their 'order' property. ---
+        --- STEP 2: SORT THE MAP ---
+        The 'sort' filter will work perfectly on this simple list of data.
         {% endcomment %}
-        {% assign sorted_appearances = appearances_in_this_book | sort: "order" %}
+        {% assign sorted_map = character_map | sort: "order" %}
+
+        {% comment %}
+        --- STEP 3: LOOP AND LOOK UP ---
+        Now, we loop through the perfectly sorted map. In each iteration,
+        we use the 'char_slug' to look up the full character object for display.
+        {% endcomment %}
                 
                 
                 <div class="row mt--10 mt_md--10 mt_sm--10">
-                {% for appearance in sorted_appearances %}
+            {% for item in sorted_map %}
+                {% assign character = site.characters | where:"slug", item.char_slug | first %}
+                {% assign appearance = character.in_books | where:"book", page.slug | first %}
                 {% if appearance.role == "main" %}
-                    {% comment %}
-                    Now, look up the full character object using the slug we saved.
-                    {% endcomment %}
-                    {% assign character = site.characters | where:"slug", appearance.character_slug | first %}
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
@@ -263,9 +265,10 @@
                         </div>
                     </div>
                 </div>
-                    {% for appearance in sorted_appearances %}
-                    {% if appearance.role == "supporting" %}
-                    {% assign character = site.characters | where:"slug", appearance.character_slug | first %}
+            {% for item in sorted_map %}
+                {% assign character = site.characters | where:"slug", item.char_slug | first %}
+                {% assign appearance = character.in_books | where:"book", page.slug | first %}
+                {% if appearance.role == "supporting" %}
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
@@ -442,13 +445,8 @@
         </div>
         <!-- End Resume Area -->
 
-{% for appearance in sorted_appearances %}
-
-            {% comment %}
-            For each appearance, we still need to look up the full character object
-            to get details like their name and tagline.
-            {% endcomment %}
-            {% assign character = site.characters | where:"slug", appearance.character_slug | first %}
+            {% for item in sorted_map %}
+                {% assign character = site.characters | where:"slug", item.char_slug | first %}
         <!-- Modal Cast Body area Start -->
         <div class="modal fade" id="{{ character.slug }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-news" role="document">
