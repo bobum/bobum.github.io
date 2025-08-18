@@ -198,39 +198,45 @@
                     </div>
                 </div>
         {% comment %}
-        --- STEP 1: CREATE THE MAP ---
-        Create a simple list of objects containing ONLY the sort key and the lookup key.
+        --- STEP 1: Create a simple list of SORTABLE STRINGS ---
+        Each string will look like "01_kaelen" or "05_maryam-amiri".
         {% endcomment %}
-        {% assign character_map = "" | split: "" %}
+        {% assign sortable_main_list = "" | split: "" %}
+        {% assign sortable_supporting_list = "" | split: "" %}
 
         {% for character in site.characters %}
             {% for appearance in character.in_books %}
                 {% if appearance.book == page.slug %}
-                    {% capture map_item_string %}{"order": {{ appearance.order }}, "char_slug": "{{ character.slug }}"}{% endcapture %}
-                    {% assign map_item = map_item_string | parse_json %}
-                    {% assign character_map = character_map | push: map_item %}
+                    {% comment %}
+                    'printf' pads the number with a leading zero (e.g., 1 becomes "01").
+                    This ensures that sorting "10" and "2" works correctly.
+                    {% endcomment %}
+                    {% assign padded_order = appearance.order | prepend: "0" | slice: -2, 2 %}
+                    {% assign sort_string = padded_order | append: "_" | append: character.slug %}
+                    
+                    {% if appearance.role == 'main' %}
+                        {% assign sortable_main_list = sortable_main_list | push: sort_string %}
+                    {% elsif appearance.role == 'supporting' %}
+                        {% assign sortable_supporting_list = sortable_supporting_list | push: sort_string %}
+                    {% endif %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
 
         {% comment %}
-        --- STEP 2: SORT THE MAP ---
-        The 'sort' filter will work perfectly on this simple list of data.
+        --- STEP 2: Sort the simple lists of strings. This is a 100% reliable operation. ---
         {% endcomment %}
-        {% assign sorted_map = character_map | sort: "order" %}
-
-        {% comment %}
-        --- STEP 3: LOOP AND LOOK UP ---
-        Now, we loop through the perfectly sorted map. In each iteration,
-        we use the 'char_slug' to look up the full character object for display.
-        {% endcomment %}
+        {% assign sorted_main_strings = sortable_main_list | sort %}
+        {% assign sorted_supporting_strings = sortable_supporting_list | sort %}
                 
                 
                 <div class="row mt--10 mt_md--10 mt_sm--10">
-            {% for item in sorted_map %}
-                {% assign character = site.characters | where:"slug", item.char_slug | first %}
-                {% assign appearance = character.in_books | where:"book", page.slug | first %}
-                {% if appearance.role == "main" %}
+           {% for item in sorted_main_strings %}
+                {% comment %}
+                Extract the slug from the string (e.g., "01_kaelen" -> "kaelen")
+                {% endcomment %}
+                {% assign char_slug = item | split: "_" | last %}
+                {% assign character = site.characters | where:"slug", char_slug | first %}
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
@@ -255,7 +261,6 @@
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
-                    {% endif %}
                     {% endfor %}
                     <div class="row">
                     <div class="col-lg-12">
@@ -265,10 +270,9 @@
                         </div>
                     </div>
                 </div>
-            {% for item in sorted_map %}
-                {% assign character = site.characters | where:"slug", item.char_slug | first %}
-                {% assign appearance = character.in_books | where:"book", page.slug | first %}
-                {% if appearance.role == "supporting" %}
+            {% for item in sorted_supporting_strings %}
+                {% assign char_slug = item | split: "_" | last %}
+                {% assign character = site.characters | where:"slug", char_slug | first %}
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
@@ -293,7 +297,6 @@
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
-                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -445,8 +448,9 @@
         </div>
         <!-- End Resume Area -->
 
-            {% for item in sorted_map %}
-                {% assign character = site.characters | where:"slug", item.char_slug | first %}
+{% for character in site.characters %}
+            {% for appearance in character.in_books %}
+                {% if appearance.book == page.slug %}
         <!-- Modal Cast Body area Start -->
         <div class="modal fade" id="{{ character.slug }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-news" role="document">
@@ -473,7 +477,9 @@
             </div>
         </div>
         <!-- End Modal Cast area -->
+        {% endif %}
 {% endfor %}
+        {% endfor %}
         <!-- Back to  top Start -->
         <div class="backto-top">
             <div>
