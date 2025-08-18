@@ -12,10 +12,15 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - web-of-faith
-  - unveiled
-  - the-gardeners-war
-
+  - book: web-of-faith
+    role: main
+    order: 1
+  - book: unveiled
+    role: supporting
+    order: 5
+  - book: the-gardeners-war
+    role: main
+    order: 4
 quick_description: |
   Forged in the crucible of betrayal, Maryam Amiri became the legendary "Spider of Jerusalem," a ruthless smuggler whose network controlled the shadowy arteries of the Middle East. She ultimately transforms into the "Gardener," the unseen protector of a global faith, sacrificing everything to ensure the survival of the legacy she spent a lifetime building.
 ---
