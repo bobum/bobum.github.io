@@ -197,26 +197,27 @@
                         </div>
                     </div>
                 </div>
-        {% comment %}
-        --- Step 1: Create a simple list of all appearances for THIS book. ---
-        {% endcomment %}
-        {% assign appearances_in_this_book = "" | split: "" %}
-
         {% for character in site.characters %}
             {% for appearance in character.in_books %}
                 {% if appearance.book == page.slug %}
                     {% comment %}
-                    This 'merge' is simple and safe. It adds one key to an existing hash.
-                    It's the complex, multi-line merge that was causing the error.
+                    --- THE DEFINITIVE FIX IS HERE ---
+                    This is the workaround for the '{' syntax error.
+                    1. We 'capture' the hash we want to create as a plain string.
+                    2. We use 'parse_json' to convert that string into a real data object.
+                    3. We then 'merge' that valid data object. This is valid syntax.
                     {% endcomment %}
-                    {% assign appearance_with_character_slug = appearance | merge: {"character_slug": character.slug} %}
-                    {% assign appearances_in_this_book = appearances_in_this_book | push: appearance_with_character_slug %}
+                    {% capture slug_hash_string %}{"character_slug": "{{ character.slug }}"}{% endcapture %}
+                    {% assign slug_hash = slug_hash_string | parse_json %}
+                    
+                    {% assign final_appearance_object = appearance | merge: slug_hash %}
+                    {% assign appearances_in_this_book = appearances_in_this_book | push: final_appearance_object %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
         
         {% comment %}
-        --- Step 2: Sort the list of simple appearance objects by their 'order' property. ---
+        --- Step 2: Sort the simple list of appearances by their 'order' property. ---
         {% endcomment %}
         {% assign sorted_appearances = appearances_in_this_book | sort: "order" %}
                 
