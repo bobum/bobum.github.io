@@ -12,9 +12,12 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - unveiled
-  - the-gardeners-war
-
+  - book: unveiled
+    role: main
+    order: 2
+  - book: the-gardeners-war
+    role: supporting
+    order: 7
 quick_description: |
   The wise and ancient elder of the pilgrims. He is the first to communicate with Reza, sharing their ancient theology and purpose. His body's transformation after death into an incorruptible miracle becomes a silent, powerful testament that fuels the faith.
 ---
