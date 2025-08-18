@@ -12,8 +12,9 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - web-of-faith
-
+  - book: web-of-faith
+    role: supporting
+    order: 4
 quick_description: |
   A brutal associate of Farid Nassiri and the abusive husband of Laila. His cruelty serves as the flashpoint for Maryam Amiri's guilt-fueled vengeance, making him the final target of the "Spider of Jerusalem" before her disappearance.
 ---
