@@ -12,9 +12,12 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - web-of-faith
-  - unveiled
-
+  - book: web-of-faith
+    role: main
+    order: 3
+  - book: unveiled
+    role: supporting
+    order: 7
 quick_description: |
   The original matriarch of the "Spider's Web" and Reza's grandmother. A woman of deep faith, she rescues a young Maryam and mentors her. Her legacy, including a hidden crucifix, becomes a crucial tool that echoes through the entire saga.
 ---
