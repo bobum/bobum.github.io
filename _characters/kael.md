@@ -12,8 +12,9 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - the-gardeners-war
-
+  - book: the-gardeners-war
+    role: main
+    order: 6
 quick_description: |
   A charismatic and militant pilgrim leader who rises to power after the Vatican's collapse. He reinterprets the Testaments into a doctrine of holy war, becoming a formidable antagonist whose quest for redemption is pivotal to the final act.
 ---
