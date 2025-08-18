@@ -2,8 +2,8 @@
 # --- Core Info ---
 name: "Laila Mahmudian"
 slug: laila-mahmudian
-portrait: "/assets/images/fiction/characters/LailaMahmudia.jpg"
-thumbnail: "/assets/images/fiction/characters/LailaMahmudia_thumb.jpg"
+portrait: "/assets/images/fiction/characters/LailaMahmudian.jpg"
+thumbnail: "/assets/images/fiction/characters/LailaMahmudian_thumb.jpg"
 tagline: "The broken link who held the key."
 
 # --- Relational Info ---
