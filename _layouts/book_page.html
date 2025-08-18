@@ -198,68 +198,38 @@
                     </div>
                 </div>
         {% comment %}
-        --- STEP 1: INITIALIZATION ---
+        --- Step 1: Gather all 'appearances' for THIS specific book ---
+        We create a simple list of appearance objects.
         {% endcomment %}
-        {% assign main_characters_data = "" | split: "" %}
-        {% assign supporting_characters_data = "" | split: "" %}
+        {% assign appearances_in_this_book = "" | split: "" %}
 
-        {% comment %}
-        --- STEP 2: DATA GATHERING AND CLEANING ---
-        {% endcomment %}
         {% for character in site.characters %}
             {% for appearance in character.in_books %}
                 {% if appearance.book == page.slug %}
-
                     {% comment %}
-                    --- THE CRITICAL FIX IS HERE ---
-                    We must use assign for every modification.
-                    We are building a new, clean data object step-by-step.
+                    Add the character's slug to the appearance object. This is our 'key' to find
+                    the full character data later. We use 'merge' to create this temporary object.
                     {% endcomment %}
-                    {% assign char_display_data = '{}' | parse_json %}
-                    {% assign temp_hash = '{"name": ""}' | parse_json | merge: {"name": character.name} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-
-                    {% assign temp_hash = '{"tagline": ""}' | parse_json | merge: {"tagline": character.tagline} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-                    
-                    {% assign temp_hash = '{"portrait": ""}' | parse_json | merge: {"portrait": character.portrait} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-                    
-                    {% assign temp_hash = '{"thumbnail": ""}' | parse_json | merge: {"thumbnail": character.thumbnail} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-
-                    {% assign temp_hash = '{"quick_description": ""}' | parse_json | merge: {"quick_description": character.quick_description} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-
-                    {% assign temp_hash = '{"full_bio": ""}' | parse_json | merge: {"full_bio": character.content} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-
-                    {% assign temp_hash = '{"role": ""}' | parse_json | merge: {"role": appearance.role} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-
-                    {% assign temp_hash = '{"order": ""}' | parse_json | merge: {"order": appearance.order} %}
-                    {% assign char_display_data = char_display_data | merge: temp_hash %}
-
-
-                    {% if appearance.role == 'main' %}
-                        {% assign main_characters_data = main_characters_data | push: char_display_data %}
-                    {% elsif appearance.role == 'supporting' %}
-                        {% assign supporting_characters_data = supporting_characters_data | push: char_display_data %}
-                    {% endif %}
-
+                    {% assign appearance_with_character_slug = appearance | merge: {"character_slug": character.slug} %}
+                    {% assign appearances_in_this_book = appearances_in_this_book | push: appearance_with_character_slug %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
-
+        
         {% comment %}
-        --- STEP 3: SORTING ---
+        --- Step 2: Sort the simple list of appearances by their 'order' property ---
+        This works because we are sorting a simple list of objects.
         {% endcomment %}
-        {% assign sorted_main = main_characters_data | sort: "order" %}
-        {% assign sorted_supporting = supporting_characters_data | sort: "order" %}
+        {% assign sorted_appearances = appearances_in_this_book | sort: "order" %}
                 
                 
                 <div class="row mt--10 mt_md--10 mt_sm--10">
-                    {% for character in sorted_main %}
+                {% for appearance in sorted_appearances %}
+                {% if appearance.role == "main" %}
+                    {% comment %}
+                    Now, look up the full character object using the slug we saved.
+                    {% endcomment %}
+                    {% assign character = site.characters | where:"slug", appearance.character_slug | first %}
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
@@ -284,6 +254,7 @@
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
+                    {% endif %}
                     {% endfor %}
                     <div class="row">
                     <div class="col-lg-12">
@@ -293,7 +264,9 @@
                         </div>
                     </div>
                 </div>
-                    {% for character in sorted_supporting %}
+                    {% for appearance in sorted_appearances %}
+                    {% if appearance.role == "supporting" %}
+                    {% assign character = site.characters | where:"slug", appearance.character_slug | first %}
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30">
@@ -318,6 +291,7 @@
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -469,7 +443,13 @@
         </div>
         <!-- End Resume Area -->
 
-{% for character in combined_cast %}
+{% for appearance in sorted_appearances %}
+
+            {% comment %}
+            For each appearance, we still need to look up the full character object
+            to get details like their name and tagline.
+            {% endcomment %}
+            {% assign character = site.characters | where:"slug", appearance.character_slug | first %}
         <!-- Modal Cast Body area Start -->
         <div class="modal fade" id="{{ character.slug }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-news" role="document">
