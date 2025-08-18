@@ -2,8 +2,8 @@
 # --- Core Info ---
 name: "Laila Mahmudian"
 slug: laila-mahmudian
-portrait: "/assets/images/fiction/characters/LailaMahmudian.jpg"
-thumbnail: "/assets/images/fiction/characters/LailaMahmudian_thumb.jpg"
+portrait: "/assets/images/fiction/characters/LailaMahmudia.jpg"
+thumbnail: "/assets/images/fiction/characters/LailaMahmudia_thumb.jpg"
 tagline: "The broken link who held the key."
 
 # --- Relational Info ---
@@ -12,9 +12,12 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - web-of-faith
-  - unveiled
-
+  - book: web-of-faith
+    role: supporting
+    order: 6
+  - book: unveiled
+    role: supporting
+    order: 6
 quick_description: |
   The daughter of Farid Nassiri and mother of Reza ibn Mahmud. A tragic victim of her father's ambition, her death becomes the catalyst for Maryam's vengeance, and her secret legacy provides a crucial tool for her son's survival years later.
 ---
