@@ -12,8 +12,9 @@ in_series:
 
 # The list of book slugs where this character is present.
 in_books:
-  - web-of-faith
-
+  - book: web-of-faith
+    role: supporting
+    order: 5
 quick_description: |
   Maryam's fiercely loyal enforcer and eventual lover, Arash is the brutal instrument of her will as she builds her shadow empire. A man of few words and deadly action, his arc is defined by an unwavering devotion that culminates in a defiant death rather than betrayal.
 ---
