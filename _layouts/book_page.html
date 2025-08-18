@@ -221,6 +221,13 @@
 
 {% assign sorted_main = main_characters_with_order | sort: "order" %}
 {% assign sorted_supporting = supporting_characters_with_order | sort: "order" %}
+
+<pre><code>
+  {{ sorted_main | json }}
+</code></pre>
+<pre><code>
+  {{ sorted_supporting | json }}
+</code></pre>
                 
                 <div class="row mt--10 mt_md--10 mt_sm--10">
                     {% for character in sorted_main %}
