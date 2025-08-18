@@ -197,27 +197,27 @@
                         </div>
                     </div>
                 </div>
+        {% comment %}
+        --- Step 1: Create a simple list of all appearances for THIS book. ---
+        {% endcomment %}
         {% assign appearances_in_this_book = "" | split: "" %}
 
         {% for character in site.characters %}
             {% for appearance in character.in_books %}
                 {% if appearance.book == page.slug %}
-
                     {% comment %}
-                    --- THE CRITICAL FIX IS HERE ---
-                    We create the hash to be merged as a string first, then parse it.
-                    This avoids the inline '{' syntax error.
+                    This 'merge' is simple and safe. It adds one key to an existing hash.
+                    It's the complex, multi-line merge that was causing the error.
                     {% endcomment %}
-                    {% capture data_to_merge_string %}{"character_slug": "{{ character.slug }}"}{% endcapture %}
-                    {% assign data_to_merge = data_to_merge_string | parse_json %}
-                    
-                    {% assign appearance_with_character_slug = appearance | merge: data_to_merge %}
+                    {% assign appearance_with_character_slug = appearance | merge: {"character_slug": character.slug} %}
                     {% assign appearances_in_this_book = appearances_in_this_book | push: appearance_with_character_slug %}
-
                 {% endif %}
             {% endfor %}
         {% endfor %}
         
+        {% comment %}
+        --- Step 2: Sort the list of simple appearance objects by their 'order' property. ---
+        {% endcomment %}
         {% assign sorted_appearances = appearances_in_this_book | sort: "order" %}
                 
                 
