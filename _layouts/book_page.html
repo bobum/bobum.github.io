@@ -24,6 +24,7 @@
 <body class="white-version home-classic spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
 {% assign books_in_series = site.books | where:"series_id", page.slug | sort:"book_number" %}
 {% assign series = site.works | where:"slug", page.series_id | first %}
+{% assign book_timeline = site.data.timelines[page.slug] %}
     <!-- Start Main Page Wrapper -->
     <main class="main-page-wrapper spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
         <!-- Start Header -->
@@ -307,8 +308,6 @@
         
         <div class="bg-image-area-fitness attachment bg_image"  style="background-image: url({{ page.back_cover_image }});"></div>
         
-
-
         <!-- Start Lore Area -->
         <div id="lore" class="rn-project-area portfolio-style-two rn-section-gap">
             <div class="container">
@@ -418,23 +417,27 @@
                                                 <span class="subtitle">start - end</span>
                                                 <h4 class="maintitle">Book Title Timeline</h4>
                                                 <div class="experience-list">
+                                                    {% for event in book_timeline %}
                                                     <!-- Start Single List  -->
                                                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"
                                                         data-aos-once="true" class="resume-single-list">
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Farid Nassiri is born in Tehran.</h4>
-                                                                    <span>January 15, 1922</span>
+                                                                    <h4>{{ event.title }}</h4>
+                                                                    <span>{{ event.date }}</span>
                                                                 </div>
+                                                                {% if event.special_info != "" %}
                                                                 <div class="date-of-time">
-                                                                    <span>Special Info!</span>
+                                                                    <span>{{ event.special_info }}</span>
                                                                 </div>
+                                                                {% endif %}
                                                             </div>
-                                                            <p class="description">markdownify this description</p>
+                                                            <p class="description">{{ event.description }}</p>
                                                         </div>
                                                     </div>
-                                                    <!-- End Single List  -->                                                    
+                                                    <!-- End Single List  -->
+                                                    {% endfor %}
                                                 </div>
                                             </div>
                                         </div>
