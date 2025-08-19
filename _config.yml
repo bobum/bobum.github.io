@@ -19,7 +19,10 @@ collections:
     permalink: /fiction/:path/ # Nested URL: /fiction/unveiled-trilogy/the-first-flame/
 
   characters:
-    output: false  
+    output: false
+
+   lore:
+    output: false
   
 
 permalink: /blog/:title/
