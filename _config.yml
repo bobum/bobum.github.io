@@ -21,7 +21,7 @@ collections:
   characters:
     output: false
 
-   lore:
+  lore:
     output: false
   
 
