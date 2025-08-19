@@ -326,10 +326,17 @@
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true"
                     id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
+{% assign first = "true" %}
 {% for item in site.lore %}
 {% if item.in_books contains page.slug %}
                         <!-- Start Single Item  -->
-                        <div class="carousel-item active">
+                        
+                        <div class="carousel-item 
+                            {% if first == "true" %}
+                            active
+                            {% assign first = "false" %}
+                            {% endif %}
+                            ">
                             <div class="portfolio-single">
                                 <div class="row direction">
                                     <div class="col-lg-5">
