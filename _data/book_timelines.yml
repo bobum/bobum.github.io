@@ -1,0 +1,146 @@
+# _data/timelines.yml
+
+# Use the book's slug as the key for its timeline
+web-of-faith:
+  - title: "Farid Nassiri's Birth"
+    date: "January 15, 1922"
+    description: "Farid Nassiri is born in Tehran."
+    special_info: ""
+
+  - title: "Zahra Javadpour's Birth"
+    date: "May 22, 1932"
+    description: "Zahra Javadpour is born into a clandestine Christian family."
+    special_info: ""
+
+  - title: "Maryam Amiri's Birth"
+    date: "October 2, 1942"
+    description: "Maryam Amiri is born in a small Iranian fishing village."
+    special_info: ""
+
+  - title: "The Strategic Marriage"
+    date: "May 25, 1949"
+    description: "Farid marries Zahra to gain access to her family’s Bible smuggling network."
+    special_info: "Zahra age 17, Farid age 27"
+
+  - title: "Expansion and Quiet Work"
+    date: "May 1949 – 1958"
+    description: "Farid expands smuggling routes using Zahra’s family connections while Zahra begins quiet underground Bible work."
+    special_info: ""
+
+  - title: "A Father's Execution"
+    date: "September 12, 1958"
+    description: "Maryam witnesses her father’s execution for Bible smuggling, takes his Bible but is haunted by fear."
+    special_info: "Maryam age 15"
+
+  - title: "Under Zahra's Wing"
+    date: "1958–1960"
+    description: "A fear-stricken Maryam is taken under Zahra’s wing to learn the family's smuggling operations."
+    special_info: ""
+
+  - title: "First Trade Trip"
+    date: "April 1960"
+    description: "Zahra takes Maryam on her first “trade trip” to Jerusalem during Iraq’s political turmoil, hiding Bibles in saffron crates."
+    special_info: "Maryam age 17"
+
+  - title: "Laila Nassiri's Birth"
+    date: "March 18, 1962"
+    description: "Laila Nassiri is born to Zahra and Farid."
+    special_info: ""
+
+  - title: "The Affair Begins"
+    date: "November 3, 1965"
+    description: "Farid begins an affair with Maryam, manipulating her with rare books and influence."
+    special_info: "Maryam age 23, Farid age 43"
+
+  - title: "The Humiliation"
+    date: "May 1967"
+    description: "Maryam reveals the affair to Zahra; Farid publicly chooses Zahra, humiliating Maryam and hardening her resolve."
+    special_info: "Maryam age 24"
+
+  - title: "The Spider's Rise"
+    date: "1967–1976"
+    description: "Maryam expands the smuggling network, blending Bible distribution with contraband while maintaining her public image as the “Spider of Jerusalem.” Farid siphons routes for arms and opium."
+    special_info: ""
+
+  - title: "Laila's Arranged Marriage"
+    date: "June 4, 1976"
+    description: "Laila is married to Ali Mahmudian, a union arranged by Farid for business leverage."
+    special_info: "Laila age 14"
+
+  - title: "Reza's Birth"
+    date: "April 14, 1977"
+    description: "Reza ibn Mahmud is born to Laila and Ali."
+    special_info: ""
+  
+  - title: "Years of Turmoil"
+    date: "1976–1987"
+    description: "Laila suffers years of abuse from Ali, while Maryam’s empire grows amid regional instability."
+    special_info: ""
+  
+  - title: "Iranian Revolution"
+    date: "1979"
+    description: "The revolution increases Christian persecution, forcing Maryam’s network deeper underground."
+    special_info: ""
+
+  - title: "Iran-Iraq War"
+    date: "1980–1988"
+    description: "The war expands refugee crises and the demand for smuggling."
+    special_info: ""
+
+  - title: "Laila's Death"
+    date: "October 12, 1987"
+    description: "Laila dies after years of abuse, triggering Maryam’s guilt and rage."
+    special_info: "Laila age 25"
+
+  - title: "A Murder and its Fallout"
+    date: "March 3, 1988"
+    description: "Maryam murders Ali Mahmudian, fracturing her network as crackdowns intensify."
+    special_info: "Maryam age 45"
+
+  - title: "Flight to the Monastery"
+    date: "September 9, 1988"
+    description: "Maryam flees to a monastery near the Jordanian border, becoming “Sister Mariam” while quietly continuing Bible smuggling."
+    special_info: "Maryam age 45"
+
+  - title: "A Plea for Help"
+    date: "May 14, 1991"
+    description: "Father Hassan asks Maryam to help rescue Christians trapped between Iran and Iraq during the Gulf War."
+    special_info: "Maryam age 48"
+
+  - title: "The Network Reactivated"
+    date: "June 18, 1991"
+    description: "Maryam reactivates her old smuggling network for the rescue mission."
+    special_info: ""
+
+  - title: "The Ambush"
+    date: "June 21, 1991"
+    description: "An ambush kills Father Hassan; Maryam is captured, imprisoned, and marked for execution."
+    special_info: ""
+  
+  - title: "Coded Messages"
+    date: "June 21 – September 26, 1991"
+    description: "From prison, Maryam uses a crucifix transmitter to send coded messages to her operatives, planning an escape."
+    special_info: ""
+
+  - title: "The Final Confrontation"
+    date: "September 27, 1991 (night)"
+    description: "During the prison break, Farid confronts Maryam underground. After he gloats over his manipulation and Hassan’s death, Maryam kills Farid, ending years of betrayal."
+    special_info: ""
+
+  - title: "Rebirth"
+    date: "September 28, 1991 (dawn)"
+    description: "Maryam returns to the monastery bloodied and exhausted. The “Spider” dies; “Sister Mariam” is reborn, quietly continuing her father’s legacy of faith and rescue work."
+    special_info: ""
+
+# The timeline for the next book starts here
+unveiled:
+  - title: "Lyra Discovers Her Power"
+    date: "Year 1196, Age of Sundering"
+    description: "While in hiding, the sorceress Lyra accidentally unleashes a powerful and forbidden spell, attracting the attention of the Silver Hand."
+    special_info: "This event takes place six months after the end of 'The First Flame'."
+
+the-gardeners-war:
+  - title: "Froo Froo Bunny Maker"
+    date: "Year 1196, Age of Sundering"
+    description: "While in hiding, the sorceress Lyra accidentally unleashes a powerful and forbidden spell, attracting the attention of the Silver Hand."
+    special_info: "This event takes place six months after the end of 'The First Flame'."
