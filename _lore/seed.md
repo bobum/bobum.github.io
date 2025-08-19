@@ -1,4 +1,3 @@
-
 ---
 slug: seed
 image: "/assets/images/fiction/lore/TheSeed.jpg"
