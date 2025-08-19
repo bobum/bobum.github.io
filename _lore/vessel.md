@@ -1,4 +1,3 @@
-
 ---
 slug: vessel
 image: "/assets/images/fiction/lore/Vessel.jpg"
