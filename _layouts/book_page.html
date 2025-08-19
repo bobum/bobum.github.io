@@ -326,7 +326,8 @@
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true"
                     id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-
+{% for item in site.lore %}
+{% if item.in_books contains page.slug %}
                         <!-- Start Single Item  -->
                         <div class="carousel-item active">
                             <div class="portfolio-single">
@@ -334,27 +335,25 @@
                                     <div class="col-lg-5">
                                         <div class="inner">
                                             <h5 class="title">
-                                                The services provice for Design
+                                                {{ item.title }}
                                             </h5>
-                                            <p class="discription">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quidem
-                                                dignissimos.
-                                                Perspiciatis fuga soluta officiis eligendi labore, omnis ut velit vitae
-                                                suscipit
-                                                alias cumque temporibus.
-                                            </p>                                            
+                                            <div class="discription">
+                                                {{ item.content | markdownify }}
+                                            </div>                                            
                                         </div>
                                     </div>
                                     <div class="col-lg-7 col-xl-7">
                                         <div class="thumbnail">
-                                            <img src="assets/images/portfolio/portfolio-07.jpg" alt="">
+                                            <img src="{{ site.baseurl }}{{ item.image }}" alt="{{ item.title }}">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- End Single Item  -->
-                        
+               {% endif %}
+
+        {% endfor %}          
                     </div>
                     <button class="carousel-control-prev" role="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="prev">
