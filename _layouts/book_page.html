@@ -24,7 +24,7 @@
 <body class="white-version home-classic spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
 {% assign books_in_series = site.books | where:"series_id", page.slug | sort:"book_number" %}
 {% assign series = site.works | where:"slug", page.series_id | first %}
-{% assign book_timeline = site.data.timelines[page.slug] %}
+{% assign book_timeline = site.data.book_timelines[page.slug] %}
     <!-- Start Main Page Wrapper -->
     <main class="main-page-wrapper spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
         <!-- Start Header -->
@@ -52,7 +52,7 @@
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#cast-of-characters">Cast</a></li>
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#lore">Lore</a></li>
                                 <li class="nav-item"><a class="nav-link smoth-animation" href="#timeline">Timeline</a></li>
-                                <li class="nav-item"><a class="nav-link smoth-animation" href="{{ site.baseurl }}{{ series.url }}">{{ series.title }}</a></li>
+                                <li class="nav-item"><a class="nav-link smoth-animation" href="{{ site.baseurl }}{{ series.url }}">{{ series.title }} Series</a></li>
                             </ul>
                             <!-- End Mainmanu Nav -->
                         </nav>
@@ -95,6 +95,7 @@
                         <li class="nav-item"><a class="nav-link smoth-animation" href="#cast-of-characters">Cast</a></li>
                         <li class="nav-item"><a class="nav-link smoth-animation" href="#lore">Lore</a></li>
                         <li class="nav-item"><a class="nav-link smoth-animation" href="#timeline">Timeline</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="{{ site.baseurl }}{{ series.url }}">{{ series.title }} Series</a></li>
                     </ul>
                     <!-- social sharea area -->
                     <div class="social-share-style-1 mt--40">
@@ -341,31 +342,7 @@
                                                 Perspiciatis fuga soluta officiis eligendi labore, omnis ut velit vitae
                                                 suscipit
                                                 alias cumque temporibus.
-                                            </p>
-                                            <div class="ft-area">
-                                                <div class="feature-wrapper">
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Responsive design</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Quiz builder</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Certification</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Stats & reports</p>
-                                                    </div>
-                                                    <div class="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Retina ready</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            </p>                                            
                                         </div>
                                     </div>
                                     <div class="col-lg-7 col-xl-7">
@@ -399,7 +376,7 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center">
                             <span class="subtitle">Sequence of Events</span>
-                            <h2 class="title">The Timeline</h2>
+                            <h2 class="title">The {{ page.title }} Timeline</h2>
                         </div>
                     </div>
                 </div>
@@ -414,8 +391,8 @@
                                         <!-- Start Skill List Area  -->
                                         <div class="col-lg-6 col-md-12 col-12">
                                             <div class="content">
-                                                <span class="subtitle">start - end</span>
-                                                <h4 class="maintitle">Book Title Timeline</h4>
+                                                <span class="subtitle">How It Happened</span>
+                                                <h4 class="maintitle">{{ page.title }} Events</h4>
                                                 <div class="experience-list">
                                                     {% for event in book_timeline %}
                                                     <!-- Start Single List  -->
