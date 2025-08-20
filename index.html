@@ -229,7 +229,7 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                     <div class="col-lg-12">
                         <div class="section-title">
                             <span class="subtitle">Fantastic Worlds and Compelling Characters</span>
-                            <h2 class="title"My Fiction</h2>
+                            <h2 class="title">My Fiction</h2>
                         </div>
                     </div>
                 </div>
@@ -264,9 +264,10 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                     <div class="tab-pane fade {% if first == "true" %} active show {% assign first = "false" %}{% endif %}" id="v-pills-{{ work.slug }}" role="tabpanel"
                                         aria-labelledby="v-pills-{{ work.slug }}-tab">
                                         <div class="client-card">
-
-                                            <!-- Start Single Book  -->
+{% if books_in_series.size > 0 %}
+                                            
 {% for book in books_in_series %}
+                                        <!-- Start Single Book  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
                                                     <div class="thumbnail">
@@ -278,9 +279,14 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                                     </div>
                                                 </div>
                                             </div>
+                                        <!-- End Single Book  -->
 {% endfor %}
-                                            <!-- End Single Book  -->
-
+{% else %}
+                                        <div class="header-left">
+                                                <h2 class="title">In Progress & Coming Soon!</h2>
+                                        <span>Look for {{ series.title }} books soon...</span>
+</div>
+{% endif %}
                                         </div>
                                     </div>
 {% endfor %}                                        
