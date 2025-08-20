@@ -6,7 +6,7 @@ series_id: unveiled-trilogy # The SAME ID, linking it to the same series
 book_number: 3
 cover_image: "/assets/images/fiction/TheGardenersWar.jpg"
 back_cover_image: "/assets/images/fiction/UnveiledTrilogy2.jpg"
-splash_image: "/assets/images/fiction/GardenersSplash.jpg.jpg"
+splash_image: "/assets/images/fiction/GardenersSplash.jpg"
 tagline: "The war for the soul will not be won with armies, but with a single, selfless sacrifice."
 tagline_alt: "When faith becomes power, one act can unravel a universe."
 quick_description: |
