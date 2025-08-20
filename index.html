@@ -223,22 +223,70 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
         </div>
         <!-- End Service Area  -->
         <!-- Start Fiction Area -->
-        <div class="rn-blog-area rn-section-gap section-separator" id="fiction">
+        <div class="rn-client-area rn-section-gap section-separator" id="fiction">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
-                            class="section-title text-center">
-                            <h2 class="title">MY FICTION</h2>
-                            <span class="subtitle">See all my books, finished and planned, <a href="/fiction/index.html">here</a>.</span>
+                        <div class="section-title">
+                            <span class="subtitle">Fantastic Worlds and Compelling Characters</span>
+                            <h2 class="title"My Fiction</h2>
                         </div>
                     </div>
-                </div>                
-                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
-                    <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
-                            class="section-title text-center">
-                            <span class="subtitle">Fantastic Worlds and Compelling Characters</span>
+                </div>
+
+                <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-wrap align-content-start h-100">
+                            <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
+                                <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab"
+                                    role="tablist">
+{% assign first = "true" %}
+{% assign sorted_works = site.works | sort: 'order' %}
+{% for work in sorted_works %}
+                                    <li class="nav-item">
+                                        <a class="nav-link {% if first == "true" %} active {% assign first = "false" %}{% endif %}" id="v-pills-{{ work.slug }}-tab" data-bs-toggle="tab"
+                                            href="#v-pills-{{ work.slug }}" role="tab" aria-selected="true">{{ work.title }}</a>
+                                    </li>
+{% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="tab-area">
+                            <div class="d-flex align-items-start">
+                                <div class="tab-content" id="v-pills-tabContent">
+{% assign first = "true" %}
+{% for work in sorted_works %}
+{% assign books_in_series = site.books | where:"series_id", work.slug | sort:"book_number" %}
+<!-- Start Single Work  -->
+                                    <div class="tab-pane fade {% if first == "true" %} active show {% assign first = "false" %}{% endif %}" id="v-pills-{{ work.slug }}" role="tabpanel"
+                                        aria-labelledby="v-pills-{{ work.slug }}-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Book  -->
+{% for book in books_in_series %}
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="{{ site.baseurl }}{{ book.url }}"><img src="{{ site.baseurl }}{{ book.cover_image }}"
+                                                                alt="{{ book.title }}"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="{{ site.baseurl }}{{ book.url }}">{{ book.title }}</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+{% endfor %}
+                                            <!-- End Single Book  -->
+
+                                        </div>
+                                    </div>
+{% endfor %}                                        
+<!-- End Single Work  -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
