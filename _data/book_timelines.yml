@@ -205,7 +205,72 @@ unveiled:
     special_info: "The final scene shows Reza and Levi receiving a signal from the pilgrims: 'The harvest is ripe. Prepare the way.'"
 
 the-gardeners-war:
-  - title: "Froo Froo Bunny Maker"
-    date: "Year 1196, Age of Sundering"
-    description: "While in hiding, the sorceress Lyra accidentally unleashes a powerful and forbidden spell, attracting the attention of the Silver Hand."
-    special_info: "This event takes place six months after the end of 'The First Flame'."
+  - title: "The Shepherd's Resolve"
+    date: "Five Years After 'Unveiled'"
+    description: "Levi Bar-Nathan, consumed by grief and disillusioned with the state's indifference, meets with Rabbi Eliad. Convinced the Testament Faith is a threat designed to erase Israel, he resolves to destroy it."
+    special_info: "This marks the hardening of Levi's grief into a cold, strategic purpose."
+
+  - title: "The Apostolic Gambit"
+    date: "Shortly After"
+    description: "Reza ibn Mahmud, now the global 'Witness' for the Web, engages in a high-profile debate with an Oxford philosopher. The debate goes viral, significantly boosting the faith's reach and visibility."
+    special_info: "This public success paints a larger target on Reza and the Web."
+
+  - title: "The Gardener's Web"
+    date: "Concurrent"
+    description: "Sister Mariam (Maryam Amiri), now in her 80s, runs the global operations of the Web from a remote safehouse, directing couriers and managing network security."
+    special_info: ""
+
+  - title: "Levi's 'Shepherd's Crook' Mandate"
+    date: "Following the Debate"
+    description: "Using forged intelligence linking the Web to Iran, Levi secures a black budget and immunity from oversight from the Knesset to launch 'Project Shepherd's Crook'—a covert operation to dismantle the Testament Faith."
+    special_info: ""
+
+  - title: "The First Strike"
+    date: "Days Later"
+    description: "Levi's first act is to order the assassination of Professor Arnon Ben-David, a high-profile Jewish convert to the Web, and to frame the murder on radical elements within the Testament movement."
+    special_info: "Levi recruits and manipulates a young zealot, Eitan, for future infiltration."
+
+  - title: "The War of Whispers"
+    date: "Weeks Following"
+    description: "Levi's global campaign begins. The Concord freezes the Web's financial assets, the Saudis launch a propaganda war, and a Vatican splinter group declares the faith a heresy. The Web's network begins to collapse."
+    special_info: "Reza and Sofia are forced into a shipping container safehouse in Haifa as their cells are eliminated one by one."
+
+  - title: "The Cairo Trap"
+    date: "Concurrent"
+    description: "Levi plants perfectly forged 'lost gospels' to lure Sofia Russo, the Web's 'Relic Hunter,' to an authentication tribunal in Cairo, intending to capture or kill her."
+    special_info: "This is designed to be the final blow to the Web's leadership."
+
+  - title: "The Martyrdom of the Gardener"
+    date: "The Cairo Incursion"
+    description: "To save Sofia, Maryam Amiri sacrifices herself. She activates a beacon that leaks all of Levi's forged files to the world, then allows herself to be killed in a raid on her Cairo safehouse."
+    special_info: "Her final message passes leadership of the Web to Sofia (the new 'Spider') and Reza (the 'Witness')."
+
+  - title: "The Pilgrim's Return"
+    date: "Five Years After 'Unveiled'"
+    description: "Abel, the last surviving Pilgrim, returns to Earth in a self-repairing vessel, landing in the Danakil Depression. He brings news that the Pilgrim civilization is collapsing into civil war."
+    special_info: "The new fanatical leader of the 'Accelerationist' faction is Kael, another survivor from the original journey."
+
+  - title: "The Summit in the Desert"
+    date: "Following Abel's Return"
+    description: "Kael confronts Reza and Abel at a refugee camp, demanding they join his military crusade to 'purify' Earth. They refuse, creating a schism and making them enemies."
+    special_info: "This establishes the third major threat vector against the Web."
+
+  - title: "The Unholy Alliance"
+    date: "Concurrent"
+    description: "Levi Bar-Nathan forms alliances with a Saudi Prince and the globalist Concord council, pooling resources to systematically de-platform and starve out the Testament Faith."
+    special_info: "Pastor John Mark Stroud's CEP and a remnant of the Vatican also join the alliance, creating a global coalition against the Web."
+
+  - title: "The Wall Event"
+    date: "The Climax"
+    description: "Levi plans to detonate a bomb at a Jerusalem peace vigil led by Reza, framing the Web for the attack. The plan is thwarted when Abel sacrifices himself, embracing Levi at ground zero and triggering his 'seed' device. Both men vanish in a flash of blue light, and Kael's forces defuse the bomb."
+    special_info: "This event is witnessed by the world and becomes a foundational miracle for the Testament Faith."
+
+  - title: "The Turning of the Tide"
+    date: "Immediate Aftermath"
+    description: "Sofia's data dump exposes Levi's entire conspiracy. The Israeli government collapses, the CEP is disgraced by a whistleblower (Caleb), and the other allied factions retreat. The Testament Faith, now seen as victims of a conspiracy, gains global sympathy."
+    special_info: "In the Negev, Zephyr's preserved body dissolves in a flash of light, leaving behind data that holds the key to curing diseases."
+
+  - title: "The Gardener's Harvest"
+    date: "Years Later (Epilogue)"
+    description: "The world has entered a new era of fragile peace. The Testament Faith has become a major global movement. Reza and Sofia, now married, oversee the foundation from Jerusalem, sending out new missionaries to the stars."
+    special_info: "The final scene shows them content in their garden, having fulfilled Maryam's legacy."
