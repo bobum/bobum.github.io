@@ -259,14 +259,14 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                 <div class="tab-content" id="v-pills-tabContent">
 {% assign first = "true" %}
 {% for work in sorted_works %}
-{% assign books_in_series = site.books | where:"series_id", work.slug | sort:"book_number" %}
+        {% assign books_in_series = site.books | where:"series_id", work.slug | sort:"book_number" %}
 <!-- Start Single Work  -->
                                     <div class="tab-pane fade {% if first == "true" %} active show {% assign first = "false" %}{% endif %}" id="v-pills-{{ work.slug }}" role="tabpanel"
                                         aria-labelledby="v-pills-{{ work.slug }}-tab">
                                         <div class="client-card">
-{% if books_in_series.size > 0 %}
+        {% if books_in_series.size > 0 %}
                                             
-{% for book in books_in_series %}
+                {% for book in books_in_series %}
                                         <!-- Start Single Book  -->
                                             <div class="main-content">
                                                 <div class="inner text-center">
@@ -280,13 +280,13 @@ Whether aligning stakeholders or prioritizing features, I bridge the gap between
                                                 </div>
                                             </div>
                                         <!-- End Single Book  -->
-{% endfor %}
-{% else %}
+                {% endfor %}
+        {% else %}
                                         <div class="header-left">
-                                                <h2 class="title">In Progress & Coming Soon!</h2>
-                                                <span>Look for {{ series.title }} books soon...</span>
+                                                <h4 class="title">In Progress - Coming Soon!</h2>
+                                                <span>Look for {{ work.title }} books soon...</span>
                                         </div>
-{% endif %}
+        {% endif %}
                                         </div>
                                     </div>
 {% endfor %}                                        
