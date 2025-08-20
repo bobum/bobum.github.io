@@ -134,10 +134,75 @@ web-of-faith:
 
 # The timeline for the next book starts here
 unveiled:
-  - title: "Lyra Discovers Her Power"
-    date: "Year 1196, Age of Sundering"
-    description: "While in hiding, the sorceress Lyra accidentally unleashes a powerful and forbidden spell, attracting the attention of the Silver Hand."
-    special_info: "This event takes place six months after the end of 'The First Flame'."
+  - title: "First Contact"
+    date: "Night 1"
+    description: "An anonymous smuggler on a routine run in Iran's Dasht-e Kavir salt flats witnesses the landing of an alien vessel."
+    special_info: "The initial event that triggers the entire narrative."
+
+  - title: "Capture by the IRGC"
+    date: "Day 1"
+    description: "The eleven pilgrims emerge from their vessel and are promptly captured by an Iranian Revolutionary Guard Corps unit led by Colonel Hassan Mazraei."
+    special_info: ""
+
+  - title: "Interrogation and Escape from Tehran"
+    date: "Days 1-7"
+    description: "Scholar Reza ibn Mahmud is brought in to interrogate the pilgrims. Over a week, he establishes a pidgin language and, after a threat from Ayatollah Khorasani, stages a daring escape with the help of the legendary 'Spider' (Sister Mariam)."
+    special_info: "The escape is aided by Farshad and an old man named Bahram, who sacrifices his life to save Reza at a checkpoint."
+
+  - title: "Exodus by Sea"
+    date: "Several Days"
+    description: "The group travels overland to the port of Bandar Deylam and boards a dhow for a perilous multi-day journey through the Persian Gulf and Arabian Sea to reach Israel."
+    special_info: "During the voyage, the pilgrims' theologian, Mehiel, identifies a fundamental contradiction between the Bible and the Quran."
+
+  - title: "Detention in Eilat"
+    date: "Arrival in Israel"
+    description: "Upon arriving in Eilat, the pilgrims are immediately detained by Israeli security forces under Colonel Schreiber and interrogated by Mossad agent Levi Bar-Nathan. Their vessel is also impounded and moved to a black site in the Negev."
+    special_info: "This marks the transition from being fugitives to being high-value intelligence assets."
+
+  - title: "The Caesarea Accord"
+    date: "Following Detention"
+    description: "A high-stakes negotiation in Caesarea Maritima involving General Navon (Israel), Archbishop Conti (Vatican), and Levi results in the pilgrims being granted religious asylum in exchange for the public decommissioning of their vessel."
+    special_info: "This event brings the pilgrims onto the world stage."
+
+  - title: "The Jerusalem Revelation"
+    date: "Days Later"
+    description: "While on pilgrimage in Jerusalem, the group is disillusioned by the city's conflicts. The physician, Shera, performs genetic tests and discovers they are not an alien species but are genetically identical to Earth humans, shattering their core identity."
+    special_info: "This is the first major schism within the group, pitting Abel's faith against Zephyr's doubt."
+
+  - title: "The Vatican Summons"
+    date: "Following Revelation"
+    description: "The pilgrims accept an invitation from Pope Innocent XIV to travel to Rome, seeking sanctuary and a platform to share their story."
+    special_info: ""
+
+  - title: "The Vatican Conspiracy Unveiled"
+    date: "Days in Rome"
+    description: "The pilgrims discover the Pope is an AI construct, part of a system of clones that has secretly run the Church for centuries. They meet the heretical Cardinal Vignelli, who reveals a secret archive of suppressed miracles and fake relics."
+    special_info: "Reza is captured and put on a tribunal by IRGC agents, but is rescued by Levi Bar-Nathan."
+
+  - title: "The Broadcast That Broke the World"
+    date: "Climax in Rome"
+    description: "In a coordinated effort, the prodigy Lumina-12 hacks the Vatican's global network, broadcasting proof of the clones and fake relics to the world. The Vatican's authority collapses into global chaos, and Abel is wounded."
+    special_info: "This act of rebellion fulfills the pilgrims' goal of revealing a truth, but at great cost."
+
+  - title: "The Death of a Pilgrim"
+    date: "The Aftermath"
+    description: "While escaping the chaos in Rome, Lumina-12 succumbs to the genetic decay affecting all the pilgrims. As she dies, they receive a signal from Levi that their ship in the Negev is self-repairing."
+    special_info: ""
+
+  - title: "The Last Stand at the Vessel"
+    date: "The Final Day"
+    description: "The remaining pilgrims race to their ship in the Negev, pursued by a covert UN/zealot force known as 'Project Manna.' Mehiel battles a virus in the ship's code while Abel broadcasts a final message to the world."
+    special_info: ""
+
+  - title: "Zephyr's Sacrifice"
+    date: "The Final Moments"
+    description: "To cleanse the ship of the 'Manna' virus and allow the others to escape, the elder, Zephyr, sacrifices himself by absorbing the code into his own DNA. He dies as a 'testimony' on the desert sand."
+    special_info: "This act allows the ship to prepare for departure."
+
+  - title: "A New Mission Begins"
+    date: "Epilogue"
+    description: "The vessel departs with the remaining pilgrims. Reza and Levi, having been baptized by Abel in a miraculous pool of water from the ship, are left behind with the pilgrims' scriptures. They begin a new underground faith movement, aided by Sister Mariam (The Spider)."
+    special_info: "The final scene shows Reza and Levi receiving a signal from the pilgrims: 'The harvest is ripe. Prepare the way.'"
 
 the-gardeners-war:
   - title: "Froo Froo Bunny Maker"
