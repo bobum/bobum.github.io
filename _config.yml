@@ -40,6 +40,7 @@ liquid:
 
 plugins:
   - jekyll-seo-tag  # Auto-generates meta tags
+  - jekyll-sitemap
 
 defaults:
   - scope:
