@@ -137,7 +137,7 @@ unveiled:
   - title: "First Contact"
     date: "Night 1"
     description: "An anonymous smuggler on a routine run in Iran's Dasht-e Kavir salt flats witnesses the landing of an alien vessel."
-    special_info: "The triggr"
+    special_info: "The trigger"
 
   - title: "Capture by the IRGC"
     date: "Day 1"
@@ -147,7 +147,7 @@ unveiled:
   - title: "Interrogation and Escape from Tehran"
     date: "Days 1-7"
     description: "Scholar Reza ibn Mahmud is brought in to interrogate the pilgrims. Over a week, he establishes a pidgin language and, after a threat from Ayatollah Khorasani, stages a daring escape with the help of the legendary 'Spider' (Sister Mariam)."
-    special_info: "Bahram's sacrifice"
+    special_info: ""
 
   - title: "Exodus by Sea"
     date: "Several Days"
@@ -167,7 +167,7 @@ unveiled:
   - title: "The Jerusalem Revelation"
     date: "Days Later"
     description: "While on pilgrimage in Jerusalem, the group is disillusioned by the city's conflicts. The physician, Shera, performs genetic tests and discovers they are not an alien species but are genetically identical to Earth humans, shattering their core identity."
-    special_info: "Abel vs. Zephyr"
+    special_info: ""
 
   - title: "The Vatican Summons"
     date: "Following Revelation"
@@ -177,7 +177,7 @@ unveiled:
   - title: "The Vatican Conspiracy Unveiled"
     date: "Days in Rome"
     description: "The pilgrims discover the Pope is an AI construct, part of a system of clones that has secretly run the Church for centuries. They meet the heretical Cardinal Vignelli, who reveals a secret archive of suppressed miracles and fake relics."
-    special_info: "Reza Captured"
+    special_info: ""
 
   - title: "The Broadcast That Broke the World"
     date: "Climax in Rome"
@@ -236,17 +236,17 @@ the-gardeners-war:
     special_info: "Attacked"
 
   - title: "The Cairo Trap"
-    date: "Concurrent"
+    date: "Ongoing"
     description: "Levi plants perfectly forged 'lost gospels' to lure Sofia Russo, the Web's 'Relic Hunter,' to an authentication tribunal in Cairo, intending to capture or kill her."
     special_info: ""
 
   - title: "The Martyrdom of the Gardener"
     date: "The Cairo Incursion"
     description: "To save Sofia, Maryam Amiri sacrifices herself. She activates a beacon that leaks all of Levi's forged files to the world, then allows herself to be killed in a raid on her Cairo safehouse."
-    special_info: "A New Spider, Witenss"
+    special_info: ""
 
   - title: "The Pilgrim's Return"
-    date: "Five Years After 'Unveiled'"
+    date: "Shortly After Cairo"
     description: "Abel, the last surviving Pilgrim, returns to Earth in a self-repairing vessel, landing in the Danakil Depression. He brings news that the Pilgrim civilization is collapsing into civil war."
     special_info: ""
 
