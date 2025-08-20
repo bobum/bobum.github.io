@@ -6,7 +6,7 @@ series_id: unveiled-trilogy # This is the CRITICAL LINK to the series file
 book_number: 1
 cover_image: "/assets/images/fiction/WebOfFaith.jpg"
 back_cover_image: "/assets/images/fiction/WOF-Azadi.jpg"
-splash_image: "/assets/images/fiction/UnveiledTrilogy.jpg"
+splash_image: "/assets/images/fiction/WOF-Maryam.jpg"
 tagline: "They wanted a pawn. They created the queen of a shadow empire."
 tagline_alt: "The most dangerous truths are smuggled in whispers."
 quick_description: |
