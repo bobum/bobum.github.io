@@ -8,7 +8,7 @@ excerpt: "Focusing on being productive can be more impactful than solely chasing
 modal_id: why-productivity-trumps-efficiency  # For modal targeting
 ---
 
-##The Unsung Hero: Why Productivity Trumps Efficiency
+## The Unsung Hero: Why Productivity Trumps Efficiency
 
 I was recently sitting in a leadership meeting in Atlanta, and my VP made what came across to me as an odd statement.  "I would rather you chase productivity moreso than efficiency." I cocked my head to the side like the little RCA dog becuase it was curious to me. Aren't they kind of the same thing? Don't you want to be equally both? I was intrigued, and had to do more research. 
 
