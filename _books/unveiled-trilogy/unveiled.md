@@ -7,7 +7,7 @@ book_number: 2
 cover_image: "/assets/images/fiction/Unveiled.jpg"
 back_cover_image: "/assets/images/fiction/UnveiledTrilogy2.jpg"
 splash_image: "/assets/images/fiction/UnveiledTrilogy.jpg"
-tagline: "When a miracle arrives from the stars, , the war for Earth's soul begins."
+tagline: "When a miracle arrives from the stars, the war for Earth's soul begins."
 tagline_alt: "They came from the stars seeking a divine prophecy, only to find the truth buried in blood."
 quick_description: |
   A haunted theologian is tasked with interrogating otherworldly pilgrims who land in the Iranian desert, their arrival sparking a global crisis. His desperate attempt to save them leads to a shocking discovery that their entire history is a misunderstanding, a truth that uncovers a conspiracy powerful enough to shatter the foundations of Western religion.
