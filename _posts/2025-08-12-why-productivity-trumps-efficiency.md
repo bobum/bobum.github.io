@@ -7,9 +7,6 @@ image: /assets/images/blog/4f69abbf-2d32-4964-8b02-15fd4eb67110.jpg
 excerpt: "Focusing on being productive can be more impactful than solely chasing efficiency"
 modal_id: why-productivity-trumps-efficiency  # For modal targeting
 ---
-
-## The Unsung Hero: Why Productivity Trumps Efficiency
-
 I was recently sitting in a leadership meeting in Atlanta, and my VP made what came across to me as an odd statement.  "I would rather you chase productivity moreso than efficiency." I cocked my head to the side like the little RCA dog becuase it was curious to me. Aren't they kind of the same thing? Don't you want to be equally both? I was intrigued, and had to do more research. 
 
 In the world of work, "efficiency" and "productivity" are often used interchangeably. While both are crucial for success, it's time to shine a light on why focusing on being productive can be more impactful than solely chasing efficiency.
