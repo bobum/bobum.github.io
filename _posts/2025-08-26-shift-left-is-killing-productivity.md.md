@@ -1,3 +1,12 @@
+---
+layout: post          # Uses _layouts/post.html
+title: "Shift Left is Killing Engineers Productivity"
+date: 2025-08-26
+categories: business
+image: /assets/images/blog/3ca7888c-22fe-4cae-8614-b5e8ff29e75d.png
+excerpt: "*Shift left* has become a quiet abdication of responsibility by infrastructure, security, and operations teams."
+modal_id: shift-left-is-killing-productivity  # For modal targeting
+---
 # Stop Shifting Left: Infrastructure, Security, and Network Teams Are Support Functions—Nothing More
 
 For the past several years, the software industry has been consumed by a mantra: *shift left.* Testing shifted left. Security shifted left. Infrastructure shifted left. Compliance shifted left. The idea was noble at first—catch problems earlier, reduce bottlenecks, empower developers. But in practice, “shift left” has become a quiet abdication of responsibility by infrastructure, security, and operations teams.
