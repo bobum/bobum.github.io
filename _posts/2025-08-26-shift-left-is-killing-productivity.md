@@ -3,7 +3,7 @@ layout: post          # Uses _layouts/post.html
 title: "Shift Left is Killing Engineers Productivity"
 date: 2025-08-26
 categories: business
-image: /assets/images/blog/3ca7888c-22fe-4cae-8614-b5e8ff29e75d.png
+image: /assets/images/blog/file_00000000b3a0622fbf322dab8324635c.png
 excerpt: "*Shift left* has become a quiet abdication of responsibility by infrastructure, security, and operations teams."
 modal_id: shift-left-is-killing-productivity  # For modal targeting
 ---
