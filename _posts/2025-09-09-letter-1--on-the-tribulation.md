@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Letter 1 — On the Tribulation"
-date: 2025-09-11
+title: "Letter to Mom #1"
+date: 2025-09-09
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On the Tribulation: God preserves His people through trials, not by removing them."
-modal_id: letter-1--on-the-tribulation
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "God preserves His people through trials, not by removing them."
+modal_id: letter-1
 ---
 Dear Mom,
 
