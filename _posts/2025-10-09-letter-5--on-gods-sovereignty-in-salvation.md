@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Letter 5 — On God’s Sovereignty in Salvation"
+title: "Letters to Mom #5"
 date: 2025-10-09
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On God’s Sovereignty in Salvation: Resting in God’s eternal choice, not fragile decisions."
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "Resting in God’s eternal choice, not man's fragile decisions."
 modal_id: letter-5--on-gods-sovereignty-in-salvation
 ---
 Dear Mom,
 
 You’ve often heard preachers say, “It’s up to you to decide. Choose Christ. Walk the aisle. Pray the prayer.” That kind of language is so common today that we almost assume it’s what the Bible teaches. But have you ever wondered why sermons put so much weight on your choice?
 
-There’s a man you may not know named Charles Finney. He lived in the 1800s, around the same time as Darby, and he changed the way American preachers thought about salvation. Finney taught that revivals could be manufactured with the right methods—anxious benches, altar calls, emotional appeals. He rejected the idea that salvation is a sovereign work of God’s Spirit. In his view, man has the natural ability to turn to God whenever he decides.
+Since you don't study church history, there’s a man you may not know named Charles Finney. He lived in the 1800s, around the same time as Darby, and he changed the way American preachers thought about salvation. Finney taught that revivals could be manufactured with the right methods—anxious benches, altar calls, emotional appeals. He rejected the idea that salvation is a sovereign work of God’s Spirit. In his view, man has the natural ability to turn to God whenever he decides.
 
 Even if you’ve never heard Finney’s name, you’ve heard his teaching echoed by the evangelists and pastors who followed him. That’s why so many modern preachers put the entire weight of salvation on a moment of decision.
 
