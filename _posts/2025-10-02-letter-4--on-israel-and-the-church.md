@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Letter 4 — On Israel and the Church"
+title: "Letters to Mom #4"
 date: 2025-10-02
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On Israel and the Church: Jew and Gentile are one new man in Christ."
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "Jew and Gentile are one new man in Christ."
 modal_id: letter-4--on-israel-and-the-church
 ---
 Dear Mom,
 
-I know how deeply you care about Israel. You’ve always prayed for that nation and rejoiced when you see prophecies fulfilled. That love is good and right. Paul himself said, *“My heart’s desire and prayer to God for them is that they may be saved”* (Rom. 10:1).
+I know how deeply you care about Israel. You’ve always prayed for that nation and rejoiced when you belived you'd seen prophecies fulfilled. That love is good and right. Paul himself said, *“My heart’s desire and prayer to God for them is that they may be saved”* (Rom. 10:1).
 
 But here’s what I see in Scripture: the Bible doesn’t teach two separate peoples of God with two different destinies. Instead, it consistently teaches that Christ has broken down the wall between Jew and Gentile, making them one. Paul wrote that Jesus “has made us both one and has broken down in his flesh the dividing wall of hostility… that he might create in himself one new man in place of the two” (Eph. 2:14–15).
 
