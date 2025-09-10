@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Letter 2 — On Following a Man"
+title: "Letters to Mom #2"
 date: 2025-09-18
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On Following a Man: Exposing Darby’s novelty compared to the long stream of historic faith."
-modal_id: letter-2--on-following-a-man
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "Darby’s novelty compared to the long stream of historic faith."
+modal_id: letter-2
 ---
 Dear Mom,
 
