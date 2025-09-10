@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Letter 4 — On Israel and the Church"
+date: 2025-10-02
+categories: theology
+image: /assets/images/blog/cross.png
+excerpt: "On Israel and the Church: Jew and Gentile are one new man in Christ."
+modal_id: letter-4--on-israel-and-the-church
+---
+Dear Mom,
+
+I know how deeply you care about Israel. You’ve always prayed for that nation and rejoiced when you see prophecies fulfilled. That love is good and right. Paul himself said, *“My heart’s desire and prayer to God for them is that they may be saved”* (Rom. 10:1).
+
+But here’s what I see in Scripture: the Bible doesn’t teach two separate peoples of God with two different destinies. Instead, it consistently teaches that Christ has broken down the wall between Jew and Gentile, making them one. Paul wrote that Jesus “has made us both one and has broken down in his flesh the dividing wall of hostility… that he might create in himself one new man in place of the two” (Eph. 2:14–15).
+
+Jesus Himself said, *“I have other sheep that are not of this fold. I must bring them also, and they will listen to my voice. So there will be one flock, one shepherd”* (John 10:16). Paul described Gentile believers not as a second people, but as wild olive shoots grafted into the same tree as Israel (Rom. 11:17–24). And he told the Galatians, *“If you are Christ’s, then you are Abraham’s offspring, heirs according to promise”* (Gal. 3:29).
+
+This unity is covenantal—marriage-like. When God joins two into one, He means for them to remain one. Jesus said, *“What therefore God has joined together, let not man separate”* (Matt. 19:6). Mom, Darby’s teaching does exactly what Jesus warned against: it separates what God has joined. Jew and Gentile are one new man in Christ. To split them back apart is to undo the miracle of the cross.
+
+This isn’t just my reading. Augustine, writing in the 5th century, said: *“In the Old Testament the New is concealed; in the New Testament the Old is revealed.”* The same God, the same covenant of grace, the same people gathered under one Shepherd.
+
+Mom, the beauty of the gospel is that God has always had one plan and one covenant of grace. Salvation has always been by faith in His promises, whether for Abraham, Ruth, David, Peter, or us today.
+
+With love,  
+Your son
+
+**Passages to read together:**  
+- Ephesians 2:14–16  
+- John 10:16  
+- Romans 11:17–24  
+- Galatians 3:28–29  
+- Matthew 19:6
+
