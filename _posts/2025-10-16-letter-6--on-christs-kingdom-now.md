@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Letter 6 — On Christ’s Kingdom Now"
+title: "Letters to Mom #6"
 date: 2025-10-16
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On Christ’s Kingdom Now: Christ reigns today, with His Bride at His side."
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "Christ reigns today, with His Bride at His side."
 modal_id: letter-6--on-christs-kingdom-now
 ---
 Dear Mom,
