@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Letter 7 — On What Free Will Really Means"
+title: "Letters to Mom #7"
 date: 2025-10-23
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On What Free Will Really Means: The will follows nature until grace makes us new."
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "The will follows nature until grace makes us new."
 modal_id: letter-7--on-what-free-will-really-means
 ---
 Dear Mom,
