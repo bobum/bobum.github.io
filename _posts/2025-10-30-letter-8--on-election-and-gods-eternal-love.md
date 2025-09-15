@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Letter 8 — On Election and God’s Eternal Love"
+title: "Letters to Mom #8"
 date: 2025-10-30
 categories: theology
-image: /assets/images/blog/cross.png
-excerpt: "On Election and God’s Eternal Love: God set His love before the foundation of the world."
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
+excerpt: "God set His love before the foundation of the world."
 modal_id: letter-8--on-election-and-gods-eternal-love
 ---
 Dear Mom,
