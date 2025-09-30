@@ -9,11 +9,17 @@ modal_id: letter-3-
 ---
 Dear Mom,
 
-You’ve said to me before, *“I don’t need church history. I only need the Bible.”* I know your heart is to honor God’s Word, and I love that about you. But here’s what troubles me: without realizing it, you already lean on church history—you just lean on the most recent slice of it.
+I was thinking about you this morning while I brewed my coffee. I pictured you at the kitchen table with your Bible open, the same way you’ve done for years. I’m grateful for that image — it’s one of the things I’ve always admired about you: that quiet faithfulness to keep turning to God’s Word every day.
 
-Darby’s teaching of the secret rapture is history. It began in the 1830s. And by saying you only need the Bible while embracing his teaching, you’re really depending on a very recent lens to read Scripture. If the rapture is so central, why did no Christian for 1,800 years ever teach it? Did God really hide this truth from the entire church until the 19th century? That doesn’t sound like the Christ who promised, *“I am with you always, to the end of the age”* (Matt. 28:20).
+That picture made me think of something you’ve said more than once: “I don’t need church history; I just need the Bible.” I understand why you feel that way — it sounds simple and pure, the way faith ought to be.
 
-The early church, the Reformers, the Puritans—all of them read passages like John 6, 1 Thessalonians 4, Matthew 24, and 2 Thessalonians 1 as pointing to one glorious return of Christ on the last day. Not a secret rapture, not two comings. One. If we shrug off their testimony, we risk being cut loose from the wisdom God has preserved for us through the ages.
+But as I’ve wrestled with that idea, I’ve come to see there’s more to it than I first realized…
+
+I know your heart is to honor God’s Word, and I love that about you. But here’s what troubles me: without realizing it, you already lean on church history—you just lean on the most recent slice of it.
+
+We talked before about Darby’s teaching of the secret rapture is history. It began in the 1830s. And by saying you only need the Bible while embracing his teaching, you’re really depending on a very recent lens to read Scripture. If the secret rapture of the Church is so central, why did no Christian for 1,800 years ever teach it? Did God really hide this truth from the entire church until the 19th century? That doesn’t sound like the Christ who promised, *“I am with you always, to the end of the age”* (Matt. 28:20).
+
+The early church, the Reformers, the Puritans—all of them read passages like John 6, 1 Thessalonians 4, Matthew 24, and 2 Thessalonians 1 as pointing to one glorious return of Christ on the last day. Not a secret rapture, not one and a hlaf, or two comings. One. If we shrug off their testimony, we risk being cut loose from the wisdom God has preserved for us through the ages.
 
 Mom, I don’t bring this up to argue, but because I long for us to reason together with open Bibles. I want you to see that what you’ve been taught isn’t simply “Bible only”—it’s Bible filtered through Darby’s categories. And if that’s true, then we owe it to ourselves to test those categories against both Scripture and the great cloud of witnesses who have gone before us.
 
