@@ -4,7 +4,7 @@ title: "Letters to Mom #3"
 date: 2025-09-25
 categories: theology
 image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
-excerpt: "Why 'Bible only' often hides dependence on Darby’s lens."
+excerpt: "Why ignoring history often hides dependence on Darby’s lens."
 modal_id: letter-3-
 ---
 Dear Mom,
