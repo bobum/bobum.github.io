@@ -9,11 +9,13 @@ modal_id: letter-3-
 ---
 Dear Mom,
 
-I was thinking about you this morning while I brewed my coffee. I pictured you at the kitchen table with your Bible open, the same way you’ve done for years. I’m grateful for that image — it’s one of the things I’ve always admired about you: that quiet faithfulness to keep turning to God’s Word every day.
+I was thinking about you this morning while I brewed my coffee. I pictured you sitting at the kitchen table with your Bible open beside your cup of tea, the way you’ve done for years. I’m thankful for that picture — it’s one of the things I’ve always admired about you: that steady commitment to God’s Word.
 
-That picture made me think of something you’ve said more than once: “I don’t need church history; I just need the Bible.” I understand why you feel that way — it sounds simple and pure, the way faith ought to be.
+You’ve said to me before, “I don’t really need to study church history; I just need the Bible.” And in one sense, you’re absolutely right: the Scriptures are all we need to know the way of salvation. “The sacred writings… are able to make you wise for salvation through faith in Christ Jesus” (2 Tim. 3:15). On that we stand together.
 
-But as I’ve wrestled with that idea, I’ve come to see there’s more to it than I first realized…
+But as I’ve read the Bible more and wrestled with difficult passages, I’ve come to see that the challenge isn’t having more books — it’s making sure we understand this book rightly. The Spirit who inspired it has also guided generations of believers before us to wrestle with the same words. Listening to their insights doesn’t add to Scripture; it helps keep us from drifting into private interpretations that the church never held.
+
+That’s why I want to talk about this with you.
 
 I know your heart is to honor God’s Word, and I love that about you. But here’s what troubles me: without realizing it, you already lean on church history—you just lean on the most recent slice of it.
 
