@@ -14,7 +14,7 @@ I've learned that shadow IT is less a rebellion and more a reflex. Teams inherit
 
 Eradication campaigns almost always fail because they mistake speed for defiance. The teams building in the shadows aren’t trying to be rogue; they’re diligently solving immediate problems they have with the tools they understand. That motivation is a good thing. But if the official path demands weeks to provision a baseline while the quarter closes in ten days, their choice is obvious. The solution is to change that math—absorb shadow IT into safer lanes without draining momentum.
 
-## How We Are Solving It
+## How We Solve It
 
 The first step is to replace edicts with a simple operating contract. Not a manual, not a 40-page standard, but a one-page agreement that anyone who operates software agrees to meet. Identity flows through corporate SSO. Data is classified and encrypted, with regions respected. Changes are built from version-controlled code through pipelines that can prove what ran where. Secrets aren’t pasted into configs. Basic observability is in place so incidents are visible and recoverable. Ownership is clear, including who is on call and how the service will be decommissioned when its job is done. This contract is enforced by automation, not negotiation. If pipelines produce evidence as part of every build, audits stop being a scavenger hunt. If logs, metrics, and traces land in central systems by default, incident response stops depending on who happens to be awake.
 
