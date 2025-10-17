@@ -9,9 +9,13 @@ modal_id: letter-6--on-christs-kingdom-now
 ---
 Dear Mom,
 
-I was thinking the other day about how much the world feels unsettled—wars, politics, so much confusion. It can leave us wondering: *Who’s really in charge?* That question made me think of something I know you and I have both heard many times—that Christ’s kingdom is still in the future, that it won’t begin until He comes back to reign on earth.
+I was listening to the news the other day, and it struck me how quickly people talk about the world as if it’s spinning out of control — politics unraveling, nations raging, evil gaining ground. Even in many churches, you can hear that same tone of despair, as though the story has slipped from Christ’s hands and Satan is running the show. They talk about victory, but brace for defeat, and pray for escape. When I read Scripture, I can’t find that picture. The Bible doesn’t present Jesus as a future King waiting for His turn; it declares Him as King now, seated at the right hand of the Father, ruling until every enemy is placed beneath His feet.
 
-But when I go back to the Bible, I see something different. After His resurrection Jesus declared, *“All authority in heaven and on earth has been given to me”* (Matt. 28:18). Paul wrote, *“He must reign until he has put all his enemies under his feet”* (1 Cor. 15:25). That’s present tense—He reigns now. The kingdom is not postponed; it is advancing, even when the world looks dark.
+That difference — whether we believe Christ reigns now or later — changes everything about how we see the world, the church, and our hope for the future. If we think the world belongs to Satan until Christ comes back to reclaim it, then the best we can do is hang on and wait for escape. But if we believe, as Scripture teaches, that “all authority in heaven and on earth has been given to Him,” then every moment of life — every act of faithfulness, every prayer, every ordinary work — takes place under a reigning King who is already subduing His enemies through His gospel.
+
+That’s why I’ve been thinking lately about how certain systems, especially ones like Darby's, seem to forget that Christ’s kingdom is present and advancing. They speak as though the devil currently governs history and Christ must wait for another age to rule. Yet the apostles preached the opposite: that the resurrection and ascension were Christ’s enthronement, and the church’s mission flows from that victory. This is what I wanted to write to you about today.
+
+After His resurrection Jesus declared, *“All authority in heaven and on earth has been given to me”* (Matt. 28:18). Paul wrote, *“He must reign until he has put all his enemies under his feet”* (1 Cor. 15:25). That’s present tense—He reigns now. The kingdom is not postponed; it is advancing, even when the world looks dark.
 
 We are not waiting for Jesus to become King. He already is. Colossians says He has “delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son” (Col. 1:13). John greets the churches in Revelation by saying Christ “has made us a kingdom, priests to his God and Father” (Rev. 1:6).
 
