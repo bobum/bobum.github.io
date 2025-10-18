@@ -3,7 +3,7 @@ layout: post
 title: "When Communication Breaks Down on the Way Down"
 date: 2025-10-18
 categories: leadership business
-image: /assets/images/blog/communication-breakdown.jpg
+image: /assets/images/blog/communication-breakdown-leadership.jpg
 excerpt: "Good decisions fail not because they’re wrong, but because they’re poorly communicated on the way down the org chart."
 modal_id: communication-breakdown
 ---
