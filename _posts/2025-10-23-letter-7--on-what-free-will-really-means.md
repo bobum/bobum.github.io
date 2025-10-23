@@ -9,21 +9,23 @@ modal_id: letter-7--on-what-free-will-really-means
 ---
 Dear Mom,
 
-I know at some point you’ll say, “But God gave us free will.” I want to talk about that, because it matters. We both believe people make real choices. The question is: what is the will free to choose?
+Lately I’ve been thinking back to when the kids were little — how their wills showed up early, fierce and unshaped. One day they’d cling to obedience with all their might, and the next they’d resist even the smallest request. But as they grew, their desires changed. What once looked like defiance softened into understanding, and I watched their wills bend — not from lost freedom, but from love and growing maturity. Watching that transformation has made me think a lot about our own hearts before God.
 
-Let me give you a picture. Imagine a vulture locked in a room. In front of him is a pile of meat and a pile of carrots. Which will he eat? The meat, of course—every time. That’s his nature. He freely chooses, but his choice is bound by what he is.
+I remember as a child you told me that God gave everyone free will, and that anyone can choose to follow Him if they simply decide to. I understand why that sounds right — it seems fair, even comforting, to think that salvation depends on our choosing. It even appears to get God off the hook for sending people to hell. I get why that sounds reasonable. But the more I’ve studied Scripture, the more I’ve realized that the Bible doesn’t describe human will as free in that sense. It says our will is bound — not by force, but by nature. We act freely, yes, but always according to what our hearts love most.
 
-Now imagine that vulture is miraculously changed into a rabbit. What will he freely choose then? The carrots. His will hasn’t disappeared. His freedom hasn’t disappeared. But his *nature* has been changed, and his choices follow.
+That’s why Jesus said, “Everyone who sins is a slave to sin” (John 8:34), and why Paul wrote that “no one seeks for God” (Rom. 3:11). Our problem isn’t that God locks the door — it’s that our hearts don’t want to leave the prison.
 
-That is exactly what the Bible says about us. Jesus said, *“Everyone who practices sin is a slave to sin”* (John 8:34). Paul said, *“None is righteous, no, not one; no one understands; no one seeks for God”* (Rom. 3:10–11). Our will is real, but it is bound by sin. Left to ourselves, we will always choose what our nature loves—and that is sin.
+Let me paint you a picture: if you locked a vulture in a room with a pile of meat and a pile of carrots, which would it eat? It would “freely” choose the meat every time — because that’s its nature. But if that vulture were miraculously changed into a rabbit, its desires would change too. It would just as freely choose the carrots.
 
-But when God saves us, He gives us a new heart. Ezekiel says, *“I will give you a new heart, and a new spirit I will put within you”* (Ezek. 36:26). Paul says, *“If anyone is in Christ, he is a new creation”* (2 Cor. 5:17). Only then can we freely choose Him, because He has changed what we love.
+That’s the difference between fallen man and the redeemed. In both cases the creature acts freely, but only one has been given a new nature. When God saves a sinner, He doesn’t violate their will — He changes it. He gives a new heart with new desires, so that what once hated Him now loves Him. True freedom isn’t the power to choose sin or righteousness; it’s the power to finally delight in righteousness.
+
+When God saves us, He gives us a new heart. Ezekiel says, *“I will give you a new heart, and a new spirit I will put within you”* (Ezek. 36:26). Paul says, *“If anyone is in Christ, he is a new creation”* (2 Cor. 5:17). Only then can we freely choose Him, because He has changed what we love. In Christ, vultures, have become rabbits.
 
 John Calvin put it this way: *“Man is said to have free will, not because he has free choice of good and evil, but because he acts voluntarily, and not by compulsion. His choice, however, is corrupt, and enslaved to sin.”*
 
 So yes, we both believe in free will. But free will only brings us to Christ when it has been set free by His Spirit. Otherwise, it is a will bound in sin, like the vulture bound to meat.
 
-Mom, this is why I find such rest in God’s sovereign grace. My salvation doesn’t rest on the strength of my will, but on the power of His transforming work. I want us to talk more about this, because it cuts to the heart of what the gospel really is.
+Mom, this is why I find such rest in God’s sovereign grace — the same grace that called us, changed us, and keeps us. My salvation doesn’t rest on the strength of my will, but on the power of His transforming work. I want us to talk more about this, because it cuts to the heart of what the gospel really is.
 
 With love,  
 Your son
