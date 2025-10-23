@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Art in Code: Why I Write Software Like I Write Novels"
-date: 2025-10-25
+date: 2022-10-25
 categories: creativity
 image: /assets/images/blog/art-in-code.jpg
 excerpt: "After decades of writing code, I’ve stopped thinking of myself as just a software engineer. What I really do is tell stories—sometimes through words, sometimes through logic."
