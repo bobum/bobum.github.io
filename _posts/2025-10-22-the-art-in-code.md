@@ -30,7 +30,7 @@ People rarely talk about the emotional side of programming, but it’s real. The
 
 When I’m deep in code, time disappears. I’m no longer typing instructions for a machine—I’m composing something. There’s rhythm in indentation, pacing in loops, cadence in naming. A good codebase reads like good prose: deliberate, consistent, and alive with intent.
 
-This isn’t about “poetic programming.” It’s about craftsmanship—the quiet discipline of caring how things fit together, even when no one’s watching. That care shows up in both worlds. Readers may not see the edits that make a story breathe. Users may never know the refactors that make an app feel effortless. But they *feel* it.
+This isn’t about “poetic programming.” It’s about craftsmanship—the quiet discipline of caring how things fit together, even when no one’s watching. That care shows up in both worlds. Readers may not see the edits that make a story breathe. Users may never know the refactors that make using an app seem effortless. But they *feel* it.
 
 ---
 
