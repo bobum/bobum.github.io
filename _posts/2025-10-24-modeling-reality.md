@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modeling Reality: From Plastic Kits to Software Systems"
-date: 2025-10-28
+date: 2025-10-24
 categories: creativity
 image: /assets/images/blog/modeling-reality.jpg
 excerpt: "Building software has never felt like pure engineering to me. It feels like modeling—the same instinct that draws me to plastic kits on my workbench."
