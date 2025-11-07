@@ -3,7 +3,7 @@ layout: post
 title: "Letter 9 — The Election That Cannot Be Lost"
 date: 2025-11-06
 categories: theology
-image: /assets/images/blog/cross.png
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
 excerpt: "On God’s Keeping Power: Assurance rests in His grip, not ours."
 modal_id: letter-9--on-gods-keeping-power
 ---
