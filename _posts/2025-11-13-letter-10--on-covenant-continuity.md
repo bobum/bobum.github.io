@@ -11,7 +11,7 @@ Dear Mom,
 
 Traveling back to our old hometown last week got me thinking about everything you taught me. I could almost hear your voice reading those Old Testament stories, which I still love so much. Lately, as I've kept studying those same stories, my understanding has grown in a way that gently differs from what I learned before. 
 
-You always loved those Old Testament stories. I’ve thought a lot about how those stories connect to us today. Are they just background, or part of our story too? The more I read, the more I see that they’re tied together in one golden thread: the covenant promises of God, fulfilled in Christ and shared with us.
+I remember you teaching me as a child that Israel was special, that God had a unique and separate plan for them that He would fulfill in the future. I held onto that for a long time. But as I've studied the Scriptures more, I've come to see the story differently. It's not that God has revoked His promises to Israel, but that I believe He fulfills them in a way that includes all His people in Christ. It's not about two plans, but one single, glorious purpose unfolding through history.
 
 God promised Abraham: “In you all the families of the earth shall be blessed” (Gen. 12:3). Paul explains this mystery, showing that the blessing comes through union with Christ, the singular Head of the body. He writes, “Know then that it is those of faith who are the sons of Abraham” (Gal. 3:7). And again, “If you are Christ’s, then you are Abraham’s offspring, heirs according to promise” (Gal. 3:29). We don't become spiritual Jews; Jew and Gentile together become one new humanity in Christ, sharing in the inheritance as a single body under one Head.
 
