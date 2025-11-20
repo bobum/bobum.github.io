@@ -19,7 +19,7 @@ The writer of Hebrews says, “Christ has obtained a ministry that is as much mo
 
 Calvin, commenting on this, put it beautifully: “All the saints, from the beginning of the world, have been partakers of the same covenant and truly united to God by the same bond of faith.” The unity is in Christ the Head; the division is between belief and unbelief, not between two eternally separate peoples of God.
 
-Mom, this is why the more I study, the more I see one unbreakable story of grace. From our Reformed perspective, to split Israel and the Church is to create two separate trees where God has planted only one. It would mean God has two brides, two distinct bodies for one Head. But Scripture tells us there is one olive tree, one Shepherd and one flock, one covenant of grace spanning all ages, and one people of God—composed of all, both Jew and Gentile, who are united to Christ by faith. The promise made to Abraham finds its yes and amen in Jesus, and to divide it is to miss the glorious, unified whole of the gospel itself.
+Mom, this is why the more I study, the more I see one unbreakable story of grace. To split Israel and the Church is to create two separate trees where God has planted only one. It would mean God has two brides, two distinct bodies for one Head. But Scripture tells us there is one olive tree, one Shepherd and one flock, one covenant of grace spanning all ages, and one people of God—composed of all, both Jew and Gentile, who are united to Christ by faith. The promise made to Abraham finds its yes and amen in Jesus, and to divide it is to miss the glorious, unified whole of the gospel itself.
 
 With love,  
 Your son
