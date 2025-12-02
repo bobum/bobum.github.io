@@ -31,7 +31,7 @@ But 80% of developers don’t work in those domains either.
 For the vast majority of us, this level of acceleration isn’t just possible—  
 **it’s here. Now. Today.**
 
-## The Post-Thanksgiving Realization: Everything Is About to Change
+### The Post-Thanksgiving Realization: Everything Is About to Change
 
 When I said engineers should stop writing code, I was being provocative but directionally serious. Now? I’m not being provocative at all.
 
@@ -57,7 +57,11 @@ AI becomes **implementation**.
 
 And once you internalize that, another thought naturally follows…
 
-## Eventually, We Won’t Need Code at All
+### Eventually, We Won’t Need Code at All
+
+Anyone know how to use a sliderule? Abacus? Yea, me either.
+
+But, there was a time.
 
 Code is an abstraction.  
 A convenience layer.  
@@ -89,7 +93,7 @@ The AI will write, rewrite, optimize, and debug everything beneath that.
 Humans won’t debug machine code.  
 Machines will debug machine code.
 
-## The New Role of the Engineer
+### The New Role of the Engineer
 
 So where does that leave us?
 
@@ -111,7 +115,7 @@ AI consumes everything below it.
 
 The job of engineering is about to become more strategic, more conceptual, and—ironically—more human.
 
-## Stop Writing Code. Start Defining Systems.
+### Stop Writing Code. Start Defining Systems.
 
 The “stop writing code” line began as a joke with a manager.  
 Then it became an observation.  
@@ -131,4 +135,3 @@ The future belongs to those who learn to think, design, and communicate at the l
 Everything is about to change.  
 And honestly?  
 It’s going to be incredible.
-
