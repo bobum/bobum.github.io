@@ -7,9 +7,8 @@ image: /assets/images/blog/i-meant-it.jpg
 excerpt: "Everything about software engineering is about to change—and much faster than most people expect."
 modal_id: 2025-stop-writing-code-reality
 ---
-
-# Stop Writing Code (For Real This Time)  
-*The Thanksgiving Break That Changed Everything I Thought I Knew About Engineering*
+ 
+*The Thanksgiving Break That Changed Everything I Thought I Knew About Software Engineering*
 
 Before Thanksgiving, I wrote a blog post telling engineers to stop writing code. I meant it then—but I had no idea how much I would mean it just four days later.
 
