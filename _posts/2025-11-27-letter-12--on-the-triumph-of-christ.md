@@ -3,7 +3,7 @@ layout: post
 title: "Letter 12 — On the Triumph of Christ"
 date: 2025-11-27
 categories: theology
-image: /assets/images/blog/cross.png
+image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
 excerpt: "On the Triumph of Christ: History ends not in retreat but in victory."
 modal_id: letter-12--on-the-triumph-of-christ
 ---
