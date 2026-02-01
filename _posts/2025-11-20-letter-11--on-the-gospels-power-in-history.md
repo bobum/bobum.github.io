@@ -1,30 +1,29 @@
 ---
 layout: post
-title: "Letter 11 — On the Gospel’s Power in History"
+title: "Letter 11 — On the Gospel's Power in History"
 date: 2025-11-20
 categories: theology
 image: /assets/images/blog/file_00000000d9e86230b61303675ba82a18.jpg
-excerpt: "On the Gospel’s Power in History: The kingdom grows like leaven through the world."
+excerpt: "On the Gospel's Power in History: The kingdom grows like leaven through the world."
 modal_id: letter-11--on-the-gospels-power-in-history
 ---
 Dear Mom,
 
-I was watching the news the other day, and I found my heart getting heavy. It feels like things are getting worse—violence, division, anger. It can make you wonder if the gospel is really making a difference in this world, or if we're just waiting for it all to fall apart. I remember being taught that this is exactly what we should expect before Jesus returns—a world in total collapse, and the church making a hasty escape. But lately, as I've studied the Scriptures, I've been filled with a different, and I believe a more biblical, hope.
+I hope you're doing well. How are things with you and dad? Hope all is well. I was sitting on the porch the other evening after a walk with Casey, and I made the mistake of checking the news on my phone. You know how that goes—violence, division, anger. It can make your heart heavy. I found myself wondering if the world is just winding down, waiting to fall apart. That's certainly how I was taught to see things growing up—everything collapsing, the church escaping at the last moment. But then I actually read the Bible for myself, and as I've been studying Scripture more carefully, I've found a different kind of hope. And I wanted to share it with you.
 
-You see, Jesus taught us to see history differently. He said the kingdom of heaven is like a mustard seed—the smallest of seeds—yet when it is grown it becomes a tree, and the birds of the air come to nest in its branches (Matt. 13:31–32). He said the kingdom is like leaven that a woman took and worked through three measures of flour, till it was all leavened (Matt. 13:33). These aren't pictures of a failed mission or a sudden escape. They are pictures of small, humble beginnings leading to unstoppable, pervasive growth. The leaven doesn't fail to leaven the lump; it succeeds completely.
+Jesus talked about His kingdom in ways I think I missed before. He said it's like a mustard seed—the tiniest thing—that grows into a tree where birds come to nest (Matt. 13:31–32). He said it's like leaven a woman works through flour until the whole lump rises (Matt. 13:33). These aren't pictures of failure or escape. They're pictures of small beginnings leading to complete, unstoppable growth.
 
-This vision of a victorious kingdom isn't just in the parables. It's the consistent promise of the prophets. Isaiah foretold of the Messiah: *“Of the increase of his government and of peace there will be no end”* (Isa. 9:7). This means His rule is ever-expanding. Habakkuk promised a day when *“the earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea”* (Hab. 2:14). Waters don't just cover a part of the sea; they dominate it entirely. This is a promise of comprehensive victory for the knowledge of God, not a temporary revival before a final defeat.
+This vision of a victorious kingdom isn't just in the parables—it's the consistent promise of the prophets. Isaiah foretold of the Messiah: *"Of the increase of his government and of peace there will be no end"* (Isa. 9:7). His rule is ever-expanding. Habakkuk promised a day when *"the earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea"* (Hab. 2:14). Waters don't just cover part of the sea; they dominate it entirely. This is a promise of comprehensive victory for the knowledge of God, not a temporary revival before a final defeat.
 
-This is why the great theologian Jonathan Edwards, reflecting on Jesus' words that "the gates of hell shall not prevail" against His church (Matt. 16:18), could write with such confidence: *“The church of God is built upon a rock, so it will prevail, and the gates of hell will not overcome it.”* We often miss the imagery: gates are defensive. They don't march out to attack. This means it is the Church that is on the offensive, storming the very gates of hell with the gospel key that sets the captives free, and those gates will not be able to stand against the advance.
+Jonathan Edwards, reflecting on Jesus' words that "the gates of hell shall not prevail" against His church (Matt. 16:18), wrote with confidence: *"The church of God is built upon a rock, so it will prevail, and the gates of hell will not overcome it."* We often miss the imagery: gates are defensive. They don't march out to attack. It's the Church that is on the offensive, storming the very gates of hell with the gospel, and those gates will not stand against the advance.
 
-Mom, I share this with you because this truth has filled my heart with so much hope and purpose. The gospel is not a sinking ship waiting for a rescue mission. It is a kingdom—*His* kingdom—spreading slowly but surely through the world like a great tree or pervasive leaven, transforming lives, cultures, and nations from the inside out. We aren't just holding the fort until Jesus comes back; we are advancing the fort, assured that one day, the knowledge of His glory will indeed cover the earth as the waters cover the sea. This is the confident hope we have in Christ.
+Mom, I share this because this truth has filled my heart with hope. The gospel is not a sinking ship waiting for rescue. It is a kingdom—*His* kingdom—spreading through the world like a great tree or leaven, transforming lives and cultures from the inside out. We aren't just holding the fort until Jesus comes back; we are advancing, assured that one day the knowledge of His glory will cover the earth as the waters cover the sea.
 
-With love,  
+With love,
 Your son
 
-**Passages to read together:**  
-- Isaiah 9:7  
-- Matthew 13:31–33  
-- Habakkuk 2:14  
+**Passages to read together:**
+- Isaiah 9:7
+- Matthew 13:31–33
+- Habakkuk 2:14
 - Matthew 16:18
-
