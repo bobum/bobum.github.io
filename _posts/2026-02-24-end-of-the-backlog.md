@@ -8,57 +8,30 @@ excerpt: "When execution becomes trivial, discernment becomes the bottleneck."
 modal_id: end-of-the-backlog  # For modal targeting
 ---
 
-Two weeks into February, most of our developers had already consumed ~85% of their monthly AI premium request quota.
+Two weeks into February, most of our developers had already consumed 85% of their monthly premium request quota for agentic code generation. 
 
 Not because we were behind.
 
 Because we were moving too fast.
 
-Agentic code generation didn’t just speed up feature work — it exposed something deeper: the traditional backlog model assumes development is the constraint. That assumption is breaking.
+By the halfway mark, it was clear: our backlog would never behave the way it used to.
 
-Backlogs exist to ration scarce engineering time. They prioritize what gets built when execution capacity is limited.
+Backlogs have long been the backbone of software planning — a way to prioritize work when development speed was slower than demand. But agentic AI is rewriting that rulebook. Features that once took weeks can now be prototyped in hours. Tasks that used to be “small” — like changing a button label — now feel trivial in comparison to fully generated, production-ready code.
 
-But what happens when execution stops being scarce?
+The bottleneck is no longer development speed. It’s decision-making and validation. Teams are shifting from incremental feature delivery to rapidly building production-ready POCs, testing ideas, and validating business viability before committing to full-scale releases.
 
-Features that once required weeks now take hours. Entire workflows can be scaffolded, tested, and deployed before a sprint review would have even started. Tasks that once felt meaningful now feel like changing button text.
+This feels reminiscent of other disruptive technological shifts in history.
 
-The bottleneck is shifting.
+The Steam Engine → Industrial Revolution: Mechanization made labor no longer the limiting factor. Supply exceeded old organizational structures, forcing logistics, coordination, and market discovery to become the bottleneck.
 
-From:
-- Can we build it?
+Assembly Line → Ford’s Manufacturing Revolution: Production speed soared, but inventory, quality control, and demand forecasting became the critical constraints.
 
-To:
-- Should we build it?
-- Does it matter?
-- Will it move the business?
+Agentic AI in software development is having a similar effect. Delivery speed is no longer the constraint. Human judgment, strategic prioritization, and risk management are now the bottlenecks.
 
-Teams won’t disappear into endless feature queues. They’ll build production-ready POCs to test viability. Experimentation replaces accumulation. Backlogs become validation pipelines.
+But there’s a limit. Large language models are remarkable pattern predictors, but they are stateless and constrained in reasoning. Persistent world understanding — tracking multi-step causal relationships, long-term dependencies, and system-wide effects — will require the next evolution: World Models.
 
-History has seen this before.
+Think of it like the transition from the steam engine to the internal combustion engine. LLMs are the steam engine: powerful but limited. World Models + AI agents are the internal combustion engine: integrated, stateful, and capable of sustained, strategic impact.
 
-The steam engine multiplied production capacity, but it didn’t solve distribution, logistics, or market demand. The constraint moved. Supply was no longer the issue — coordination and insight were.
+The future is coming fast. Backlogs as we know them may vanish, replaced by experiment queues, rapid POCs, and decision-driven pipelines. Development velocity will no longer define productivity; the value of human guidance, validation, and business judgment will.
 
-The internal combustion engine didn’t merely make machines faster. It reshaped infrastructure, mobility, and entire industries. Power became embedded, mobile, strategic.
-
-LLMs feel like the steam engine moment in software.
-
-They are extraordinary pattern predictors. They accelerate output. They compress execution time.
-
-But they are still bounded — stateless, context-limited, probabilistic.
-
-The next phase will require something more durable: world models.
-
-Persistent representations of systems.
-Long-range dependency tracking.
-Causal reasoning across codebases and business logic.
-State that survives beyond a prompt window.
-
-That transition — from generation to understanding — will mirror steam giving way to internal combustion.
-
-And when that happens, backlog management as we know it becomes secondary.
-
-Speed won’t define advantage.
-
-Judgment will.
-
-In a world where building is trivial, discernment becomes the scarce resource.
+Software development is entering a new era — one where speed is trivial, and strategy is everything.
