@@ -16,7 +16,7 @@ Because we were moving too fast.
 
 By the halfway mark, it was clear: our backlog would never behave the way it used to.
 
-Backlogs have long been the backbone of software planning — a way to prioritize work when development speed was slower than demand. But agentic AI is rewriting that rulebook. Features that once took weeks can now be prototyped in hours. Tasks that used to be “small” — like changing a button label — now feel trivial in comparison to fully generated, production-ready code.
+Backlogs have long been the backbone of software planning — a way to prioritize work when development speed was slower than demand. But agentic AI is rewriting that rulebook. Features that once took weeks can now be prototyped in hours. Tasks that used to feel meaningful now feel like “change the button text.”
 
 The bottleneck is no longer development speed. It’s decision-making and validation. Teams are shifting from incremental feature delivery to rapidly building production-ready POCs, testing ideas, and validating business viability before committing to full-scale releases.
 
