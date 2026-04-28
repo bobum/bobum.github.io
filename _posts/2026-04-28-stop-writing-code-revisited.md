@@ -8,7 +8,7 @@ excerpt: "When execution compresses from months to hours, the role of the engine
 modal_id: stop-writing-code-revisited
 ---
 
-Months ago, I wrote two posts—Stop Writing Code and Stop Writing Code: Reality.
+Months ago, I wrote two posts—[Stop Writing Code](https://davisplanet.com/blog/stop-writing-code/) and [Stop Writing Code: Reality](https://davisplanet.com/blog/stop-writing-code-reality/).
 
 The reaction was about what I expected. A lot of engineers pushed back hard. Some said I was missing the point. Others said it was irresponsible. Looking back, that criticism was fair. Those posts were pointing at a direction, not showing evidence of one.
 
