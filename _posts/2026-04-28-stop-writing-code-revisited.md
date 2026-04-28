@@ -53,4 +53,10 @@ If you were part of that earlier conversation, I'd go back and reread those post
 
 The shift is already underway. Writing is becoming composition. Coding is becoming constraint definition. Effort is becoming leverage.
 
-You don't have to agree with any of that. But you're already competing with teams who've made the switch.
+You don't have to agree with any of that. But you're already competing with teams, like mine, who've made the switch.
+
+---
+
+At this point, the burden of proof has flipped.
+
+It’s no longer on people like me to prove this works—it’s on others to explain why they’re not seeing it.
