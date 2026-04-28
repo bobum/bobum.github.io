@@ -8,142 +8,49 @@ excerpt: "When execution compresses from months to hours, the role of the engine
 modal_id: stop-writing-code-revisited
 ---
 
-Months ago, I wrote two posts:
+Months ago, I wrote two posts—Stop Writing Code and Stop Writing Code: Reality.
 
-- Stop Writing Code  
-- Stop Writing Code: Reality  
+The reaction was about what I expected. A lot of engineers pushed back hard. Some said I was missing the point. Others said it was irresponsible. Looking back, that criticism was fair. Those posts were pointing at a direction, not showing evidence of one.
 
-The reaction was predictable.
+This is the evidence.
 
-A lot of engineers rejected the premise outright.  
-Some said it showed a lack of understanding. Others called it dangerous.
+Inside Acuity Inc., we stopped arguing about it and started running experiments.
 
-At the time, that pushback was fair.
+The first one: a project originally estimated at 14 weeks across multiple engineers. Three engineers finished it in 34 wall-clock hours. We recorded it—a 7.5-minute video—because when we told people, they didn't believe us. That video changed the internal conversation.
 
-Those posts described a direction—not proof.
+The second: a 23-sprint project scoped for 4–6 cross-functional team members. Three engineers delivered it end-to-end in 3.5 weeks. Not a prototype. Not a demo. Shipped.
 
-This is the proof.
+Those results didn't just feel good—they created pressure to build infrastructure around them. So we did:
 
----
-
-Inside Acuity Inc., we stopped debating and started running experiments.
-
-**Experiment 1**
-
-Original estimate: 14 weeks (7 sprints)  
-Team: multiple engineers  
-
-Actual: 3 engineers, 34 hours wall clock  
-
-We recorded it.
-
-A 7.5-minute video—because people didn’t believe it was possible.
-
-After that, the conversation inside the organization changed.
+- Two internal AI platforms for agent orchestration
+- An in-house replacement for Copilot
+- A full SaaS replacement
+- Removal of UX mockups from the workflow
+- Agentic tooling and workflow training for 50+ engineers
+- Spec-driven, skill & MCP-based guardrails for constraining agent behavior
+- A measured ~40% increase in developer productivity
+- A three-tier context management system
+- Product workflows that process ~2GB of unstructured data into structured delivery artifacts
+- Early extensions into hardware design workflows
 
 ---
 
-**Experiment 2**
+The SaaS replacement is where it gets harder to dismiss. It wasn't just faster to build—it came out architecturally stronger than what we'd have produced manually under normal constraints. SOC 2 Type II compliant. SOX compliant. More controlled and more adaptable than the system it replaced. Built in a fraction of the time.
 
-Original estimate: 23 sprints, 4–6 cross-functional team members  
+The uncomfortable part: what came out of that process exceeded what our best architects likely would have produced under the same constraints. Not because the people were different. Because the method was.
 
-Actual: 3 engineers, 3.5 weeks, end-to-end delivery  
+When I said "stop writing code," people read elimination. That wasn't the right frame. What's actually shifting is where the effort goes—less time manually constructing systems, more time defining constraints, shaping architecture, and orchestrating outcomes. Engineers aren't going away. But what it means to do good engineering work is changing, and it's changing fast.
 
-Not a prototype. Not a demo.  
+Most of the debate circled around whether AI replaces engineers. That question keeps missing the point. The more interesting one: what happens when engineers are no longer bottlenecked by how fast they can type?
 
-Full delivery.
+Because we're seeing the answer. Fourteen-week projects in 34 hours. Twenty-three-sprint roadmaps compressed into weeks. Internal tooling replacing commercial SaaS. Architecture emerging faster than traditional design cycles allow.
 
----
-
-Those weren’t isolated wins. They forced infrastructure.
-
-We built:
-
-- Two internal AI platforms for agent orchestration  
-- An in-house replacement for Copilot  
-- A full SaaS replacement  
-- Removal of UX mockups from the workflow  
-- Training for 50+ engineers on agentic tooling and workflows  
-- Spec-driven, skill & MCP-based guardrails to constrain agent behavior  
-- A measured ~40% increase in developer productivity  
-- A three-tier context management system  
-- Product workflows that convert ~2GB of unstructured data into structured delivery artifacts  
-- Early extensions into hardware design workflows  
+This isn't a better version of the old model. It's a different one.
 
 ---
 
-The SaaS replacement is where the shift becomes undeniable.
+If you were part of that earlier conversation, I'd go back and reread those posts—not because they were right about everything, but because the direction they described is now backed by actual delivery.
 
-It wasn’t just faster.
+The shift is already underway. Writing is becoming composition. Coding is becoming constraint definition. Effort is becoming leverage.
 
-It was better.
-
-Architecturally stronger than what we would have designed manually under normal constraints.  
-Built in a fraction of the time.  
-SOC 2 Type II compliant.  
-SOX compliant.  
-Safer, more controlled, and more adaptable than the system it replaced.
-
-The uncomfortable reality:
-
-The system produced through AI-assisted composition exceeded what our best architects likely would have delivered under the same time constraints.
-
-Not because the people changed.
-
-Because the method did.
-
----
-
-“Stop writing code” was interpreted as elimination.
-
-That framing was incomplete.
-
-What’s actually happening is a shift in effort:
-
-Less time spent manually constructing systems.  
-More time spent defining constraints, shaping architecture, and orchestrating outcomes.
-
-Engineers are not removed.
-
-But the way they create value is changing—rapidly.
-
----
-
-Most of the criticism focused on whether AI replaces engineers.
-
-That’s the wrong question.
-
-The real question is:
-
-What happens when engineers are no longer limited by the speed of typing?
-
-Because the answer looks like this:
-
-14-week projects completed in 34 hours.  
-23-sprint roadmaps compressed into weeks.  
-Internal platforms replacing SaaS.  
-Architecture emerging faster than traditional design cycles.
-
-This is not incremental improvement.
-
-It is a different operating model.
-
----
-
-If you were part of the original discussion, revisit those posts.
-
-Not because they were perfect—they weren’t.
-
-But because the direction they pointed to is now backed by execution.
-
----
-
-This shift is already happening.
-
-From writing → composing  
-From coding → constraining  
-From effort → leverage  
-
-You don’t have to agree with it.
-
-But you do have to compete with people who are already operating this way.
+You don't have to agree with any of that. But you're already competing with teams who've made the switch.
