@@ -4,7 +4,8 @@ layout: post
 title: "The Wire Around the Rod"
 date: 2026-07-12
 categories: faith marriage
-image: /assets/images/blog/wire-around-the-rod.png
+image: /assets/images/blog/file_00000000ac7871f7b3d7dc4b802f7ba2.png
+
 excerpt: "One spouse cannot create one flesh alone. Love may grow over time, but it cannot be manufactured through endless self-improvement."
 modal_id: the-wire-around-the-rod
 
