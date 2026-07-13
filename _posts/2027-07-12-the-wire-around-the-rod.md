@@ -2,7 +2,7 @@
 
 layout: post
 title: "The Wire Around the Rod"
-date: 2026-07-12
+date: 2027-07-12
 categories: faith marriage
 image: /assets/images/blog/file_00000000ac7871f7b3d7dc4b802f7ba2.png
 
