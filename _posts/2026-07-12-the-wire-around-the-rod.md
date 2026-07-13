@@ -128,3 +128,5 @@ Whether another person's heart ultimately moves toward mine is something I canno
 That realization has been one of the hardest lessons of my life.
 
 It has also been one of the most freeing.
+
+![The Wire Around the Rod](/assets/images/blog/file_000000001e6471f5b3cd6d307af6d93c.png)
