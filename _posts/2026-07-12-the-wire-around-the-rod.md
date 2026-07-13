@@ -9,6 +9,8 @@ image: /assets/images/blog/file_00000000ac7871f7b3d7dc4b802f7ba2.png
 excerpt: "One spouse cannot create one flesh alone. Love may grow over time, but it cannot be manufactured through endless self-improvement."
 modal_id: the-wire-around-the-rod
 
+---
+
 The Wire Around the Rod
 
 For years I have carried a picture in my mind of what Christian marriage was meant to become.
