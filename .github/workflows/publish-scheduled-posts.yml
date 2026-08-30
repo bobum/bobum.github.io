@@ -1,0 +1,57 @@
+name: Publish scheduled posts
+
+# GitHub Pages only rebuilds when something is pushed, and Jekyll excludes
+# posts dated in the future. Without a nudge, a post dated 2026-09-05 would
+# simply never appear on 2026-09-05 -- it would sit invisible until the next
+# unrelated push. This workflow requests a Pages rebuild on a schedule so
+# future-dated posts go live on their own date.
+
+on:
+  schedule:
+    # 13:00 UTC every Saturday = 9:00 AM America/New_York (EDT).
+    # Cron in GitHub Actions is always UTC; adjust if you want a different hour.
+    - cron: "0 13 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+concurrency:
+  group: pages-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request a GitHub Pages build
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "/repos/${{ github.repository }}/pages/builds"
+
+      - name: Wait for the build to finish and confirm it succeeded
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for attempt in $(seq 1 30); do
+            sleep 20
+            status=$(gh api "/repos/${{ github.repository }}/pages/builds/latest" --jq '.status')
+            echo "attempt ${attempt}: status=${status}"
+            case "$status" in
+              built)
+                echo "Pages rebuild succeeded. Any posts dated on or before today are now live."
+                exit 0
+                ;;
+              errored)
+                echo "::error::Pages build errored."
+                gh api "/repos/${{ github.repository }}/pages/builds/latest" --jq '.error.message'
+                exit 1
+                ;;
+            esac
+          done
+          echo "::error::Timed out after 10 minutes waiting for the Pages build."
+          exit 1

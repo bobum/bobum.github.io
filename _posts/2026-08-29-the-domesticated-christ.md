@@ -4,96 +4,49 @@ title: "The Domesticated Christ: Recovering Zeal in an Age That Mistakes Passion
 date: 2026-08-29
 categories: theology
 image: /assets/images/blog/the-domesticated-christ.jpg
-excerpt: "We have quietly redefined Christlikeness as softness, and in doing so we have taught sincere believers to mistrust their own God-given zeal. Sinful anger and righteous zeal are not the same thing, and until we recover the distinction we will keep mistaking apathy for peace and timidity for gentleness."
+excerpt: "A five-part series on the difference between sinful anger and righteous zeal — and what the church quietly lost when it stopped telling the two apart."
 modal_id: the-domesticated-christ
+series_index: domesticated-christ
+series_total: 5
+series_parts:
+  - part: 1
+    title: "The Meekness That Was Never Softness"
+    when: "September 5"
+    blurb: "Biblical meekness is not the absence of fire, and Matthew 23 is the text the “meek and mild” caricature cannot absorb."
+  - part: 2
+    title: "Zeal That Consumes"
+    when: "September 12"
+    blurb: "The temple, the accusation of madness, and apostolic directness toward a man opposing the gospel."
+  - part: 3
+    title: "Zeal and Its Counterfeits"
+    when: "September 19"
+    blurb: "Paul pronounced anathema over a corrupted gospel. Scripture commands zeal — but zeal has counterfeits on both sides."
+  - part: 4
+    title: "Be Imitators of Me, as I Am of Christ"
+    when: "September 26"
+    blurb: "We imitate Christ’s moral character, not his unrepeatable redemptive office. Losing that distinction is how we got here."
+  - part: 5
+    title: "Sanctified Passion"
+    when: "October 3"
+    blurb: "Discomfort proves nothing on its own. What happens when conviction is called anger often enough to be believed."
 ---
 
-I grew up, as many Christians did, on a version of Jesus who was almost entirely defined by his softness. He was gentle. He was patient. He held children on his lap. He wept. He forgave. Every one of those things is true, and every one of them is precious. But somewhere between the felt-board Sunday school lessons and the adult pews, a subtle substitution took place. "Meek and mild" stopped being one true description among several and became the whole of the picture. Christlikeness, as I absorbed it, meant being quiet. Agreeable. Even-keeled. Unwilling to make anyone uncomfortable. Somewhere along the way, I learned — without anyone ever saying it directly — that a raised voice was a spiritual failure, that strong conviction expressed with any heat was probably pride in disguise, and that the surest sign of Christian maturity was never, ever seeming too intense about anything, including the truth.
+I grew up, as many Christians did, on a version of Jesus defined almost entirely by his softness. He was gentle. He was patient. He held children on his lap. Every one of those things is true, and every one of them is precious — but somewhere between the felt-board Sunday school lessons and the adult pews, a subtle substitution took place, and "meek and mild" stopped being one true description among several and became the whole of the picture.
 
-I no longer believe that. I think it is a caricature, and I think the caricature has done real damage. It has taught sincere believers to mistrust their own God-given zeal, to relabel conviction as anger before anyone else even gets the chance to, and to go quiet at precisely the moments Scripture calls them to speak. This essay is an attempt to correct the record from the text of Scripture itself — not by arguing that Christians should become harsher, angrier, or less careful with their words, but by arguing that we have confused two very different things: sinful anger and righteous zeal. Until we recover the distinction, we will keep producing Christians who mistake apathy for peace and timidity for gentleness.
+I no longer believe that picture is accurate, and I think the caricature has done real damage. It has taught sincere believers to mistrust their own God-given zeal, to relabel conviction as anger before anyone else gets the chance to, and to go quiet at precisely the moments Scripture calls them to speak.
 
-## The Meekness That Was Never Softness
+This series is an attempt to correct the record from the text of Scripture itself. The argument is not that Christians should become harsher, angrier, or less careful with their words. It is that we have confused two very different things — sinful anger and righteous zeal — and that until we recover the distinction, we will keep producing Christians who mistake apathy for peace and timidity for gentleness.
 
-Start with the word itself. "Meek" is a real and important biblical category — Jesus applies it to himself in Matthew 11:29, and it appears among the fruit of the Spirit in Galatians 5:23 under the heading of gentleness. But biblical meekness has never meant an absence of strength or an absence of conviction. It means strength that is governed — power under the control of righteousness rather than power in the service of self. Moses is described in Numbers 12:3 as the meekest man on the face of the earth, yet this is the same Moses who shattered the tablets of the covenant in fury at Israel's idolatry and who stood before Pharaoh unflinching. Meekness, biblically defined, is not the absence of fire. It is fire that has been rightly ordered.
+It runs in five parts, one each week.
 
-The trouble is that our culture — and, if we are honest, a good deal of therapeutic-adjacent evangelical culture — has quietly redefined meekness as emotional flatness. A meek Christian, on this redefinition, is one who never raises his voice, never names an error plainly, never lets a listener feel the weight of moral seriousness. When we bring that redefinition to the Gospels, we find it does not fit the man we actually meet there.
-
-## Woe to You: Jesus and the Scribes and Pharisees
-
-Matthew 23 is the single hardest text for the "meek and mild" caricature to absorb, and so it is frequently skipped, softened in preaching, or read as an aberration rather than as revelation. It should not be. In this chapter Jesus does not merely register polite theological disagreement with the scribes and Pharisees. He pronounces a series of prophetic woes against them — the same rhetorical form the Old Testament prophets used to announce covenant judgment. He calls them hypocrites, repeatedly. He calls them blind guides and blind fools. He tells them they are like whitewashed tombs, beautiful on the outside and full of dead men's bones within. He calls them serpents and a brood of vipers and asks how they will possibly escape being sentenced to hell.
-
-This is not a loss of composure. It is not Jesus having a bad day. The context matters enormously: these were the religious leaders of Israel, entrusted with teaching God's people the meaning of God's law, and they had turned that trust into a system that burdened the weak, exalted their own status, and — this is the charge that runs through the whole chapter — shut the kingdom of heaven in people's faces, neither entering themselves nor allowing those who would enter to go in (Matthew 23:13). Jesus's language is severe because the offense is severe. False religious authority that misleads souls is not a matter for polite disagreement. It is treated in Scripture as spiritually lethal, and the Lord who loved sinners enough to die for them also loved them enough to warn them, in the harshest terms available, against teachers who were leading them to ruin. The severity of the language is not in spite of his love. It flows from it.
-
-## Zeal That Consumes: The Temple and Psalm 69
-
-If Matthew 23 shows verbal severity, John 2:13–17 shows severity in action. Jesus enters the temple, finds it turned into a marketplace, makes a whip of cords, and drives out the money changers, overturning their tables. John does not leave us to guess at the meaning of this. He tells us directly that the disciples remembered it was written, "Zeal for your house will consume me" — a quotation of Psalm 69:9. This detail is theologically decisive. John is not describing an outburst that needs to be explained away or excused. He is identifying it as the fulfillment of a messianic pattern: consuming zeal for the honor of God and the purity of his worship.
-
-This is the crucial move for our purposes: zeal, in Scripture, is not a synonym for sinful anger. It is a distinct category — a burning, active devotion to God's glory that refuses to be indifferent when that glory is profaned. Christ's zeal in the temple arose from his perfect love for the Father and for the holiness of the place where God had put his name. It was not selfish. It was not vindictive. It was not out of control. And it was not gentle in the domesticated sense either. It overturned tables.
-
-## Out of His Mind: When Devotion Looks Like Excess
-
-Two other passages deserve attention because they show how intense devotion to Christ and to truth can appear, from the outside, like a loss of reason. In Mark 3:20–21, Jesus's own family, hearing of the crowds and the demands on him, went to seize him, saying, "He is out of his mind." Later, when Paul stands before Festus and Agrippa recounting his conversion and his mission, Festus interrupts him: "Paul, you are out of your mind; your great learning is driving you out of your mind" (Acts 26:24). Paul's answer is instructive. He does not soften his testimony to appear more reasonable to his listener. He replies, "I am not out of my mind, most excellent Festus, but I am speaking true and rational words" (Acts 26:25). Paul's zeal for the gospel had produced exactly the kind of intensity that a hostile or indifferent observer will always read as excess. He does not apologize for the intensity. He insists on its rationality and its truth.
-
-This ought to sober us. If the perfect Son of God could be accused by his own family of losing his mind, and if the greatest missionary theologian in church history could be told by a Roman governor that his learning had driven him mad, then we should not assume that every accusation of "too much" leveled against a zealous Christian today is automatically correct. Sometimes it is. But sometimes it is simply what conviction looks like to someone who does not share it.
-
-## Son of the Devil: Apostolic Directness Toward Active Opposition
-
-Acts 13:4–12 records Paul and Barnabas on Cyprus, where a Jewish false prophet and magician named Bar-Jesus, also called Elymas, opposes them and seeks to turn the proconsul away from the faith. Paul, filled with the Holy Spirit, looks straight at him and says: "You son of the devil, you enemy of all righteousness, full of all deceit and villainy, will you not stop making crooked the straight paths of the Lord?" He then pronounces, by apostolic authority, that Elymas will be struck blind for a time — and it happens immediately.
-
-I want to be careful here, because this passage is frequently misused in both directions. On one side, it is sometimes cited as though ordinary Christians today possess the same authority Paul exercised — as though we might, by our own spiritual intensity, call down blindness or judgment on our opponents. That is not the point of the text, and nothing in this essay should be read as suggesting it. The miraculous judgment inflicted on Elymas belongs to Paul's unique apostolic commissioning, confirmed by a sign appropriate to the founding, Spirit-attested authority of the apostolic office. We have no comparable authority, and we should not imitate that specific act.
-
-But on the other side, this passage is sometimes quietly edited out of our devotional imagination altogether because the language embarrasses us. That is a mistake in the other direction. What the text does authorize us to see, and to learn from, is the sheer directness with which an apostle of Christ, filled with the Spirit, could name active, malicious opposition to the gospel for what it was. Paul does not soften his diagnosis of Elymas's character to make the confrontation more comfortable. He calls him what he is. The modern church should not sand down apostolic language simply because bluntness has fallen out of social fashion.
-
-## Anathema: Doctrinal Truth Worth Defending Fiercely
-
-Galatians 1:6–9 shows the same apostolic seriousness turned toward doctrinal corruption rather than personal opposition. Paul is astonished — the Greek carries the sense of stunned dismay — that the Galatians are so quickly deserting the one who called them by the grace of Christ for a different gospel, which he says is really no gospel at all. He then writes something remarkable: "even if we or an angel from heaven should preach to you a gospel contrary to the one we preached to you, let him be accursed." And, in case the reader thought this was a rhetorical flourish born of a single moment of frustration, he repeats it in the next verse.
-
-This is not the language of a man who regards doctrinal precision as a secondary matter best left to specialists, nor of a man anxious above all not to give offense. Paul treats the purity of the gospel as worth defending with the strongest words available to him, twice, because he understands what is actually at stake: the eternal welfare of the Galatian believers. A gospel corrupted at its root does not save. Love for people who are being led astray, in Paul's hands, does not look like silence. It looks like anathema.
-
-## Never Lacking in Zeal
-
-It would be easy, having surveyed these passages, to conclude that Scripture simply celebrates intensity without qualification. It does not. But neither does it call for the extinguishing of zeal. Paul writes in Romans 12:11, "Never be lacking in zeal, but keep your spiritual fervor, serving the Lord." He tells the Galatians that it is fine to be made zealous for a good purpose at all times, not only when he is present with them (Galatians 4:18). Titus 2:14 describes the purpose of Christ's redemption as producing a people who are "zealous for good works." Zeal, in the New Testament vocabulary, is not a regrettable excess to be tolerated in immature believers and outgrown with sanctification. It is a quality Scripture commands us to cultivate and never let grow cold.
-
-The consistent biblical pattern, then, is not "less passion" or "more passion" as an undifferentiated goal. It is passion rightly directed and rightly governed — zeal according to knowledge, as Paul puts it of his former self in Romans 10:2, rather than zeal that has run ahead of truth.
-
-## Distinguishing the Counterfeits from the Real Thing
-
-Here the argument requires precision, because sloppy thinking on either side produces real spiritual harm. Zeal is not anger. Boldness is not aggression. Confrontation is not cruelty. Conviction is not arrogance. Passionate proclamation is not emotional instability. Gentleness is not cowardice. Self-control is not apathy. And faithfulness to Christ is not the same thing as religious respectability.
-
-Each pair matters because our culture — inside and outside the church — has a strong tendency to collapse the right-hand term into the left, treating any display of intensity as automatically suspect and any display of composure as automatically virtuous. But Scripture does not measure the moral character of speech primarily by its decibel level. A person can speak loudly because he is possessed by sinful anger, wounded pride, or a desire to dominate — and that is sin, plainly condemned throughout Scripture (Proverbs 29:11; James 1:19–20; Ephesians 4:31). But a person can also speak with volume, heat, and unmistakable intensity because he is deeply convinced of the truth, urgently aware of what is at stake, and consumed with love for God and neighbor. The external form does not, by itself, settle the internal question. What governs the passion, and what end it serves, determines whether it is sin or sanctified fervor.
-
-I want to be equally clear about the other danger, because this essay is not a license for Christians to simply raise their voices at people. Scripture is emphatic that we are to speak the truth in love (Ephesians 4:15), that the Lord's servant must not be quarrelsome but kind, able to teach, patiently enduring evil, correcting opponents with gentleness (2 Timothy 2:24–25), that our speech should be seasoned with grace (Colossians 4:6), and that human anger, left to itself, does not produce the righteousness of God (James 1:20). Self-control is listed among the fruit of the Spirit for a reason (Galatians 5:22–23); it is not optional, and it is not the enemy of zeal but its necessary companion. The argument of this essay is not "be louder." It is that self-control — not apathy — is the biblical alternative to sinful anger, and we have wrongly substituted the second for the first.
-
-## Be Imitators of Me, as I Am of Christ
-
-Any discussion like this eventually runs into the phrase every Christian has heard: "just be like Jesus." It is a true and necessary summons. We are called to imitate Christ — Ephesians 5:1–2 tells us to be imitators of God as beloved children and to walk in love as Christ loved us; 1 Peter 2:21 says Christ left us an example, that we should follow in his steps; 1 John 2:6 says whoever claims to abide in him ought to walk as he walked. None of what has been argued above diminishes that calling.
-
-But there is a theological distinction that must be preserved carefully, and a Reformed Baptist reader in particular will want it stated with precision. Christ's unique redemptive office — his role as the incarnate Son who atones for sin, who exercises divine authority, who fulfills messianic prerogatives given to him alone as the Mediator between God and man — is not something we imitate or replicate. We are not mediators. We do not atone. We do not speak with Christ's underived divine authority when we confront error. We imitate his moral character as finite, sinful creatures being progressively sanctified by grace, not his unrepeatable office.
-
-This is precisely why Paul's own words are so useful to us here. Paul can say, without any tension with Christ's supremacy, "Be imitators of me, as I am of Christ" (1 Corinthians 11:1). Paul does not offer himself as a rival standard to Christ; he offers himself as a servant in whom Christlike faithfulness has taken visible, ordinary, human shape. And what we see in Paul's life, again and again, is not emotional flatness. We see boldness before governors and kings, doctrinal precision defended at real personal cost, willingness to confront both erring believers and false teachers by name, sacrificial perseverance through beatings and shipwreck and imprisonment, and — running through all of it — zeal. The apostles, precisely because they are ordinary human servants rather than the divine Son himself, give us a biblical model of what Christlike faithfulness looks like when it is lived out by people like us. If we are looking for a template for how zeal for Christ is meant to be expressed in a human life without divine prerogative, the apostolic pattern is exactly where Scripture points us.
-
-And because Scripture — not personality, not temperament, not the shifting expectations of the surrounding culture, not whether we are perceived as nice — is the sufficient and final authority for the Christian life, this is where the argument must be anchored. The question is never "does this feel gentle to my neighbor" or "would this be well received in polite company." The question is whether our zeal is being shaped and governed by what God has revealed. A zeal untethered from Scripture degenerates into self-righteous aggression. A gentleness untethered from Scripture degenerates into cowardice dressed up as virtue. Only the Word rightly governs both.
-
-## The Domesticated Christ
-
-Here is the indictment I want to state plainly, because I believe it is true and because I believe the church needs to hear it: if we have taught generations of Christians that being Christlike means being perpetually soft-spoken, endlessly agreeable, emotionally restrained, and conflict-averse — while quietly setting aside Christ's prophetic denunciations in Matthew 23, his zeal-driven cleansing of the temple, and the apostles' extraordinary boldness in the book of Acts and the epistles — then we have not given people the whole biblical picture of Christ. We have given them a domesticated Christ, a Christ shaped more by modern therapeutic and social expectations of niceness than by the actual text of Scripture. And we should not be surprised when believers formed by that domesticated Christ grow anxious and apologetic about their own God-given convictions.
-
-I want to be fair to the other side of this conversation, because it is a real and biblical concern, not a strawman. There are Christians who rightly warn against sinful anger, spiritual pride, cruelty in speech, and reckless, undisciplined confrontation. That warning is entirely biblical, and much of what passes for "boldness" online today really is just unsanctified anger wearing zeal's clothing. The problem is not that gentleness is preached. The problem arises when "gentleness" quietly becomes a euphemism for never confronting error, never naming sin as sin, never calling false teaching false, never raising one's voice under any circumstance, and never allowing anyone to feel the discomfort that truth sometimes produces. At that point, "gentleness" has stopped being a fruit of the Spirit and has become a strategy for avoiding cost.
-
-## Discomfort Is Not Proof of Wrongdoing
-
-Scripture is full of faithful servants of God whose faithfulness offended people, precisely because they told the truth. Nathan confronted David to his face over Bathsheba and Uriah. Elijah confronted Ahab as the man who had troubled Israel. John the Baptist confronted Herod over his unlawful marriage and lost his head for it. Stephen confronted the Sanhedrin with Israel's history of resisting the Holy Spirit and was stoned. Jesus confronted the Pharisees. Peter confronted Simon Magus for thinking the gift of God could be bought with money. Paul confronted false teachers, wayward churches, and open opponents of the gospel throughout his ministry. None of them treated the avoidance of offense as a higher good than fidelity to what God had actually said. We should stop treating it that way too. Discomfort, on its own, proves nothing about whether the person causing it is in the wrong. Sometimes discomfort is exactly what truth produces when it meets sin, self-deception, or error head-on.
-
-## When Zeal Dies of Learned Helplessness
-
-I want to close on something more personal, because this is not, for me, a merely academic argument. I know what it is to be told, more than once, that conviction is anger — to raise a concern about doctrine, or name something as sin because Scripture names it as sin, and to be met not with engagement but with the accusation that I must be angry, or harsh, or unloving, simply for having said it plainly. Enough of that, repeated enough times, produces something like spiritual learned helplessness. You begin to internalize the logic: if caring produces this response every time, then perhaps it is safer not to care, or at least not to show it. You stop speaking. You stop confronting. You stop defending what you believe, not because you have changed your mind, but because you have grown tired of being punished for your convictions. What began, perhaps, as a genuine and needed effort to become gentler can quietly curdle into something else entirely: apathy wearing gentleness as a mask.
-
-That is not sanctification. That is exhaustion mistaken for maturity.
-
-## Sanctified Passion
-
-So let me say plainly what I am not asking for. I do not want to become angry, cruel, arrogant, abusive, or uncontrolled. I do not want to use passion as an excuse for sin, or wrap my own pride in the language of righteous zeal. Self-control remains a fruit of the Spirit, and I have no interest in abandoning it.
-
-But neither do I want to keep apologizing for caring deeply about the Word of God. I want my zeal back — the kind that Paul commanded the Romans never to let grow cold, the kind that consumed the Son of God in his Father's house, the kind that called hypocrisy by its name in the temple courts of Jerusalem. I want to love Christ enough to defend his truth, and to love people enough to tell them the truth even when the truth is uncomfortable to hear. I want to be able to say "that is false" when something is false, "that is sin" when Scripture calls it sin, and "that is the gospel" when the gospel itself is being obscured or diluted — without treating those statements as failures of Christian character simply because they are direct.
-
-Perhaps what the church needs is not less passion, but sanctified passion — not anger, not arrogance, not cruelty, but zeal: zeal for Christ, zeal for his Word, zeal for his holiness, and the courage to speak the truth even when the truth makes people uncomfortable.
+{% assign live = site.posts | where: "series", page.series_index %}
+<ol>
+{%- for item in page.series_parts %}
+  {%- assign match = live | where: "part", item.part | first %}
+  {%- if match %}
+  <li><a href="{{ match.url }}"><strong>{{ item.title }}</strong></a><br>{{ item.blurb }}</li>
+  {%- else %}
+  <li><strong>{{ item.title }}</strong> <em>(coming {{ item.when }})</em><br>{{ item.blurb }}</li>
+  {%- endif %}
+{%- endfor %}
+</ol>

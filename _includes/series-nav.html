@@ -1,0 +1,34 @@
+{%- comment -%}
+Series navigation for multi-part posts.
+
+Usage: add to a post's front matter:
+    series: <slug>
+    series_title: "Human readable series name"
+    part: <n>
+Then place {% include series-nav.html %} at the end of the post body.
+
+Jekyll excludes future-dated posts from site.posts, so parts that have not
+been released yet simply do not appear here. The list grows on its own as
+each part goes live -- no dead links, no manual editing.
+{%- endcomment -%}
+{%- assign series_parts = site.posts | where: "series", page.series | sort: "part" -%}
+{%- if series_parts.size > 0 %}
+
+<hr>
+
+<p><strong>{{ page.series_title }}</strong> &mdash; part {{ page.part }} of {{ page.series_total }}:</p>
+
+<ol>
+{%- for p in series_parts %}
+  {%- if p.url == page.url %}
+  <li><em>{{ p.part_title }}</em> (you are here)</li>
+  {%- else %}
+  <li><a href="{{ p.url }}">{{ p.part_title }}</a></li>
+  {%- endif %}
+{%- endfor %}
+</ol>
+{%- if series_parts.size < page.series_total %}
+
+<p><em>Later parts in this series have not been published yet. They will appear here as they are released.</em></p>
+{%- endif %}
+{%- endif %}
