@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Domesticated Christ #5: Sanctified Passion"
-date: 2026-10-03
+date: 2026-10-01
 categories: theology
 image: /assets/images/blog/the-domesticated-christ.jpg
 excerpt: "Discomfort, on its own, proves nothing about whether the person causing it is in the wrong. Call conviction anger often enough and something like spiritual learned helplessness sets in, until apathy is wearing gentleness as a mask."
