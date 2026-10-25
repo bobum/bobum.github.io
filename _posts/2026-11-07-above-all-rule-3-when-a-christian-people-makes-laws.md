@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #3: When a Christian People Makes Laws"
-date: 2026-11-21
+date: 2026-11-07
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "Several criticisms of Christian nationalism deserve serious consideration, but a people deeply shaped by Christian conviction will inevitably express that conviction in its laws."

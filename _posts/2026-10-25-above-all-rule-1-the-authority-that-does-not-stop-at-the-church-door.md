@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #1: The Authority That Does Not Stop at the Church Door"
-date: 2026-11-07
+date: 2026-10-25
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "Christ's lordship is not confined to the church's internal affairs, and the gospel he announced was the gospel of a kingdom rather than private salvation alone."

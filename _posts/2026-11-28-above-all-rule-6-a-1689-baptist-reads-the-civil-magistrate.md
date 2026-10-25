@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #6: A 1689 Baptist Reads the Civil Magistrate"
-date: 2026-12-12
+date: 2026-11-28
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "The 1689 Confession affirms the magistrate's divine appointment without handing him the church's jurisdiction, and that distinction shapes how Christ's lordship should be expressed publicly."

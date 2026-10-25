@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #2: Are We Building, or Are We Waiting to Leave?"
-date: 2026-11-14
+date: 2026-10-31
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "What we expect of the future shapes our labor in the present, and an eschatology of inevitable defeat makes long-term Christian building difficult to justify."

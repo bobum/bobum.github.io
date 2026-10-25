@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #5: Theonomy Needs a Nation"
-date: 2026-12-05
+date: 2026-11-21
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "Theonomy makes a claim about the standard for civil justice, and that claim requires a political order willing to acknowledge the God who gave the law."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule"
-date: 2026-10-31
+date: 2026-10-25
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "A seven-part series on Christ's authority over civil government — what a conference in Louisville argued, where I agree with its critics, and where I do not."
@@ -11,31 +11,31 @@ series_total: 7
 series_parts:
   - part: 1
     title: "The Authority That Does Not Stop at the Church Door"
-    when: "November 7"
+    when: "October 25"
     blurb: "Christ's lordship is not confined to the church's internal affairs, and the gospel he announced was the gospel of a kingdom."
   - part: 2
     title: "Are We Building, or Are We Waiting to Leave?"
-    when: "November 14"
+    when: "October 31"
     blurb: "What we expect of the future shapes what we are willing to build in the present. A postmillennialist on why decline is not destiny."
   - part: 3
     title: "When a Christian People Makes Laws"
-    when: "November 21"
+    when: "November 7"
     blurb: "Laws are never made in a cultural vacuum. What follows when a people substantially shaped by Christian conviction begins to legislate."
   - part: 4
     title: "No Bloodline Buys the Mercy Seat"
-    when: "November 28"
+    when: "November 14"
     blurb: "No tribe outranks another before the throne of God. Scripture knows one human race and many nations, and it is shared culture rather than ancestry that makes a nation what it is."
   - part: 5
     title: "Theonomy Needs a Nation"
-    when: "December 5"
+    when: "November 21"
     blurb: "Theonomy makes a claim about the standard for civil justice, and that claim requires a political order willing to acknowledge the God who gave the law."
   - part: 6
     title: "A 1689 Baptist Reads the Civil Magistrate"
-    when: "December 12"
+    when: "November 28"
     blurb: "What the 1689 Confession says about the magistrate, what it declines to say, and where the limits of state power fall."
   - part: 7
     title: "What It Would Mean to Take It Seriously"
-    when: "December 19"
+    when: "December 5"
     blurb: "Symbols on buildings and invocations in speeches would not be it. What a nation's acknowledgment of Christ would actually require."
 ---
 

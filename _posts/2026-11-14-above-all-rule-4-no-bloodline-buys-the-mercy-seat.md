@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #4: No Bloodline Buys the Mercy Seat"
-date: 2026-11-28
+date: 2026-11-14
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "Scripture knows one human race and many nations, and it is shared culture rather than ancestry that makes a nation distinct and keeps it open."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Above All Rule #7: What It Would Mean to Take It Seriously"
-date: 2026-12-19
+date: 2026-12-05
 categories: theology
 image: /assets/images/blog/above-all-rule.jpg
 excerpt: "If Christ possesses all authority, then no sphere of human life lies outside his lordship, and the remaining question is whether we will take that seriously."
