@@ -6,6 +6,9 @@ _site/
 # Windows/WSL alternate data stream sidecars
 *:Zone.Identifier
 
+# Transient layout/render probe scratch files
+*probe*.html
+
 # Ruby / Bundler
 .bundle/
 vendor/
