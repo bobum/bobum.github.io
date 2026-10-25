@@ -24,7 +24,7 @@ series_parts:
   - part: 4
     title: "No Bloodline Buys the Mercy Seat"
     when: "November 28"
-    blurb: "No tribe outranks another before the throne of God. Why the conviction that a nation should acknowledge Christ is not a claim about ancestry."
+    blurb: "No tribe outranks another before the throne of God. Scripture knows one human race and many nations, and it is shared culture rather than ancestry that makes a nation what it is."
   - part: 5
     title: "Theonomy Needs a Nation"
     when: "December 5"
