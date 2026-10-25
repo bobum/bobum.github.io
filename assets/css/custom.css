@@ -1,0 +1,100 @@
+/* ==========================================================================
+   custom.css — site-specific overrides
+
+   Loaded AFTER assets/css/style.css so these rules win on equal specificity.
+   Keep all local tweaks here: assets/css/style.css is the 414 KB vendor
+   template stylesheet and has an un-compiled SCSS twin under assets/scss/,
+   so editing it directly causes the two to silently drift apart.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   1. Book covers — homepage Fiction tabs
+
+   The fiction cards reuse the template's "Client Single Card" component,
+   which was built for wide client/partner logos:
+
+       .client-card .main-content .thumbnail       { height: 150px; padding: 30px; }
+       .client-card .main-content .thumbnail a img { max-height: 90px; }
+
+   Book covers are 1024x1536 (2:3 portrait). The 90px height clamp forced
+   them to 60 x 90 px. The rules below release the clamp and let the cover
+   fill the card width, with the top corners following the card radius.
+
+   Scoped to .book-card, so genuine client logos keep the original styling.
+   The .client-card.book-card prefix also raises specificity above the
+   template's own rules, so this does not rely on load order alone.
+   -------------------------------------------------------------------------- */
+
+.client-card.book-card .main-content .inner {
+    overflow: hidden;
+}
+
+.client-card.book-card .main-content .thumbnail {
+    display: block;
+    height: auto;
+    padding: 0;
+}
+
+.client-card.book-card .main-content .thumbnail a {
+    display: block;
+    line-height: 0; /* removes the inline-image descender gap under the cover */
+}
+
+.client-card.book-card .main-content .thumbnail a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    border-radius: 10px 10px 0 0; /* matches .inner's 10px radius */
+}
+
+/* On phones the card goes full width; cap it so a 2:3 cover doesn't
+   dominate the viewport, and centre it in the column. */
+@media only screen and (max-width: 479px) {
+    .client-card.book-card .main-content {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   2. Cast of Characters portraits — series pages
+
+   Same 90px clamp, inherited through .rn-client-style-2. Portrait thumbs are
+   1024x1024 (square), so they were rendering at 90 x 90 px.
+
+   The template's existing override only sets `height: auto`, which does not
+   cancel `max-height`, so the clamp survived. These rules cancel it properly.
+
+   Portraits keep a small inset instead of going edge-to-edge, preserving the
+   rounded-tile look created by the inline border-radius in series_page.html.
+   -------------------------------------------------------------------------- */
+
+/* The cast grid is flex-basis: 25%, which on a full-width container makes each
+   card ~334px. Capping it keeps portraits smaller than the book covers they
+   support; .rn-client-style-2 already centres the row, so short rows still
+   look deliberate. */
+.rn-client-style-2 .client-card .main-content {
+    max-width: 240px;
+}
+
+.rn-client-style-2 .client-card .main-content .thumbnail {
+    display: block;
+    height: auto;
+    padding: 15px;
+}
+
+.rn-client-style-2 .client-card .main-content .thumbnail a {
+    display: block;
+    line-height: 0;
+}
+
+.rn-client-style-2 .client-card .main-content .thumbnail a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+}
