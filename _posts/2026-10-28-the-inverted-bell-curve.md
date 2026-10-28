@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Inverted Bell Curve: Rethinking the AI Software Development Lifecycle"
-date: 2026-10-29
+date: 2026-10-28
 categories: engineering
 image: /assets/images/blog/the-inverted-bell-curve.png
 excerpt: "AI is changing whose technical judgment I trust, as well as how we build software. That experience makes a case for concentrating responsibility in people with demonstrated expertise instead of distributing it across more review functions."
