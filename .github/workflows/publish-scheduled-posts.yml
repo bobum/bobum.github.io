@@ -8,9 +8,9 @@ name: Publish scheduled posts
 
 on:
   schedule:
-    # 13:00 UTC every Saturday = 9:00 AM America/New_York (EDT).
+    # 13:00 UTC daily = 9:00 AM America/New_York (EDT), 8:00 AM (EST).
     # Cron in GitHub Actions is always UTC; adjust if you want a different hour.
-    - cron: "0 13 * * 6"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 permissions:
