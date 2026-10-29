@@ -16,3 +16,10 @@ vendor/
 # OS cruft
 .DS_Store
 Thumbs.db
+
+assets/tickets.pdf
+assets/Documents.pdf
+assets/documents.pdf
+assets/tickets.pdf:Zone.Identifier
+assets/Documents.pdf:Zone.Identifier
+assets/documents.pdf:Zone.Identifier
